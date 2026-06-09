@@ -8,6 +8,23 @@
 
   <meta name="description" content="Personal academic website of Boris Vázquez-Calvo, Ramón y Cajal Researcher in Language Education at the University of Seville. Research on language education, digitally mediated language learning, digital literacies, fandom, informal learning, AI, and language teacher education." />
 
+  <meta name="keywords" content="Boris Vázquez-Calvo, Boris Vazquez-Calvo, language education, applied linguistics, digitally mediated language learning, digital literacies, informal language learning, digital wilds, fandom, fan translation, memes, video games, social media language learning, artificial intelligence in education, AI and language education, language teacher education, Spanish as a foreign language, English language teaching" />
+
+  <meta name="author" content="Boris Vázquez-Calvo" />
+
+  <meta property="og:title" content="Boris Vázquez-Calvo | Language Education, Digital Literacies & Informal Learning" />
+  <meta property="og:description" content="Research on digitally mediated language learning, digital literacies, fandom, informal learning, AI and language teacher education." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://borisvazquezcalvo.com/" />
+  <meta property="og:image" content="https://borisvazquezcalvo.com/assets/profile.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Boris Vázquez-Calvo | Language Education, Digital Literacies & Informal Learning" />
+  <meta name="twitter:description" content="Research on digitally mediated language learning, digital literacies, fandom, informal learning, AI and language teacher education." />
+  <meta name="twitter:image" content="https://borisvazquezcalvo.com/assets/profile.jpg" />
+
+  <link rel="canonical" href="https://borisvazquezcalvo.com/" />
+
   <style>
     :root {
       --bg: #f8f7f4;
@@ -535,6 +552,80 @@
       }
     }
   </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Boris Vázquez-Calvo",
+    "alternateName": [
+      "Boris Vazquez-Calvo",
+      "Boris Vázquez Calvo",
+      "Boris Vazquez Calvo",
+      "Boris Vázquez-Calvo"
+    ],
+    "url": "https://borisvazquezcalvo.com",
+    "image": "https://borisvazquezcalvo.com/assets/profile.jpg",
+    "jobTitle": "Ramón y Cajal Researcher in Language Education",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Seville",
+      "url": "https://www.us.es/"
+    },
+    "email": "mailto:bvzcv86@gmail.com",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0001-8574-7848",
+        "url": "https://orcid.org/0000-0001-8574-7848"
+      },
+      {
+        "@type": "PropertyValue",
+        "propertyID": "Google Scholar",
+        "value": "qcOWEqgAAAAJ",
+        "url": "https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao"
+      }
+    ],
+    "sameAs": [
+      "https://orcid.org/0000-0001-8574-7848",
+      "https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao",
+      "https://www.researchgate.net/profile/Boris-Vazquez-Calvo"
+    ],
+    "knowsAbout": [
+      "Language education",
+      "Applied linguistics",
+      "Digitally mediated language learning",
+      "Digital literacies",
+      "Informal language learning",
+      "Digital wilds",
+      "Language teacher education",
+      "Fandom",
+      "Fan translation",
+      "Fanfiction",
+      "Fansubbing",
+      "Fandubbing",
+      "Memes",
+      "Video games",
+      "Social media language learning",
+      "Artificial intelligence in education",
+      "AI and language education",
+      "Teacher education",
+      "Spanish as a foreign language",
+      "English language teaching",
+      "Technology-enhanced language learning"
+    ],
+    "worksFor": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Seville",
+      "url": "https://www.us.es/"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://borisvazquezcalvo.com/"
+    }
+  }
+  </script>
 </head>
 
 <body>
@@ -1015,7 +1106,7 @@
       renderPublications(filtered, meta);
     }
 
-    fetch("publications.json?v=3")
+    fetch("publications.json?v=4")
       .then(response => {
         if (!response.ok) {
           throw new Error("Could not load publications.json");
