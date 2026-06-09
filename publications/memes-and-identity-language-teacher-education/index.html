@@ -1,1 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Memes and Identity in Language Teacher Education | Boris Vázquez-Calvo</title>
+
+  <meta name="description" content="Academic publication page for 'Memes and identity in language teacher education' by Boris Vazquez-Calvo, Alba Paz-López and Sergio Rey-Godoy, published in Language Learning & Technology in 2025." />
+
+  <meta name="keywords" content="Memes and identity in language teacher education, Boris Vázquez-Calvo, Boris Vazquez-Calvo, Alba Paz-López, Sergio Rey-Godoy, Language Learning & Technology, language teacher education, language teacher identity, preservice language teachers, digital literacy, memes, teacher stories, digital literacies, language education" />
+
+  <meta name="author" content="Boris Vázquez-Calvo" />
+
+  <meta property="og:title" content="Memes and Identity in Language Teacher Education" />
+  <meta property="og:description" content="Publication page for the 2025 Language Learning & Technology article by Boris Vazquez-Calvo, Alba Paz-López and Sergio Rey-Godoy." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://borisvazquezcalvo.com/publications/memes-and-identity-language-teacher-education/" />
+  <meta property="og:image" content="https://borisvazquezcalvo.com/assets/profile.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Memes and Identity in Language Teacher Education" />
+  <meta name="twitter:description" content="Publication page for the 2025 Language Learning & Technology article by Boris Vazquez-Calvo, Alba Paz-López and Sergio Rey-Godoy." />
+  <meta name="twitter:image" content="https://borisvazquezcalvo.com/assets/profile.jpg" />
+
+  <link rel="canonical" href="https://borisvazquezcalvo.com/publications/memes-and-identity-language-teacher-education/" />
+  <link rel="icon" href="/favicon.svg?v=1" type="image/svg+xml" />
+  <link rel="shortcut icon" href="/favicon.svg?v=1" type="image/svg+xml" />
+  <meta name="theme-color" content="#111827" />
+
+  <style>
+    :root {
+      --bg: #f8f7f4;
+      --text: #151515;
+      --muted: #5f6368;
+      --line: #dedbd4;
+      --accent: #4f46e5;
+      --accent-soft: #eef0ff;
+      --card: #ffffff;
+      --dark: #111827;
+      --green-soft: #e8f7ef;
+      --orange-soft: #fff2df;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(1040px, 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(248, 247, 244, 0.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 0;
+      font-size: 0.95rem;
+    }
+
+    .logo {
+      font-weight: 850;
+      letter-spacing: -0.035em;
+      color: var(--text);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-weight: 650;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 76px 0 58px;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -120px;
+      top: 20px;
+      width: 460px;
+      height: 460px;
+      background: radial-gradient(circle, rgba(79, 70, 229, 0.16), transparent 66%);
+      z-index: -1;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 7px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: clamp(2.8rem, 6vw, 5.6rem);
+      line-height: 0.98;
+      letter-spacing: -0.07em;
+      margin: 0 0 26px;
+      max-width: 980px;
+    }
+
+    .subtitle {
+      font-size: clamp(1.13rem, 1.8vw, 1.42rem);
+      color: var(--muted);
+      max-width: 860px;
+      margin-bottom: 30px;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .meta-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.035);
+    }
+
+    .meta-card strong {
+      display: block;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 5px;
+    }
+
+    .meta-card span {
+      color: var(--text);
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    section {
+      padding: 58px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 0.7fr;
+      gap: 38px;
+      align-items: start;
+    }
+
+    h2 {
+      font-size: clamp(1.8rem, 3vw, 3rem);
+      line-height: 1;
+      letter-spacing: -0.055em;
+      margin: 0 0 22px;
+    }
+
+    h3 {
+      margin-top: 0;
+      letter-spacing: -0.035em;
+      line-height: 1.15;
+      font-size: 1.3rem;
+    }
+
+    p {
+      color: #2b2b2b;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 26px;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.035);
+      margin-bottom: 18px;
+    }
+
+    .side-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.035);
+      margin-bottom: 18px;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 16px;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+    }
+
+    .tag.green {
+      color: #166534;
+      background: var(--green-soft);
+    }
+
+    .tag.orange {
+      color: #9a4b00;
+      background: var(--orange-soft);
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 22px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 18px;
+      border-radius: 999px;
+      font-weight: 800;
+      border: 1px solid var(--dark);
+      color: var(--dark);
+      background: transparent;
+      transition: 0.18s ease;
+    }
+
+    .button.primary {
+      background: var(--dark);
+      color: white;
+    }
+
+    .button:hover {
+      text-decoration: none;
+      transform: translateY(-1px);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+    }
+
+    .citation-box {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 18px;
+      font-size: 0.98rem;
+      color: #2b2b2b;
+    }
+
+    .pdf-note {
+      background: #f9fafb;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 18px;
+      max-width: 850px;
+    }
+
+    .pdf-section {
+      padding-top: 46px;
+    }
+
+    .pdf-toolbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    .pdf-toolbar p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 620px;
+    }
+
+    .pdf-viewer-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 18px;
+      box-shadow: 0 18px 42px rgba(0,0,0,0.05);
+      overflow: hidden;
+    }
+
+    .pdf-viewer {
+      width: 100%;
+      height: min(76vh, 760px);
+      min-height: 520px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #f3f4f6;
+      display: block;
+    }
+
+    .pdf-fallback {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      padding: 42px 0;
+      color: var(--muted);
+    }
+
+    .footer-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 880px) {
+      .nav-links {
+        display: none;
+      }
+
+      .content-grid,
+      .meta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 62px;
+      }
+
+      .pdf-viewer {
+        height: 68vh;
+        min-height: 440px;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "Memes and identity in language teacher education",
+    "name": "Memes and identity in language teacher education",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Boris Vazquez-Calvo",
+        "url": "https://borisvazquezcalvo.com/"
+      },
+      {
+        "@type": "Person",
+        "name": "Alba Paz-López"
+      },
+      {
+        "@type": "Person",
+        "name": "Sergio Rey-Godoy"
+      }
+    ],
+    "datePublished": "2025-02-24",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Language Learning & Technology",
+      "issn": "1094-3501"
+    },
+    "volumeNumber": "29",
+    "issueNumber": "1",
+    "pagination": "1-27",
+    "identifier": "https://doi.org/10.64152/10125/73620",
+    "sameAs": [
+      "https://doi.org/10.64152/10125/73620",
+      "https://www.lltjournal.org/item/10125-73620/",
+      "https://scholarspace.manoa.hawaii.edu/items/baf0901a-09aa-4bd1-b171-06ea9804a964",
+      "https://borisvazquezcalvo.com/files/memes-and-identity-language-teacher-education.pdf"
+    ],
+    "encoding": {
+      "@type": "MediaObject",
+      "contentUrl": "https://borisvazquezcalvo.com/files/memes-and-identity-language-teacher-education.pdf",
+      "encodingFormat": "application/pdf"
+    },
+    "keywords": [
+      "Language Teacher Education",
+      "Language Teacher Identity",
+      "Preservice Language Teachers",
+      "Digital Literacy",
+      "Memes",
+      "Teacher Stories",
+      "Digital Literacies",
+      "Language Education"
+    ],
+    "abstract": "This publication examines memes as digitally mediated discourse and explores how preservice language teachers use the classroom activity Story by Memes to represent language learning, teaching experiences, emotions, identities and professional dispositions."
+  }
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a class="logo" href="/">Boris Vázquez-Calvo</a>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#research">Research</a>
+          <a href="/#publications">Publications</a>
+          <a href="/#projects">Projects</a>
+          <a href="/#materials">Open Materials</a>
+          <a href="/#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">Publication · Language Learning & Technology · 2025</span>
+
+        <h1>Memes and identity in language teacher education</h1>
+
+        <p class="subtitle">
+          A study of how preservice language teachers use memes as digital, humorous and multimodal
+          resources to narrate language learning, teaching experiences and emerging professional identities.
+        </p>
+
+        <div class="buttons">
+          <a class="button primary" href="#pdf">Read PDF on this page</a>
+          <a class="button" href="/files/memes-and-identity-language-teacher-education.pdf" target="_blank" rel="noopener" download>Download PDF</a>
+          <a class="button" href="https://doi.org/10.64152/10125/73620" target="_blank" rel="noopener">Read via DOI</a>
+          <a class="button" href="https://www.lltjournal.org/item/10125-73620/" target="_blank" rel="noopener">LLT record</a>
+        </div>
+
+        <p class="pdf-note">
+          PDF made available here as the published open-access version. Please cite the original publication in
+          <em>Language Learning & Technology</em> using the DOI.
+        </p>
+
+        <div class="meta-grid">
+          <div class="meta-card">
+            <strong>Authors</strong>
+            <span>Boris Vazquez-Calvo, Alba Paz-López & Sergio Rey-Godoy</span>
+          </div>
+
+          <div class="meta-card">
+            <strong>Journal</strong>
+            <span>Language Learning & Technology</span>
+          </div>
+
+          <div class="meta-card">
+            <strong>Year</strong>
+            <span>2025</span>
+          </div>
+
+          <div class="meta-card">
+            <strong>DOI</strong>
+            <span>10.64152/10125/73620</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pdf" class="pdf-section">
+      <div class="container">
+        <div class="pdf-toolbar">
+          <div>
+            <h2>Read the article</h2>
+            <p>
+              Use the embedded viewer below to read the PDF. You can also open or download the file directly.
+            </p>
+          </div>
+
+          <div class="buttons">
+            <a class="button primary" href="/files/memes-and-identity-language-teacher-education.pdf" target="_blank" rel="noopener">Open PDF</a>
+            <a class="button" href="/files/memes-and-identity-language-teacher-education.pdf" target="_blank" rel="noopener" download>Download PDF</a>
+          </div>
+        </div>
+
+        <div class="pdf-viewer-card">
+          <iframe
+            class="pdf-viewer"
+            src="/files/memes-and-identity-language-teacher-education.pdf#view=FitH"
+            title="PDF viewer for Memes and identity in language teacher education">
+          </iframe>
+
+          <p class="pdf-fallback">
+            If the PDF does not display correctly in your browser,
+            <a href="/files/memes-and-identity-language-teacher-education.pdf" target="_blank" rel="noopener">open it in a new tab</a>
+            or
+            <a href="/files/memes-and-identity-language-teacher-education.pdf" target="_blank" rel="noopener" download>download it</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="content-grid">
+          <div>
+            <div class="card">
+              <h2>Overview</h2>
+
+              <p>
+                This article examines memes as forms of digitally mediated discourse in language teacher
+                education. It uses the classroom activity <em>Story by Memes</em> as both a narrative
+                tool for self-presentation and a research method for exploring how preservice language
+                teachers represent language learning, teaching, emotions, personal trajectories and
+                professional identities.
+              </p>
+
+              <p>
+                The study analyzes a corpus of 777 memes produced by 84 preservice language teachers
+                from two cohorts. Through discursive and thematic analysis, the article identifies how
+                participants construct identity configurations around language learning experiences,
+                language teaching, motivation, anxieties, personal affinities and career orientations.
+              </p>
+
+              <p>
+                The findings show that memes can complement traditional reflective tools in teacher
+                education by making visible affective, humorous, translingual and multimodal dimensions
+                of language teacher identity.
+              </p>
+            </div>
+
+            <div class="card">
+              <h2>Why this article matters</h2>
+
+              <p>
+                The article contributes to language teacher education by showing that memes are not
+                merely humorous classroom artifacts, but meaningful multimodal texts through which
+                future teachers narrate and negotiate who they are as language learners and educators.
+              </p>
+
+              <p>
+                It also extends research on digital literacies and participatory cultures by demonstrating
+                how everyday digital genres can become pedagogical and analytical resources in formal
+                teacher education settings.
+              </p>
+            </div>
+
+            <div class="card">
+              <h2>APA citation</h2>
+
+              <div class="citation-box">
+                Vazquez-Calvo, B., Paz-López, A., &amp; Rey-Godoy, S. (2025).
+                <em>Memes and identity in language teacher education</em>.
+                <em>Language Learning &amp; Technology, 29</em>(1), 1–27.
+                https://doi.org/10.64152/10125/73620
+              </div>
+            </div>
+          </div>
+
+          <aside>
+            <div class="side-card">
+              <h3>Download</h3>
+              <p>
+                <a class="button primary" href="/files/memes-and-identity-language-teacher-education.pdf" target="_blank" rel="noopener" download>Download PDF</a>
+              </p>
+              <p class="small">
+                Published open-access version. Please cite the journal version and DOI.
+              </p>
+            </div>
+
+            <div class="side-card">
+              <h3>Keywords</h3>
+              <div class="tag-list">
+                <span class="tag">Language teacher education</span>
+                <span class="tag">Language teacher identity</span>
+                <span class="tag">Preservice teachers</span>
+                <span class="tag green">Digital literacy</span>
+                <span class="tag green">Digital literacies</span>
+                <span class="tag orange">Memes</span>
+                <span class="tag orange">Teacher stories</span>
+                <span class="tag">Multimodality</span>
+              </div>
+            </div>
+
+            <div class="side-card">
+              <h3>Links</h3>
+              <p><a href="https://doi.org/10.64152/10125/73620" target="_blank" rel="noopener">DOI</a></p>
+              <p><a href="https://www.lltjournal.org/item/10125-73620/" target="_blank" rel="noopener">Official LLT page</a></p>
+              <p><a href="https://scholarspace.manoa.hawaii.edu/items/baf0901a-09aa-4bd1-b171-06ea9804a964" target="_blank" rel="noopener">ScholarSpace record</a></p>
+              <p><a href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar profile</a></p>
+            </div>
+
+            <div class="side-card">
+              <h3>Related research areas</h3>
+              <p class="small">
+                Digital literacies · Memes · Language teacher education · Identity · Fandom and participatory cultures · Informal language learning
+              </p>
+            </div>
+
+            <div class="side-card">
+              <h3>Back to publications</h3>
+              <p><a href="/#publications">Return to the full publication list</a></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>Boris Vázquez-Calvo</strong><br />
+          Ramón y Cajal Researcher in Language Education<br />
+          University of Seville
+        </div>
+
+        <div>
+          Email: <a href="mailto:bvzcv86@gmail.com">bvzcv86@gmail.com</a><br />
+          ORCID: <a href="https://orcid.org/0000-0001-8574-7848" target="_blank" rel="noopener">0000-0001-8574-7848</a><br />
+          Google Scholar: <a href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Profile</a><br />
+          Website: <a href="https://borisvazquezcalvo.com">borisvazquezcalvo.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
