@@ -15,43 +15,40 @@ def clean(value):
 
 def main():
     author = scholarly.search_author_id(SCHOLAR_ID)
-    author = scholarly.fill(author, sections=["publications", "basics", "indices"])
+
+    # Lightweight fill: only profile basics, indices, and publication list.
+    # This avoids opening each publication individually, which can hang or trigger blocks.
+    author = scholarly.fill(author, sections=["basics", "indices", "publications"])
 
     publications = []
 
     for pub in author.get("publications", []):
-        try:
-            pub_filled = scholarly.fill(pub)
-            bib = pub_filled.get("bib", {})
+        bib = pub.get("bib", {})
 
-            title = clean(bib.get("title"))
-            authors = clean(bib.get("author"))
-            venue = clean(
-                bib.get("venue")
-                or bib.get("journal")
-                or bib.get("booktitle")
-                or bib.get("publisher")
-            )
-            year = clean(bib.get("pub_year"))
-            citations = pub_filled.get("num_citations", 0)
+        title = clean(bib.get("title"))
+        authors = clean(bib.get("author"))
+        venue = clean(
+            bib.get("venue")
+            or bib.get("journal")
+            or bib.get("booktitle")
+            or bib.get("publisher")
+        )
+        year = clean(bib.get("pub_year"))
+        citations = pub.get("num_citations", 0)
 
-            scholar_url = pub_filled.get("pub_url") or pub_filled.get("eprint_url") or ""
-            eprint_url = pub_filled.get("eprint_url") or ""
-            doi = ""
+        if not title:
+            continue
 
-            publications.append({
-                "year": year,
-                "title": title,
-                "authors": authors,
-                "venue": venue,
-                "citations": citations,
-                "scholar_url": scholar_url,
-                "eprint_url": eprint_url,
-                "doi": doi
-            })
-
-        except Exception as e:
-            print(f"Skipping one publication because of error: {e}")
+        publications.append({
+            "year": year,
+            "title": title,
+            "authors": authors,
+            "venue": venue,
+            "citations": citations,
+            "scholar_url": f"https://scholar.google.com/citations?user={SCHOLAR_ID}&hl=en&oi=ao",
+            "eprint_url": "",
+            "doi": ""
+        })
 
     publications = sorted(
         publications,
