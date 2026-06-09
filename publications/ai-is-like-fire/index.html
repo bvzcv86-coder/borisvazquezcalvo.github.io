@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>‘AI is like fire’ | Boris Vázquez-Calvo</title>
+
+  <meta name="description" content="Academic publication page for ‘AI is like fire’: a discourse analysis of language teachers’ attitudes towards artificial intelligence, by Alba Paz-López, Liudmila Shafirova and Boris Vazquez-Calvo, published in Journal of Education for Teaching." />
+
+  <meta name="keywords" content="AI is like fire, Boris Vázquez-Calvo, Boris Vazquez-Calvo, Alba Paz-López, Liudmila Shafirova, artificial intelligence, language teachers, teacher attitudes, AI and language education, discourse analysis, generative AI, language teacher education, Journal of Education for Teaching" />
+
+  <meta name="author" content="Boris Vázquez-Calvo" />
+
+  <meta property="og:title" content="‘AI is like fire’: Language teachers’ attitudes towards artificial intelligence" />
+  <meta property="og:description" content="Publication page for the Journal of Education for Teaching article by Alba Paz-López, Liudmila Shafirova and Boris Vazquez-Calvo." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://borisvazquezcalvo.com/publications/ai-is-like-fire/" />
+  <meta property="og:image" content="https://borisvazquezcalvo.com/assets/profile.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="‘AI is like fire’: Language teachers’ attitudes towards artificial intelligence" />
+  <meta name="twitter:description" content="Publication page for the Journal of Education for Teaching article by Alba Paz-López, Liudmila Shafirova and Boris Vazquez-Calvo." />
+  <meta name="twitter:image" content="https://borisvazquezcalvo.com/assets/profile.jpg" />
+
+  <link rel="canonical" href="https://borisvazquezcalvo.com/publications/ai-is-like-fire/" />
+  <link rel="icon" href="/favicon.svg?v=1" type="image/svg+xml" />
+  <link rel="shortcut icon" href="/favicon.svg?v=1" type="image/svg+xml" />
+  <meta name="theme-color" content="#111827" />
+
+  <style>
+    :root {
+      --bg: #f8f7f4;
+      --text: #151515;
+      --muted: #5f6368;
+      --line: #dedbd4;
+      --accent: #4f46e5;
+      --accent-soft: #eef0ff;
+      --card: #ffffff;
+      --dark: #111827;
+      --green-soft: #e8f7ef;
+      --orange-soft: #fff2df;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(1040px, 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(248, 247, 244, 0.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 0;
+      font-size: 0.95rem;
+    }
+
+    .logo {
+      font-weight: 850;
+      letter-spacing: -0.035em;
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-weight: 650;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 76px 0 58px;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -120px;
+      top: 20px;
+      width: 460px;
+      height: 460px;
+      background: radial-gradient(circle, rgba(79, 70, 229, 0.16), transparent 66%);
+      z-index: -1;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 7px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: clamp(2.65rem, 5.8vw, 5.2rem);
+      line-height: 1;
+      letter-spacing: -0.065em;
+      margin: 0 0 26px;
+      max-width: 980px;
+      text-wrap: balance;
+    }
+
+    .subtitle {
+      font-size: clamp(1.13rem, 1.8vw, 1.42rem);
+      color: var(--muted);
+      max-width: 900px;
+      margin-bottom: 30px;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .meta-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.035);
+    }
+
+    .meta-card strong {
+      display: block;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 5px;
+    }
+
+    .meta-card span {
+      color: var(--text);
+      font-weight: 700;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    section {
+      padding: 58px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 0.7fr;
+      gap: 38px;
+      align-items: start;
+    }
+
+    h2 {
+      font-size: clamp(1.8rem, 3vw, 3rem);
+      line-height: 1;
+      letter-spacing: -0.055em;
+      margin: 0 0 22px;
+    }
+
+    h3 {
+      margin-top: 0;
+      letter-spacing: -0.035em;
+      line-height: 1.15;
+      font-size: 1.3rem;
+    }
+
+    p {
+      color: #2b2b2b;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 26px;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.035);
+      margin-bottom: 18px;
+    }
+
+    .side-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.035);
+      margin-bottom: 18px;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 16px;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+    }
+
+    .tag.green {
+      color: #166534;
+      background: var(--green-soft);
+    }
+
+    .tag.orange {
+      color: #9a4b00;
+      background: var(--orange-soft);
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 22px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 18px;
+      border-radius: 999px;
+      font-weight: 800;
+      border: 1px solid var(--dark);
+      color: var(--dark);
+      background: transparent;
+      transition: 0.18s ease;
+    }
+
+    .button.primary {
+      background: var(--dark);
+      color: white;
+    }
+
+    .button:hover {
+      text-decoration: none;
+      transform: translateY(-1px);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+    }
+
+    .citation-box {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 18px;
+      font-size: 0.98rem;
+      color: #2b2b2b;
+    }
+
+    .pdf-note {
+      background: #f9fafb;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 18px;
+      max-width: 850px;
+    }
+
+    .pdf-section {
+      padding-top: 46px;
+    }
+
+    .pdf-toolbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    .pdf-toolbar p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 620px;
+    }
+
+    .pdf-viewer-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 18px;
+      box-shadow: 0 18px 42px rgba(0,0,0,0.05);
+      overflow: hidden;
+    }
+
+    .pdf-viewer {
+      width: 100%;
+      height: min(76vh, 760px);
+      min-height: 520px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #f3f4f6;
+      display: block;
+    }
+
+    .pdf-fallback {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      padding: 42px 0;
+      color: var(--muted);
+    }
+
+    .footer-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 880px) {
+      .nav-links {
+        display: none;
+      }
+
+      .content-grid,
+      .meta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 62px;
+      }
+
+      .pdf-viewer {
+        height: 68vh;
+        min-height: 440px;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "‘AI is like fire’: a discourse analysis of language teachers’ attitudes towards artificial intelligence",
+    "name": "‘AI is like fire’: a discourse analysis of language teachers’ attitudes towards artificial intelligence",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Alba Paz-López"
+      },
+      {
+        "@type": "Person",
+        "name": "Liudmila Shafirova"
+      },
+      {
+        "@type": "Person",
+        "name": "Boris Vazquez-Calvo",
+        "url": "https://borisvazquezcalvo.com/"
+      }
+    ],
+    "datePublished": "2026",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Journal of Education for Teaching: International Research and Pedagogy"
+    },
+    "identifier": "https://doi.org/10.1080/02607476.2026.2671865",
+    "sameAs": [
+      "https://doi.org/10.1080/02607476.2026.2671865",
+      "https://www.tandfonline.com/doi/full/10.1080/02607476.2026.2671865",
+      "https://borisvazquezcalvo.com/files/ai-is-like-fire.pdf"
+    ],
+    "encoding": {
+      "@type": "MediaObject",
+      "contentUrl": "https://borisvazquezcalvo.com/files/ai-is-like-fire.pdf",
+      "encodingFormat": "application/pdf"
+    },
+    "keywords": [
+      "Artificial intelligence",
+      "AI and language education",
+      "Language teachers",
+      "Teacher attitudes",
+      "Discourse analysis",
+      "Generative AI",
+      "Language teacher education",
+      "Digital literacies"
+    ],
+    "abstract": "This publication analyzes how language teachers discursively frame artificial intelligence, with attention to the metaphors, attitudes, concerns, expectations and pedagogical imaginaries through which teachers make sense of AI in language education."
+  }
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a class="logo" href="/">Boris Vázquez-Calvo</a>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#research">Research</a>
+          <a href="/#publications">Publications</a>
+          <a href="/#projects">Projects</a>
+          <a href="/#materials">Open Materials</a>
+          <a href="/#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">Publication · Journal of Education for Teaching · 2026</span>
+
+        <h1>‘AI is like fire’: a discourse analysis of language teachers’ attitudes towards artificial intelligence</h1>
+
+        <p class="subtitle">
+          A discourse-analytic study of how language teachers make sense of artificial intelligence
+          through metaphors, evaluations, pedagogical expectations and concerns about the future
+          of language education.
+        </p>
+
+        <div class="buttons">
+          <a class="button primary" href="#pdf">Read PDF on this page</a>
+          <a class="button" href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener" download>Download PDF</a>
+          <a class="button" href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Read via DOI</a>
+          <a class="button" href="https://www.tandfonline.com/doi/full/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Taylor &amp; Francis page</a>
+        </div>
+
+        <p class="pdf-note">
+          PDF made available here for academic visibility and citation. Please cite the journal version
+          in <em>Journal of Education for Teaching: International Research and Pedagogy</em> using the DOI.
+        </p>
+
+        <div class="meta-grid">
+          <div class="meta-card">
+            <strong>Authors</strong>
+            <span>Alba Paz-López, Liudmila Shafirova & Boris Vazquez-Calvo</span>
+          </div>
+
+          <div class="meta-card">
+            <strong>Journal</strong>
+            <span>Journal of Education for Teaching</span>
+          </div>
+
+          <div class="meta-card">
+            <strong>Year</strong>
+            <span>2026</span>
+          </div>
+
+          <div class="meta-card">
+            <strong>DOI</strong>
+            <span>10.1080/02607476.2026.2671865</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pdf" class="pdf-section">
+      <div class="container">
+        <div class="pdf-toolbar">
+          <div>
+            <h2>Read the article</h2>
+            <p>
+              Use the embedded viewer below to read the PDF. You can also open or download the file directly.
+            </p>
+          </div>
+
+          <div class="buttons">
+            <a class="button primary" href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener">Open PDF</a>
+            <a class="button" href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener" download>Download PDF</a>
+          </div>
+        </div>
+
+        <div class="pdf-viewer-card">
+          <iframe
+            class="pdf-viewer"
+            src="/files/ai-is-like-fire.pdf#view=FitH"
+            title="PDF viewer for ‘AI is like fire’: a discourse analysis of language teachers’ attitudes towards artificial intelligence">
+          </iframe>
+
+          <p class="pdf-fallback">
+            If the PDF does not display correctly in your browser,
+            <a href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener">open it in a new tab</a>
+            or
+            <a href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener" download>download it</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="content-grid">
+          <div>
+            <div class="card">
+              <h2>Overview</h2>
+
+              <p>
+                This article examines how language teachers talk about artificial intelligence and how
+                their attitudes are shaped through discourse. It focuses on the metaphors, evaluative
+                patterns and pedagogical imaginaries through which teachers make sense of AI as a
+                technology that is both promising and disruptive.
+              </p>
+
+              <p>
+                The title metaphor — <em>AI is like fire</em> — captures the ambivalence surrounding
+                artificial intelligence in education: it can be useful, productive and transformative, but it
+                also requires care, ethical awareness, pedagogical judgment and critical literacy.
+              </p>
+
+              <p>
+                The article contributes to research on AI and language education by foregrounding
+                teacher perspectives rather than treating AI only as a technical tool or instructional
+                resource.
+              </p>
+            </div>
+
+            <div class="card">
+              <h2>Why this article matters</h2>
+
+              <p>
+                As generative AI becomes increasingly present in education, language teachers are asked
+                to interpret, evaluate and integrate technologies whose pedagogical, ethical and
+                professional implications are still emerging.
+              </p>
+
+              <p>
+                This article is relevant for researchers and teacher educators interested in AI literacy,
+                teacher cognition, language teacher education, digital literacies and the changing role of
+                language teachers in technology-rich environments.
+              </p>
+            </div>
+
+            <div class="card">
+              <h2>APA citation</h2>
+
+              <div class="citation-box">
+                Paz-López, A., Shafirova, L., &amp; Vazquez-Calvo, B. (2026).
+                <em>‘AI is like fire’: A discourse analysis of language teachers’ attitudes towards artificial intelligence</em>.
+                <em>Journal of Education for Teaching: International Research and Pedagogy</em>.
+                https://doi.org/10.1080/02607476.2026.2671865
+              </div>
+            </div>
+          </div>
+
+          <aside>
+            <div class="side-card">
+              <h3>Download</h3>
+              <p>
+                <a class="button primary" href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener" download>Download PDF</a>
+              </p>
+              <p class="small">
+                Please cite the journal version using the DOI.
+              </p>
+            </div>
+
+            <div class="side-card">
+              <h3>Keywords</h3>
+              <div class="tag-list">
+                <span class="tag">Artificial intelligence</span>
+                <span class="tag">AI and language education</span>
+                <span class="tag">Language teachers</span>
+                <span class="tag green">Teacher attitudes</span>
+                <span class="tag green">Discourse analysis</span>
+                <span class="tag orange">Generative AI</span>
+                <span class="tag orange">AI literacy</span>
+                <span class="tag">Language teacher education</span>
+              </div>
+            </div>
+
+            <div class="side-card">
+              <h3>Links</h3>
+              <p><a href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">DOI</a></p>
+              <p><a href="https://www.tandfonline.com/doi/full/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Taylor &amp; Francis page</a></p>
+              <p><a href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener">PDF</a></p>
+              <p><a href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar profile</a></p>
+            </div>
+
+            <div class="side-card">
+              <h3>Related research areas</h3>
+              <p class="small">
+                AI and language education · Generative AI · Language teacher education · Digital literacies · Teacher attitudes · Discourse analysis
+              </p>
+            </div>
+
+            <div class="side-card">
+              <h3>Back to publications</h3>
+              <p><a href="/#publications">Return to the full publication list</a></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>Boris Vázquez-Calvo</strong><br />
+          Ramón y Cajal Researcher in Language Education<br />
+          University of Seville
+        </div>
+
+        <div>
+          Email: <a href="mailto:bvzcv86@gmail.com">bvzcv86@gmail.com</a><br />
+          ORCID: <a href="https://orcid.org/0000-0001-8574-7848" target="_blank" rel="noopener">0000-0001-8574-7848</a><br />
+          Google Scholar: <a href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Profile</a><br />
+          Website: <a href="https://borisvazquezcalvo.com">borisvazquezcalvo.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
