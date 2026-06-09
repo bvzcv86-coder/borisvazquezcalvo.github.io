@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Boris Vázquez-Calvo | Digitally Mediated Language Learning</title>
+
+  <meta name="description" content="Personal academic website of Boris Vázquez-Calvo, Ramón y Cajal Researcher in Language Education at the University of Seville. Research on digitally mediated language learning, digital literacies, fandom, AI, and teacher education." />
+
+  <style>
+    :root {
+      --bg: #f8f7f4;
+      --text: #151515;
+      --muted: #5f6368;
+      --line: #dedbd4;
+      --accent: #4f46e5;
+      --accent-soft: #eef0ff;
+      --card: #ffffff;
+      --dark: #111827;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(1120px, 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(248, 247, 244, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 0;
+      font-size: 0.95rem;
+    }
+
+    .logo {
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 22px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 92px 0 72px;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -120px;
+      top: 40px;
+      width: 420px;
+      height: 420px;
+      background: radial-gradient(circle, rgba(79, 70, 229, 0.18), transparent 65%);
+      z-index: -1;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 7px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: clamp(2.8rem, 7vw, 6.4rem);
+      line-height: 0.95;
+      letter-spacing: -0.075em;
+      margin: 0 0 28px;
+      max-width: 950px;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1.2rem, 2vw, 1.6rem);
+      color: var(--muted);
+      max-width: 780px;
+      margin-bottom: 34px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 20px;
+      border-radius: 999px;
+      font-weight: 700;
+      border: 1px solid var(--dark);
+      color: var(--dark);
+      background: transparent;
+    }
+
+    .button.primary {
+      background: var(--dark);
+      color: white;
+    }
+
+    .button:hover {
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    section {
+      padding: 74px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-title {
+      display: grid;
+      grid-template-columns: 0.75fr 1.25fr;
+      gap: 50px;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.6rem);
+      letter-spacing: -0.06em;
+      line-height: 1;
+    }
+
+    .section-title p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+      max-width: 720px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .grid.three {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid.two {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 26px;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.035);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      letter-spacing: -0.035em;
+      line-height: 1.15;
+      font-size: 1.35rem;
+    }
+
+    .card p {
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 5px 9px;
+      border-radius: 999px;
+      margin-bottom: 14px;
+      font-weight: 800;
+    }
+
+    .about-text {
+      font-size: 1.16rem;
+      color: #2b2b2b;
+      max-width: 900px;
+    }
+
+    .publication {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 22px;
+      padding: 24px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .publication:last-child {
+      border-bottom: none;
+    }
+
+    .year {
+      color: var(--accent);
+      font-weight: 800;
+    }
+
+    .publication h3 {
+      margin: 0 0 6px;
+      letter-spacing: -0.03em;
+    }
+
+    .publication p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .assistant-box {
+      background: var(--dark);
+      color: white;
+      border-radius: 32px;
+      padding: 42px;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 34px;
+      align-items: center;
+    }
+
+    .assistant-box h2 {
+      margin: 0 0 16px;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      letter-spacing: -0.06em;
+      line-height: 1;
+    }
+
+    .assistant-box p {
+      color: #cbd5e1;
+      margin: 0;
+    }
+
+    .assistant-placeholder {
+      border: 1px solid rgba(255,255,255,0.22);
+      border-radius: 24px;
+      padding: 22px;
+      background: rgba(255,255,255,0.06);
+    }
+
+    .assistant-placeholder p {
+      margin-bottom: 14px;
+    }
+
+    footer {
+      padding: 48px 0;
+      color: var(--muted);
+    }
+
+    .footer-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 850px) {
+      .nav-links {
+        display: none;
+      }
+
+      .section-title,
+      .assistant-box {
+        grid-template-columns: 1fr;
+      }
+
+      .grid.three,
+      .grid.two {
+        grid-template-columns: 1fr;
+      }
+
+      .publication {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 70px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a class="logo" href="#">Boris Vázquez-Calvo</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#assistant">Research Assistant</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">Ramón y Cajal Researcher · University of Seville</span>
+        <h1>Language learning across digital platforms, participatory cultures, and intelligent technologies.</h1>
+        <p class="hero-subtitle">
+          I study how languages are learned, taught, and lived across digitally mediated environments,
+          including social media, fandoms, video games, online communities, and artificial intelligence.
+        </p>
+        <div class="buttons">
+          <a class="button primary" href="#research">Explore my research</a>
+          <a class="button" href="#publications">Selected publications</a>
+          <a class="button" href="#assistant">Ask my Research Assistant</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>
+            My work sits at the intersection of language education, applied linguistics,
+            digital literacies, informal learning, fandom, artificial intelligence, and teacher education.
+          </p>
+        </div>
+
+        <p class="about-text">
+          I am a Ramón y Cajal Researcher in Language Education at the University of Seville.
+          My research examines how contemporary communicative practices — from fan translation,
+          memes, video games and social media to generative AI and algorithmic platforms — transform
+          language learning, teaching, literacy practices, and teacher identities. I have led competitive
+          projects on digitally mediated language learning and contemporary literacies, including
+          DEFINERS, SEGUE, and Gaming as Literacy.
+        </p>
+      </div>
+    </section>
+
+    <section id="research">
+      <div class="container">
+        <div class="section-title">
+          <h2>Research areas</h2>
+          <p>
+            I approach language learning as a socially situated
