@@ -6,7 +6,7 @@
 
   <title>Boris Vázquez-Calvo | Digitally Mediated Language Learning</title>
 
-  <meta name="description" content="Personal academic website of Boris Vázquez-Calvo, Ramón y Cajal Researcher in Language Education at the University of Seville. Research on digitally mediated language learning, digital literacies, fandom, AI, and teacher education." />
+  <meta name="description" content="Personal academic website of Boris Vázquez-Calvo, Ramón y Cajal Researcher in Language Education at the University of Seville. Research on digitally mediated language learning, digital literacies, fandom, AI, informal language learning, and language teacher education." />
 
   <style>
     :root {
@@ -22,6 +22,10 @@
 
     * {
       box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -64,7 +68,7 @@
     }
 
     .logo {
-      font-weight: 700;
+      font-weight: 800;
       letter-spacing: -0.03em;
       color: var(--text);
     }
@@ -77,7 +81,7 @@
 
     .nav-links a {
       color: var(--muted);
-      font-weight: 500;
+      font-weight: 600;
     }
 
     .nav-links a:hover {
@@ -103,6 +107,17 @@
       z-index: -1;
     }
 
+    .hero::before {
+      content: "";
+      position: absolute;
+      left: -140px;
+      bottom: -180px;
+      width: 440px;
+      height: 440px;
+      background: radial-gradient(circle, rgba(79, 70, 229, 0.09), transparent 65%);
+      z-index: -1;
+    }
+
     .eyebrow {
       display: inline-block;
       padding: 7px 12px;
@@ -112,6 +127,7 @@
       color: var(--muted);
       font-size: 0.9rem;
       margin-bottom: 24px;
+      font-weight: 600;
     }
 
     h1 {
@@ -119,13 +135,13 @@
       line-height: 0.95;
       letter-spacing: -0.075em;
       margin: 0 0 28px;
-      max-width: 950px;
+      max-width: 980px;
     }
 
     .hero-subtitle {
       font-size: clamp(1.2rem, 2vw, 1.6rem);
       color: var(--muted);
-      max-width: 780px;
+      max-width: 810px;
       margin-bottom: 34px;
     }
 
@@ -141,10 +157,11 @@
       justify-content: center;
       padding: 13px 20px;
       border-radius: 999px;
-      font-weight: 700;
+      font-weight: 800;
       border: 1px solid var(--dark);
       color: var(--dark);
       background: transparent;
+      transition: 0.18s ease;
     }
 
     .button.primary {
@@ -155,6 +172,7 @@
     .button:hover {
       text-decoration: none;
       transform: translateY(-1px);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.08);
     }
 
     section {
@@ -180,7 +198,7 @@
       margin: 0;
       color: var(--muted);
       font-size: 1.08rem;
-      max-width: 720px;
+      max-width: 760px;
     }
 
     .grid {
@@ -227,13 +245,17 @@
       padding: 5px 9px;
       border-radius: 999px;
       margin-bottom: 14px;
-      font-weight: 800;
+      font-weight: 900;
     }
 
     .about-text {
       font-size: 1.16rem;
       color: #2b2b2b;
-      max-width: 900px;
+      max-width: 920px;
+    }
+
+    .about-text strong {
+      color: var(--text);
     }
 
     .publication {
@@ -250,17 +272,31 @@
 
     .year {
       color: var(--accent);
-      font-weight: 800;
+      font-weight: 900;
     }
 
     .publication h3 {
       margin: 0 0 6px;
       letter-spacing: -0.03em;
+      line-height: 1.2;
     }
 
     .publication p {
       margin: 0;
       color: var(--muted);
+    }
+
+    .citation-line {
+      margin-top: 8px !important;
+      font-size: 0.92rem;
+      color: var(--accent) !important;
+      font-weight: 700;
+    }
+
+    .note {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.95rem;
     }
 
     .assistant-box {
@@ -346,7 +382,7 @@
           <a href="#research">Research</a>
           <a href="#publications">Publications</a>
           <a href="#projects">Projects</a>
-          <a href="#teaching">Teaching</a>
+          <a href="#materials">Open Materials</a>
           <a href="#assistant">Research Assistant</a>
           <a href="#contact">Contact</a>
         </div>
@@ -359,11 +395,14 @@
     <section class="hero">
       <div class="container">
         <span class="eyebrow">Ramón y Cajal Researcher · University of Seville</span>
+
         <h1>Language learning across digital platforms, participatory cultures, and intelligent technologies.</h1>
+
         <p class="hero-subtitle">
           I study how languages are learned, taught, and lived across digitally mediated environments,
           including social media, fandoms, video games, online communities, and artificial intelligence.
         </p>
+
         <div class="buttons">
           <a class="button primary" href="#research">Explore my research</a>
           <a class="button" href="#publications">Selected publications</a>
@@ -384,12 +423,12 @@
         </div>
 
         <p class="about-text">
-          I am a Ramón y Cajal Researcher in Language Education at the University of Seville.
+          I am a <strong>Ramón y Cajal Researcher in Language Education at the University of Seville</strong>.
           My research examines how contemporary communicative practices — from fan translation,
           memes, video games and social media to generative AI and algorithmic platforms — transform
           language learning, teaching, literacy practices, and teacher identities. I have led competitive
           projects on digitally mediated language learning and contemporary literacies, including
-          DEFINERS, SEGUE, and Gaming as Literacy.
+          <strong>DEFINERS</strong>, <strong>SEGUE</strong>, and <strong>Gaming as Literacy</strong>.
         </p>
       </div>
     </section>
@@ -467,48 +506,104 @@
           <h2>Selected publications</h2>
           <p>
             A selection of publications on digital literacies, fandom, AI, informal language learning and language teacher education.
+            Citation counts are periodically checked through Google Scholar.
           </p>
+        </div>
+
+        <div class="buttons" style="margin-bottom: 34px;">
+          <a class="button primary" href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">
+            View full Google Scholar profile
+          </a>
+          <a class="button" href="https://orcid.org/0000-0001-8574-7848" target="_blank" rel="noopener">
+            ORCID
+          </a>
+          <a class="button" href="https://www.researchgate.net/profile/Boris-Vazquez-Calvo" target="_blank" rel="noopener">
+            ResearchGate
+          </a>
         </div>
 
         <div class="publication">
           <div class="year">2026</div>
           <div>
-            <h3>‘AI is Like Fire’: a discourse analysis of language teachers’ attitudes towards artificial intelligence</h3>
-            <p>Journal of Education for Teaching. With Alba Paz-López and Liudmila Shafirova.</p>
+            <h3>
+              <a href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">
+                ‘AI is Like Fire’: a discourse analysis of language teachers’ attitudes towards artificial intelligence
+              </a>
+            </h3>
+            <p>Alba Paz-López, Liudmila Shafirova & Boris Vázquez-Calvo · <em>Journal of Education for Teaching</em>.</p>
+            <p class="citation-line">Google Scholar citations: check live profile · DOI available</p>
           </div>
         </div>
 
         <div class="publication">
           <div class="year">2025</div>
           <div>
-            <h3>Memes and identity in language teacher education</h3>
-            <p>Language Learning & Technology. With Alba Paz-López and Sergio Rey-Godoy.</p>
+            <h3>
+              <a href="https://doi.org/10.64152/10125/73620" target="_blank" rel="noopener">
+                Memes and identity in language teacher education
+              </a>
+            </h3>
+            <p>Boris Vázquez-Calvo, Alba Paz-López & Sergio Rey-Godoy · <em>Language Learning & Technology</em>.</p>
+            <p class="citation-line">Google Scholar citations: 11 in CVA snapshot · Open access available</p>
           </div>
         </div>
 
         <div class="publication">
           <div class="year">2025</div>
           <div>
-            <h3>Catalan identity and language attitudes through fan translation of video games in the digital wilds</h3>
-            <p>Journal of Language, Identity & Education. With Steven L. Thorne.</p>
+            <h3>
+              <a href="https://doi.org/10.1080/15348458.2022.2137168" target="_blank" rel="noopener">
+                Catalan identity and language attitudes through fan translation of video games in the digital wilds
+              </a>
+            </h3>
+            <p>Boris Vázquez-Calvo & Steven L. Thorne · <em>Journal of Language, Identity & Education</em>.</p>
+            <p class="citation-line">Google Scholar citations: 25 in CVA snapshot · DOI available</p>
+          </div>
+        </div>
+
+        <div class="publication">
+          <div class="year">2024</div>
+          <div>
+            <h3>
+              <a href="https://doi.org/10.1007/s10643-024-01675-z" target="_blank" rel="noopener">
+                Maternal scaffolding of Iranian children’s extramural informal digital learning of English (IDLE)
+              </a>
+            </h3>
+            <p>Ali Soyoof, Barry Lee Reynolds, Michelle M. Neumann & Boris Vázquez-Calvo · <em>Early Childhood Education Journal</em>.</p>
+            <p class="citation-line">Google Scholar citations: 15 in CVA snapshot · DOI available</p>
           </div>
         </div>
 
         <div class="publication">
           <div class="year">2023</div>
           <div>
-            <h3>The emerging phenomenon of L2 vlogging on Bilibili</h3>
-            <p>Profesional de la información. With Leticia-Tian Zhang and Daniel Cassany.</p>
+            <h3>
+              <a href="https://doi.org/10.3145/epi.2023.may.15" target="_blank" rel="noopener">
+                The emerging phenomenon of L2 vlogging on Bilibili: characteristics, engagement, and informal language learning
+              </a>
+            </h3>
+            <p>Leticia-Tian Zhang, Boris Vázquez-Calvo & Daniel Cassany · <em>Profesional de la información</em>.</p>
+            <p class="citation-line">Google Scholar citations: 15 in CVA snapshot · DOI available</p>
           </div>
         </div>
 
         <div class="publication">
           <div class="year">2022</div>
           <div>
-            <h3>“¿Triste estás? I don’t know nan molla”: Multilingual pop song fandubs by @miree_music</h3>
-            <p>ITL – International Journal of Applied Linguistics. With Leticia-Tian Zhang.</p>
+            <h3>
+              <a href="https://doi.org/10.1075/itl.21007.zha" target="_blank" rel="noopener">
+                “¿Triste estás? I don’t know nan molla”: Multilingual pop song fandubs by @miree_music
+              </a>
+            </h3>
+            <p>Leticia-Tian Zhang & Boris Vázquez-Calvo · <em>ITL – International Journal of Applied Linguistics</em>.</p>
+            <p class="citation-line">Google Scholar citations: 22 in CVA snapshot · DOI available</p>
           </div>
         </div>
+
+        <p class="note">
+          Citation counts shown here are based on a CVA snapshot dated 03/06/2026 where available.
+          For live citation data and the complete publication list, please visit the Google Scholar profile.
+        </p>
       </div>
     </section>
 
@@ -527,7 +622,7 @@
             <h3>DEFINERS</h3>
             <p>
               Digital Language Learning of Junior Language Teachers. A competitive project on digital language learning,
-              teacher education, literacies, AI and informal learning.
+              teacher education, literacies, artificial intelligence and informal learning.
             </p>
           </div>
 
@@ -545,6 +640,15 @@
             <h3>Gaming as Literacy</h3>
             <p>
               A postdoctoral project on video games as academic and vernacular literacy practices among young people.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="tag">Emerging agenda</span>
+            <h3>AIM</h3>
+            <p>
+              A developing research agenda on AI, digitally mediated literacies, languaging, learner agency,
+              teacher education and algorithmic cultures.
             </p>
           </div>
         </div>
@@ -575,6 +679,56 @@
             <p>
               I supervise work on digitally mediated language learning, informal learning, fandom, AI,
               language teacher education, ELE, English language teaching, and contemporary literacies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="materials">
+      <div class="container">
+        <div class="section-title">
+          <h2>Open materials & media</h2>
+          <p>
+            I regularly transform research into open educational materials, teacher education resources,
+            public-facing writing and training activities.
+          </p>
+        </div>
+
+        <div class="grid three">
+          <div class="card">
+            <span class="tag">Open educational resource</span>
+            <h3>Fan-Based Learning in Language Education</h3>
+            <p>
+              A microseries of open video pills on fanfiction, fansubbing, cosplay, podcasts/vlogs,
+              participatory culture and digital ethics for language education.
+            </p>
+            <p style="margin-top: 14px;">
+              <a href="https://doi.org/10.5281/zenodo.15352215" target="_blank" rel="noopener">Zenodo DOI</a>
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="tag">Teacher education</span>
+            <h3>AI: friend or foe?</h3>
+            <p>
+              Open materials from a university teacher education course on artificial intelligence,
+              assessment, feedback, authorship and educational practice.
+            </p>
+            <p style="margin-top: 14px;">
+              <a href="https://zenodo.org/records/15652685" target="_blank" rel="noopener">Zenodo record</a>
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="tag">Public scholarship</span>
+            <h3>The Conversation</h3>
+            <p>
+              Public-facing articles on language learning, acquisition, fandom and digital culture,
+              reaching broad international audiences.
+            </p>
+            <p style="margin-top: 14px;">
+              <a href="https://theconversation.com/profiles/boris-vazquez-calvo-1359395" target="_blank" rel="noopener">Author profile</a>
             </p>
           </div>
         </div>
@@ -617,8 +771,9 @@
 
         <div>
           Email: <a href="mailto:bvzcv86@gmail.com">bvzcv86@gmail.com</a><br />
-          ORCID: <a href="https://orcid.org/0000-0001-8574-7848">0000-0001-8574-7848</a><br />
-          ResearchGate: <a href="https://www.researchgate.net/profile/Boris-Vazquez-Calvo">Profile</a>
+          ORCID: <a href="https://orcid.org/0000-0001-8574-7848" target="_blank" rel="noopener">0000-0001-8574-7848</a><br />
+          Google Scholar: <a href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Profile</a><br />
+          ResearchGate: <a href="https://www.researchgate.net/profile/Boris-Vazquez-Calvo" target="_blank" rel="noopener">Profile</a>
         </div>
       </div>
     </div>
