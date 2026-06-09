@@ -258,6 +258,32 @@
       color: var(--text);
     }
 
+    .publication-controls {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .publication-search {
+      flex: 1;
+      min-width: 240px;
+      padding: 13px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: white;
+      font-size: 0.98rem;
+      color: var(--text);
+    }
+
+    .publication-meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+
     .publication {
       display: grid;
       grid-template-columns: 110px 1fr;
@@ -405,7 +431,7 @@
 
         <div class="buttons">
           <a class="button primary" href="#research">Explore my research</a>
-          <a class="button" href="#publications">Selected publications</a>
+          <a class="button" href="#publications">Publications</a>
           <a class="button" href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
           <a class="button" href="#assistant">Ask my Research Assistant</a>
         </div>
@@ -503,14 +529,14 @@
     <section id="publications">
       <div class="container">
         <div class="section-title">
-          <h2>Selected publications</h2>
+          <h2>Publications</h2>
           <p>
-            A selection of publications on digital literacies, fandom, AI, informal language learning and language teacher education.
-            Citation counts are periodically checked through Google Scholar.
+            Publications are loaded from a local JSON file generated from my Google Scholar profile.
+            Citation counts reflect the latest imported Google Scholar snapshot.
           </p>
         </div>
 
-        <div class="buttons" style="margin-bottom: 34px;">
+        <div class="buttons" style="margin-bottom: 28px;">
           <a class="button primary" href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">
             View full Google Scholar profile
           </a>
@@ -522,87 +548,17 @@
           </a>
         </div>
 
-        <div class="publication">
-          <div class="year">2026</div>
-          <div>
-            <h3>
-              <a href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">
-                ‘AI is Like Fire’: a discourse analysis of language teachers’ attitudes towards artificial intelligence
-              </a>
-            </h3>
-            <p>Alba Paz-López, Liudmila Shafirova & Boris Vázquez-Calvo · <em>Journal of Education for Teaching</em>.</p>
-            <p class="citation-line">Google Scholar citations: check live profile · DOI available</p>
-          </div>
+        <div class="publication-controls">
+          <input id="publication-search" class="publication-search" type="search" placeholder="Search publications by title, author, venue, or year..." />
         </div>
 
-        <div class="publication">
-          <div class="year">2025</div>
-          <div>
-            <h3>
-              <a href="https://doi.org/10.64152/10125/73620" target="_blank" rel="noopener">
-                Memes and identity in language teacher education
-              </a>
-            </h3>
-            <p>Boris Vázquez-Calvo, Alba Paz-López & Sergio Rey-Godoy · <em>Language Learning & Technology</em>.</p>
-            <p class="citation-line">Google Scholar citations: 11 in CVA snapshot · Open access available</p>
-          </div>
-        </div>
+        <p id="publication-meta" class="publication-meta">Loading publications...</p>
 
-        <div class="publication">
-          <div class="year">2025</div>
-          <div>
-            <h3>
-              <a href="https://doi.org/10.1080/15348458.2022.2137168" target="_blank" rel="noopener">
-                Catalan identity and language attitudes through fan translation of video games in the digital wilds
-              </a>
-            </h3>
-            <p>Boris Vázquez-Calvo & Steven L. Thorne · <em>Journal of Language, Identity & Education</em>.</p>
-            <p class="citation-line">Google Scholar citations: 25 in CVA snapshot · DOI available</p>
-          </div>
-        </div>
-
-        <div class="publication">
-          <div class="year">2024</div>
-          <div>
-            <h3>
-              <a href="https://doi.org/10.1007/s10643-024-01675-z" target="_blank" rel="noopener">
-                Maternal scaffolding of Iranian children’s extramural informal digital learning of English (IDLE)
-              </a>
-            </h3>
-            <p>Ali Soyoof, Barry Lee Reynolds, Michelle M. Neumann & Boris Vázquez-Calvo · <em>Early Childhood Education Journal</em>.</p>
-            <p class="citation-line">Google Scholar citations: 15 in CVA snapshot · DOI available</p>
-          </div>
-        </div>
-
-        <div class="publication">
-          <div class="year">2023</div>
-          <div>
-            <h3>
-              <a href="https://doi.org/10.3145/epi.2023.may.15" target="_blank" rel="noopener">
-                The emerging phenomenon of L2 vlogging on Bilibili: characteristics, engagement, and informal language learning
-              </a>
-            </h3>
-            <p>Leticia-Tian Zhang, Boris Vázquez-Calvo & Daniel Cassany · <em>Profesional de la información</em>.</p>
-            <p class="citation-line">Google Scholar citations: 15 in CVA snapshot · DOI available</p>
-          </div>
-        </div>
-
-        <div class="publication">
-          <div class="year">2022</div>
-          <div>
-            <h3>
-              <a href="https://doi.org/10.1075/itl.21007.zha" target="_blank" rel="noopener">
-                “¿Triste estás? I don’t know nan molla”: Multilingual pop song fandubs by @miree_music
-              </a>
-            </h3>
-            <p>Leticia-Tian Zhang & Boris Vázquez-Calvo · <em>ITL – International Journal of Applied Linguistics</em>.</p>
-            <p class="citation-line">Google Scholar citations: 22 in CVA snapshot · DOI available</p>
-          </div>
-        </div>
+        <div id="publication-list"></div>
 
         <p class="note">
-          Citation counts shown here are based on a CVA snapshot dated 03/06/2026 where available.
-          For live citation data and the complete publication list, please visit the Google Scholar profile.
+          Google Scholar does not provide an official public API. This list is generated from a cached JSON snapshot.
+          For live citation data, please visit the Google Scholar profile.
         </p>
       </div>
     </section>
@@ -778,6 +734,122 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    let allPublications = [];
+
+    function escapeHTML(value) {
+      if (value === null || value === undefined) return "";
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function formatDate(isoString) {
+      if (!isoString) return "";
+      const date = new Date(isoString);
+      if (Number.isNaN(date.getTime())) return "";
+      return date.toLocaleDateString("en-GB", {
+        year: "numeric",
+        month: "short",
+        day: "numeric"
+      });
+    }
+
+    function renderPublications(publications, meta) {
+      const list = document.getElementById("publication-list");
+      const metaLine = document.getElementById("publication-meta");
+
+      if (!publications.length) {
+        list.innerHTML = "";
+        metaLine.textContent = "No publications found.";
+        return;
+      }
+
+      const updated = meta && meta.updated_at ? formatDate(meta.updated_at) : "";
+      const totalText = meta && meta.total_publications ? `${meta.total_publications}` : `${publications.length}`;
+
+      metaLine.textContent = `${publications.length} publication(s) shown · ${totalText} imported from Google Scholar${updated ? " · Last updated: " + updated : ""}`;
+
+      list.innerHTML = publications.map(pub => {
+        const year = escapeHTML(pub.year || "n.d.");
+        const title = escapeHTML(pub.title || "Untitled publication");
+        const authors = escapeHTML(pub.authors || "");
+        const venue = escapeHTML(pub.venue || "");
+        const citations = pub.citations !== undefined && pub.citations !== null ? escapeHTML(pub.citations) : "0";
+        const link = pub.doi || pub.open_url || pub.eprint_url || pub.scholar_url || "https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao";
+        const safeLink = escapeHTML(link);
+
+        return `
+          <div class="publication">
+            <div class="year">${year}</div>
+            <div>
+              <h3>
+                <a href="${safeLink}" target="_blank" rel="noopener">${title}</a>
+              </h3>
+              <p>${authors}${authors && venue ? " · " : ""}${venue ? "<em>" + venue + "</em>" : ""}</p>
+              <p class="citation-line">Google Scholar citations: ${citations}</p>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function filterPublications(query, meta) {
+      const q = query.trim().toLowerCase();
+
+      if (!q) {
+        renderPublications(allPublications, meta);
+        return;
+      }
+
+      const filtered = allPublications.filter(pub => {
+        const haystack = [
+          pub.year,
+          pub.title,
+          pub.authors,
+          pub.venue,
+          pub.citations
+        ].join(" ").toLowerCase();
+
+        return haystack.includes(q);
+      });
+
+      renderPublications(filtered, meta);
+    }
+
+    fetch("publications.json?v=1")
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Could not load publications.json");
+        }
+        return response.json();
+      })
+      .then(data => {
+        const meta = {
+          updated_at: data.updated_at,
+          total_publications: data.total_publications,
+          profile_url: data.profile_url
+        };
+
+        allPublications = Array.isArray(data.publications) ? data.publications : [];
+
+        renderPublications(allPublications, meta);
+
+        const search = document.getElementById("publication-search");
+        search.addEventListener("input", event => {
+          filterPublications(event.target.value, meta);
+        });
+      })
+      .catch(error => {
+        console.error(error);
+        document.getElementById("publication-meta").textContent = "Publications could not be loaded. Please visit the Google Scholar profile.";
+        document.getElementById("publication-list").innerHTML = "";
+      });
+  </script>
 
 </body>
 </html>
