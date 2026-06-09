@@ -131,7 +131,7 @@
       position: absolute;
       top: 100%;
       left: 0;
-      min-width: 360px;
+      min-width: 380px;
       background: rgba(255, 255, 255, 0.98);
       border: 1px solid var(--line);
       border-radius: 18px;
@@ -761,7 +761,14 @@
             <div class="dropdown-menu">
               <a href="#publications">
                 All publications
-                <span>Full publication list imported from Google Scholar.</span>
+                <span>Full publication list and selected publication pages.</span>
+              </a>
+
+              <div class="dropdown-heading">2026</div>
+
+              <a href="/publications/ai-is-like-fire/">
+                ‘AI is like fire’: language teachers’ attitudes towards artificial intelligence
+                <span>Journal of Education for Teaching · DOI · PDF viewer · APA citation.</span>
               </a>
 
               <div class="dropdown-heading">2025</div>
@@ -813,7 +820,7 @@
             <div class="buttons">
               <a class="button primary" href="#research">Explore my research</a>
               <a class="button" href="#publications">Publications</a>
-              <a class="button" href="/publications/memes-and-identity-language-teacher-education/">Featured article</a>
+              <a class="button" href="/publications/ai-is-like-fire/">Latest article</a>
               <a class="button" href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
             </div>
           </div>
@@ -955,31 +962,32 @@
         <div class="section-title">
           <h2>Publications</h2>
           <p>
-          Selected and full publications on digitally mediated language learning, digital literacies,
-          informal language learning, fandom, AI, language teacher education and applied linguistics.
+            Selected and full publications on digitally mediated language learning, digital literacies,
+            informal language learning, fandom, AI, language teacher education and applied linguistics.
           </p>
         </div>
 
         <div class="featured-publication">
           <div>
-            <span class="tag orange">Featured publication · 2025</span>
-            <h3>Memes and identity in language teacher education</h3>
+            <span class="tag orange">Latest publication page · 2026</span>
+            <h3>‘AI is like fire’: language teachers’ attitudes towards artificial intelligence</h3>
             <p>
-              Language Learning & Technology, 2025. Article page with DOI, APA citation,
-              open-access PDF viewer, download button and keywords for digital literacies,
-              memes and language teacher identity.
+              Journal of Education for Teaching, 2026. Article page with DOI, APA citation,
+              PDF viewer, download button and keywords for AI, language teacher education,
+              discourse analysis and teacher attitudes.
             </p>
             <div class="buttons">
-              <a class="button primary" href="/publications/memes-and-identity-language-teacher-education/">Open article page</a>
-              <a class="button" href="/files/memes-and-identity-language-teacher-education.pdf" target="_blank" rel="noopener">Open PDF</a>
+              <a class="button primary" href="/publications/ai-is-like-fire/">Open article page</a>
+              <a class="button" href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Read via DOI</a>
+              <a class="button" href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener">Open PDF</a>
             </div>
           </div>
 
           <div class="featured-meta">
             <strong>Why this is highlighted</strong>
-            This publication represents one of my core research lines: digital literacies,
-            multimodal discourse, memes, language teacher education and identity work
-            in digitally mediated learning environments.
+            This publication represents a key research line on artificial intelligence,
+            teacher attitudes, discourse analysis, digital literacies and the changing role
+            of language teachers in technology-rich educational environments.
           </div>
         </div>
 
@@ -1002,8 +1010,8 @@
         <p id="publication-meta" class="publication-meta">Loading publications...</p>
         <div id="publication-list"></div>
 
-         <p class="note">
-        For the most up-to-date citation data and complete indexing information, please visit my Google Scholar profile.
+        <p class="note">
+          For the most up-to-date citation data and complete indexing information, please visit my Google Scholar profile.
         </p>
       </div>
     </section>
@@ -1232,6 +1240,10 @@
 
         let link = pub.doi || pub.open_url || pub.eprint_url || pub.scholar_url || "https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao";
 
+        if (title.toLowerCase().includes("ai is like fire")) {
+          link = "/publications/ai-is-like-fire/";
+        }
+
         if (title.toLowerCase().includes("memes and identity in language teacher education")) {
           link = "/publications/memes-and-identity-language-teacher-education/";
         }
@@ -1276,7 +1288,7 @@
       renderPublications(filtered, meta);
     }
 
-    fetch("publications.json?v=10")
+    fetch("publications.json?v=11")
       .then(response => {
         if (!response.ok) {
           throw new Error("Could not load publications.json");
