@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Boris Vázquez-Calvo | Digitally Mediated Language Learning</title>
+  <title>Boris Vázquez-Calvo | Language Education, Digital Literacies & Informal Learning</title>
 
-  <meta name="description" content="Personal academic website of Boris Vázquez-Calvo, Ramón y Cajal Researcher in Language Education at the University of Seville. Research on digitally mediated language learning, digital literacies, fandom, AI, informal language learning, and language teacher education." />
+  <meta name="description" content="Personal academic website of Boris Vázquez-Calvo, Ramón y Cajal Researcher in Language Education at the University of Seville. Research on language education, digitally mediated language learning, digital literacies, fandom, informal learning, AI, and teacher education." />
 
   <style>
     :root {
@@ -90,7 +90,7 @@
     }
 
     .hero {
-      padding: 92px 0 72px;
+      padding: 86px 0 72px;
       border-bottom: 1px solid var(--line);
       position: relative;
       overflow: hidden;
@@ -118,6 +118,13 @@
       z-index: -1;
     }
 
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 54px;
+      align-items: center;
+    }
+
     .eyebrow {
       display: inline-block;
       padding: 7px 12px;
@@ -130,8 +137,17 @@
       font-weight: 600;
     }
 
+    .hero-kicker {
+      color: var(--accent);
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.82rem;
+      margin-bottom: 18px;
+    }
+
     h1 {
-      font-size: clamp(2.8rem, 7vw, 6.4rem);
+      font-size: clamp(3rem, 7vw, 6.5rem);
       line-height: 0.95;
       letter-spacing: -0.075em;
       margin: 0 0 28px;
@@ -139,10 +155,60 @@
     }
 
     .hero-subtitle {
-      font-size: clamp(1.2rem, 2vw, 1.6rem);
+      font-size: clamp(1.18rem, 2vw, 1.55rem);
       color: var(--muted);
       max-width: 810px;
+      margin-bottom: 24px;
+    }
+
+    .hero-description {
+      font-size: 1.08rem;
+      color: #2b2b2b;
+      max-width: 800px;
       margin-bottom: 34px;
+    }
+
+    .hero-photo-wrap {
+      position: relative;
+      justify-self: end;
+    }
+
+    .hero-photo {
+      width: 100%;
+      max-width: 380px;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border-radius: 34px;
+      border: 1px solid var(--line);
+      box-shadow: 0 28px 70px rgba(0,0,0,0.14);
+      background: white;
+    }
+
+    .hero-photo-card {
+      position: absolute;
+      left: -34px;
+      bottom: 28px;
+      max-width: 260px;
+      background: rgba(255,255,255,0.92);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 16px 18px;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.08);
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-photo-card strong {
+      display: block;
+      color: var(--text);
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+
+    .hero-photo-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.35;
     }
 
     .buttons {
@@ -377,8 +443,23 @@
       }
 
       .section-title,
-      .assistant-box {
+      .assistant-box,
+      .hero-grid {
         grid-template-columns: 1fr;
+      }
+
+      .hero-photo-wrap {
+        justify-self: start;
+      }
+
+      .hero-photo {
+        max-width: 310px;
+      }
+
+      .hero-photo-card {
+        position: static;
+        margin-top: 14px;
+        max-width: 310px;
       }
 
       .grid.three,
@@ -420,20 +501,43 @@
 
     <section class="hero">
       <div class="container">
-        <span class="eyebrow">Ramón y Cajal Researcher · University of Seville</span>
+        <div class="hero-grid">
+          <div>
+            <span class="eyebrow">Ramón y Cajal Researcher · University of Seville</span>
 
-        <h1>Language learning across digital platforms, participatory cultures, and intelligent technologies.</h1>
+            <p class="hero-kicker">Language education · Digital literacies · Informal learning</p>
 
-        <p class="hero-subtitle">
-          I study how languages are learned, taught, and lived across digitally mediated environments,
-          including social media, fandoms, video games, online communities, and artificial intelligence.
-        </p>
+            <h1>Boris Vázquez-Calvo</h1>
 
-        <div class="buttons">
-          <a class="button primary" href="#research">Explore my research</a>
-          <a class="button" href="#publications">Publications</a>
-          <a class="button" href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
-          <a class="button" href="#assistant">Ask my Research Assistant</a>
+            <p class="hero-subtitle">
+              I am a researcher in language education interested in how people learn, teach,
+              use and imagine languages across digitally mediated environments — from social
+              media, fandoms, video games and online communities to artificial intelligence.
+            </p>
+
+            <p class="hero-description">
+              My work connects applied linguistics, language teacher education, digital literacies,
+              participatory cultures and informal language learning. Rather than treating technology
+              as a tool alone, I study how digital environments shape language practices, identities,
+              pedagogies and opportunities for learning.
+            </p>
+
+            <div class="buttons">
+              <a class="button primary" href="#research">Explore my research</a>
+              <a class="button" href="#publications">Publications</a>
+              <a class="button" href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+              <a class="button" href="#assistant">Research Assistant</a>
+            </div>
+          </div>
+
+          <div class="hero-photo-wrap">
+            <img class="hero-photo" src="assets/profile.jpg" alt="Portrait of Boris Vázquez-Calvo" />
+
+            <div class="hero-photo-card">
+              <strong>Digitally mediated language learning</strong>
+              <span>Research on literacies, platforms, fandom, AI, teacher education and informal learning.</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -821,7 +925,7 @@
       renderPublications(filtered, meta);
     }
 
-    fetch("publications.json?v=1")
+    fetch("publications.json?v=2")
       .then(response => {
         if (!response.ok) {
           throw new Error("Could not load publications.json");
