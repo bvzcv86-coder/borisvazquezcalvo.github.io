@@ -238,6 +238,25 @@
       margin-bottom: 18px;
     }
 
+    .availability-card {
+      background: var(--dark);
+      color: white;
+      border-radius: 28px;
+      padding: 30px;
+      margin-bottom: 28px;
+      box-shadow: 0 22px 48px rgba(0,0,0,0.12);
+    }
+
+    .availability-card h2 {
+      color: white;
+      margin-bottom: 14px;
+    }
+
+    .availability-card p {
+      color: #cbd5e1;
+      margin-bottom: 0;
+    }
+
     .tag-list {
       display: flex;
       flex-wrap: wrap;
@@ -306,7 +325,7 @@
       color: #2b2b2b;
     }
 
-    .pdf-note {
+    .policy-note {
       background: #f9fafb;
       border: 1px solid var(--line);
       border-radius: 18px;
@@ -315,50 +334,6 @@
       font-size: 0.95rem;
       margin-top: 18px;
       max-width: 850px;
-    }
-
-    .pdf-section {
-      padding-top: 46px;
-    }
-
-    .pdf-toolbar {
-      display: flex;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-      align-items: center;
-      margin-bottom: 18px;
-    }
-
-    .pdf-toolbar p {
-      margin: 0;
-      color: var(--muted);
-      max-width: 620px;
-    }
-
-    .pdf-viewer-card {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 28px;
-      padding: 18px;
-      box-shadow: 0 18px 42px rgba(0,0,0,0.05);
-      overflow: hidden;
-    }
-
-    .pdf-viewer {
-      width: 100%;
-      height: min(76vh, 760px);
-      min-height: 520px;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      background: #f3f4f6;
-      display: block;
-    }
-
-    .pdf-fallback {
-      margin-top: 14px;
-      color: var(--muted);
-      font-size: 0.95rem;
     }
 
     .small {
@@ -390,11 +365,6 @@
 
       .hero {
         padding-top: 62px;
-      }
-
-      .pdf-viewer {
-        height: 68vh;
-        min-height: 440px;
       }
     }
   </style>
@@ -428,14 +398,8 @@
     "identifier": "https://doi.org/10.1080/02607476.2026.2671865",
     "sameAs": [
       "https://doi.org/10.1080/02607476.2026.2671865",
-      "https://www.tandfonline.com/doi/full/10.1080/02607476.2026.2671865",
-      "https://borisvazquezcalvo.com/files/ai-is-like-fire.pdf"
+      "https://www.tandfonline.com/doi/full/10.1080/02607476.2026.2671865"
     ],
-    "encoding": {
-      "@type": "MediaObject",
-      "contentUrl": "https://borisvazquezcalvo.com/files/ai-is-like-fire.pdf",
-      "encodingFormat": "application/pdf"
-    },
     "keywords": [
       "Artificial intelligence",
       "AI and language education",
@@ -484,15 +448,14 @@
         </p>
 
         <div class="buttons">
-          <a class="button primary" href="#pdf">Read PDF on this page</a>
-          <a class="button" href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener" download>Download PDF</a>
-          <a class="button" href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Read via DOI</a>
+          <a class="button primary" href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Read via DOI</a>
           <a class="button" href="https://www.tandfonline.com/doi/full/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Taylor &amp; Francis page</a>
+          <a class="button" href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar profile</a>
         </div>
 
-        <p class="pdf-note">
-          PDF made available here for academic visibility and citation. Please cite the journal version
-          in <em>Journal of Education for Teaching: International Research and Pedagogy</em> using the DOI.
+        <p class="policy-note">
+          The full-text PDF is not hosted here while the journal access and embargo conditions apply.
+          Please access and cite the official journal version through the DOI.
         </p>
 
         <div class="meta-grid">
@@ -519,41 +482,16 @@
       </div>
     </section>
 
-    <section id="pdf" class="pdf-section">
-      <div class="container">
-        <div class="pdf-toolbar">
-          <div>
-            <h2>Read the article</h2>
-            <p>
-              Use the embedded viewer below to read the PDF. You can also open or download the file directly.
-            </p>
-          </div>
-
-          <div class="buttons">
-            <a class="button primary" href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener">Open PDF</a>
-            <a class="button" href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener" download>Download PDF</a>
-          </div>
-        </div>
-
-        <div class="pdf-viewer-card">
-          <iframe
-            class="pdf-viewer"
-            src="/files/ai-is-like-fire.pdf?v=2"
-            title="PDF viewer for ‘AI is like fire’: a discourse analysis of language teachers’ attitudes towards artificial intelligence">
-          </iframe>
-
-          <p class="pdf-fallback">
-            If the PDF does not display correctly in your browser,
-            <a href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener">open it in a new tab</a>
-            or
-            <a href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener" download>download it</a>.
-          </p>
-        </div>
-      </div>
-    </section>
-
     <section>
       <div class="container">
+        <div class="availability-card">
+          <h2>Full-text access</h2>
+          <p>
+            The article is currently available through the publisher. A PDF will only be added to this page
+            when permitted by the journal’s access, self-archiving or open-access policy.
+          </p>
+        </div>
+
         <div class="content-grid">
           <div>
             <div class="card">
@@ -609,12 +547,12 @@
 
           <aside>
             <div class="side-card">
-              <h3>Download</h3>
+              <h3>Access</h3>
               <p>
-                <a class="button primary" href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener" download>Download PDF</a>
+                <a class="button primary" href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Read via DOI</a>
               </p>
               <p class="small">
-                Please cite the journal version using the DOI.
+                Full text is available through the publisher. No PDF is hosted here while the journal access policy applies.
               </p>
             </div>
 
@@ -636,7 +574,6 @@
               <h3>Links</h3>
               <p><a href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">DOI</a></p>
               <p><a href="https://www.tandfonline.com/doi/full/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Taylor &amp; Francis page</a></p>
-              <p><a href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener">PDF</a></p>
               <p><a href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar profile</a></p>
             </div>
 
