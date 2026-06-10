@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -85,7 +86,7 @@
       justify-content: space-between;
       gap: 24px;
       padding: 18px 0;
-      font-size: clamp(0.84rem, 1vw, 0.95rem);
+      font-size: clamp(0.82rem, 0.95vw, 0.93rem);
     }
 
     .logo {
@@ -99,10 +100,10 @@
 
     .nav-links {
       display: flex;
-      gap: clamp(12px, 1.45vw, 20px);
+      gap: clamp(10px, 1.25vw, 18px);
       flex-wrap: nowrap;
       align-items: center;
-      margin-left: 24px;
+      margin-left: 20px;
     }
 
     .nav-links a {
@@ -634,6 +635,12 @@
       flex-wrap: wrap;
     }
 
+    @media (max-width: 1040px) {
+      .nav-links {
+        display: none;
+      }
+    }
+
     @media (max-width: 930px) {
       .hero-grid,
       .about-panel,
@@ -653,10 +660,6 @@
     }
 
     @media (max-width: 850px) {
-      .nav-links {
-        display: none;
-      }
-
       .section-title,
       .assistant-box {
         grid-template-columns: 1fr;
@@ -768,7 +771,7 @@
 
               <a href="/publications/ai-is-like-fire/">
                 ‘AI is like fire’: language teachers’ attitudes towards artificial intelligence
-                <span>Journal of Education for Teaching · DOI · PDF viewer · APA citation.</span>
+                <span>Journal of Education for Teaching · DOI · APA citation.</span>
               </a>
 
               <div class="dropdown-heading">2025</div>
@@ -784,6 +787,7 @@
             </div>
           </div>
 
+          <a href="#news">Updates</a>
           <a href="#projects">Projects</a>
           <a href="#materials">Open Materials</a>
           <a href="#assistant">Research Assistant</a>
@@ -820,7 +824,7 @@
             <div class="buttons">
               <a class="button primary" href="#research">Explore my research</a>
               <a class="button" href="#publications">Publications</a>
-              <a class="button" href="/publications/ai-is-like-fire/">Latest article</a>
+              <a class="button" href="#news">Latest updates</a>
               <a class="button" href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
             </div>
           </div>
@@ -973,13 +977,13 @@
             <h3>‘AI is like fire’: language teachers’ attitudes towards artificial intelligence</h3>
             <p>
               Journal of Education for Teaching, 2026. Article page with DOI, APA citation,
-              PDF viewer, download button and keywords for AI, language teacher education,
-              discourse analysis and teacher attitudes.
+              publisher link and keywords for AI, language teacher education, discourse analysis
+              and teacher attitudes. The PDF is not hosted while journal access conditions apply.
             </p>
             <div class="buttons">
               <a class="button primary" href="/publications/ai-is-like-fire/">Open article page</a>
               <a class="button" href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Read via DOI</a>
-              <a class="button" href="/files/ai-is-like-fire.pdf" target="_blank" rel="noopener">Open PDF</a>
+              <a class="button" href="https://www.tandfonline.com/doi/full/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Taylor &amp; Francis page</a>
             </div>
           </div>
 
@@ -1013,6 +1017,46 @@
         <p class="note">
           For the most up-to-date citation data and complete indexing information, please visit my Google Scholar profile.
         </p>
+      </div>
+    </section>
+
+    <section id="news">
+      <div class="container">
+        <div class="section-title">
+          <h2>Latest updates</h2>
+          <p>
+            Recent publication news, talks, open materials, project activities and public-facing research updates.
+          </p>
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <span class="tag orange">Publication update · 2026</span>
+            <h3>New article: ‘AI is like fire’</h3>
+            <p>
+              A new article on language teachers’ attitudes towards artificial intelligence has been published in
+              <em>Journal of Education for Teaching: International Research and Pedagogy</em>.
+            </p>
+            <div class="link-list">
+              <a href="/news/ai-is-like-fire-published/">Read update</a>
+              <a href="/publications/ai-is-like-fire/">Publication page</a>
+              <a href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">DOI</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="tag">Website update</span>
+            <h3>Academic website launched</h3>
+            <p>
+              This website brings together my research areas, selected publications, open materials,
+              project information and future updates on digitally mediated language learning.
+            </p>
+            <div class="link-list">
+              <a href="#publications">Browse publications</a>
+              <a href="#materials">Open materials</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -1288,7 +1332,7 @@
       renderPublications(filtered, meta);
     }
 
-    fetch("publications.json?v=11")
+    fetch("publications.json?v=12")
       .then(response => {
         if (!response.ok) {
           throw new Error("Could not load publications.json");
