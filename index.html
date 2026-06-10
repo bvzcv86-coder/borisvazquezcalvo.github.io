@@ -787,7 +787,7 @@
             </div>
           </div>
 
-          <a href="#news">Updates</a>
+          <a href="/news/">News</a>
           <a href="#projects">Projects</a>
           <a href="#materials">Open Materials</a>
           <a href="#assistant">Research Assistant</a>
@@ -824,7 +824,7 @@
             <div class="buttons">
               <a class="button primary" href="#research">Explore my research</a>
               <a class="button" href="#publications">Publications</a>
-              <a class="button" href="#news">Latest updates</a>
+              <a class="button" href="/news/">News & updates</a>
               <a class="button" href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
             </div>
           </div>
@@ -1023,38 +1023,24 @@
     <section id="news">
       <div class="container">
         <div class="section-title">
-          <h2>Latest updates</h2>
+          <h2>News & updates</h2>
           <p>
-            Recent publication news, talks, open materials, project activities and public-facing research updates.
+            Recent publication news, talks, open materials and project activity are collected in a separate newsfeed.
           </p>
         </div>
 
-        <div class="grid two">
-          <div class="card">
-            <span class="tag orange">Publication update · 2026</span>
-            <h3>New article: ‘AI is like fire’</h3>
-            <p>
-              A new article on language teachers’ attitudes towards artificial intelligence has been published in
-              <em>Journal of Education for Teaching: International Research and Pedagogy</em>.
-            </p>
-            <div class="link-list">
-              <a href="/news/ai-is-like-fire-published/">Read update</a>
-              <a href="/publications/ai-is-like-fire/">Publication page</a>
-              <a href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">DOI</a>
-            </div>
-          </div>
+        <div class="card">
+          <span class="tag orange">Latest update · 2026</span>
+          <h3>New article: ‘AI is like fire’</h3>
+          <p>
+            A new article on language teachers’ attitudes towards artificial intelligence has been published in
+            <em>Journal of Education for Teaching: International Research and Pedagogy</em>.
+          </p>
 
-          <div class="card">
-            <span class="tag">Website update</span>
-            <h3>Academic website launched</h3>
-            <p>
-              This website brings together my research areas, selected publications, open materials,
-              project information and future updates on digitally mediated language learning.
-            </p>
-            <div class="link-list">
-              <a href="#publications">Browse publications</a>
-              <a href="#materials">Open materials</a>
-            </div>
+          <div class="buttons" style="margin-top: 20px;">
+            <a class="button primary" href="/news/">View all updates</a>
+            <a class="button" href="/news/ai-is-like-fire-published/">Read latest update</a>
+            <a class="button" href="/publications/ai-is-like-fire/">Publication page</a>
           </div>
         </div>
       </div>
@@ -1332,7 +1318,7 @@
       renderPublications(filtered, meta);
     }
 
-    fetch("publications.json?v=12")
+    fetch("publications.json?v=13")
       .then(response => {
         if (!response.ok) {
           throw new Error("Could not load publications.json");
@@ -1363,3 +1349,4 @@
 
 </body>
 </html>
+```
