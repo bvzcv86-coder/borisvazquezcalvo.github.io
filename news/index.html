@@ -85,7 +85,7 @@
       justify-content: space-between;
       gap: 24px;
       padding: 18px 0;
-      font-size: 0.95rem;
+      font-size: clamp(0.78rem, 0.88vw, 0.91rem);
     }
 
     .logo {
@@ -93,18 +93,22 @@
       letter-spacing: -0.035em;
       color: var(--text);
       white-space: nowrap;
+      flex-shrink: 0;
+      font-size: clamp(1rem, 1.35vw, 1.18rem);
     }
 
     .nav-links {
       display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
+      gap: clamp(8px, 0.95vw, 15px);
+      flex-wrap: nowrap;
       align-items: center;
+      margin-left: 20px;
     }
 
     .nav-links a {
       color: var(--muted);
       font-weight: 650;
+      white-space: nowrap;
     }
 
     .nav-links a:hover {
@@ -322,11 +326,13 @@
       flex-wrap: wrap;
     }
 
-    @media (max-width: 880px) {
+    @media (max-width: 1080px) {
       .nav-links {
         display: none;
       }
+    }
 
+    @media (max-width: 880px) {
       .news-layout {
         grid-template-columns: 1fr;
       }
@@ -366,10 +372,12 @@
         <div class="nav-links">
           <a href="/">Home</a>
           <a href="/#research">Research</a>
-          <a href="/#publications">Publications</a>
+          <a href="/publications/">Publications</a>
           <a href="/news/">News</a>
-          <a href="/#projects">Projects</a>
-          <a href="/#materials">Open Materials</a>
+          <a href="/projects/">Projects</a>
+          <a href="/materials/">Open Materials</a>
+          <a href="/talks/">Talks</a>
+          <a href="/teaching/">Teaching</a>
           <a href="/#contact">Contact</a>
         </div>
       </nav>
@@ -389,8 +397,8 @@
 
       <div class="buttons">
         <a class="button primary" href="/">Back to home</a>
-        <a class="button" href="/#publications">Publications</a>
-        <a class="button" href="/#materials">Open materials</a>
+        <a class="button" href="/publications/">Publications</a>
+        <a class="button" href="/materials/">Open materials</a>
       </div>
     </div>
   </section>
@@ -450,8 +458,9 @@
               </p>
 
               <div class="link-list">
-                <a href="/#publications">Browse publications</a>
-                <a href="/#materials">Open materials</a>
+                <a href="/publications/">Browse publications</a>
+                <a href="/materials/">Open materials</a>
+                <a href="/projects/">Projects</a>
               </div>
             </article>
           </section>
@@ -472,7 +481,8 @@
         <div>
           Email: <a href="mailto:bvzcv86@gmail.com">bvzcv86@gmail.com</a><br />
           ORCID: <a href="https://orcid.org/0000-0001-8574-7848" target="_blank" rel="noopener">0000-0001-8574-7848</a><br />
-          Google Scholar: <a href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Profile</a>
+          Google Scholar: <a href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Profile</a><br />
+          Website: <a href="https://borisvazquezcalvo.com">borisvazquezcalvo.com</a>
         </div>
       </div>
     </div>
