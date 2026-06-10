@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,7 +85,7 @@
       justify-content: space-between;
       gap: 24px;
       padding: 18px 0;
-      font-size: 0.95rem;
+      font-size: clamp(0.78rem, 0.88vw, 0.91rem);
     }
 
     .logo {
@@ -94,18 +93,22 @@
       letter-spacing: -0.035em;
       color: var(--text);
       white-space: nowrap;
+      flex-shrink: 0;
+      font-size: clamp(1rem, 1.35vw, 1.18rem);
     }
 
     .nav-links {
       display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
+      gap: clamp(8px, 0.95vw, 15px);
+      flex-wrap: nowrap;
       align-items: center;
+      margin-left: 20px;
     }
 
     .nav-links a {
       color: var(--muted);
       font-weight: 650;
+      white-space: nowrap;
     }
 
     .nav-links a:hover {
@@ -400,11 +403,13 @@
       flex-wrap: wrap;
     }
 
-    @media (max-width: 900px) {
+    @media (max-width: 1080px) {
       .nav-links {
         display: none;
       }
+    }
 
+    @media (max-width: 900px) {
       .section-title,
       .featured-publication {
         grid-template-columns: 1fr;
@@ -451,8 +456,10 @@
           <a href="/#research">Research</a>
           <a href="/publications/">Publications</a>
           <a href="/news/">News</a>
-          <a href="/#projects">Projects</a>
-          <a href="/#materials">Open Materials</a>
+          <a href="/projects/">Projects</a>
+          <a href="/materials/">Open Materials</a>
+          <a href="/talks/">Talks</a>
+          <a href="/teaching/">Teaching</a>
           <a href="/#contact">Contact</a>
         </div>
       </nav>
@@ -548,7 +555,7 @@
         <div class="section-title">
           <h2>All publications</h2>
           <p>
-            This list is loaded from a local publication file generated from my Google Scholar profile.
+            This list is generated from my Google Scholar profile and stored locally for display on this website.
             Use the search box to filter by title, author, venue, year or topic.
           </p>
         </div>
@@ -684,7 +691,7 @@
       renderPublications(filtered, meta);
     }
 
-    fetch("/publications.json?v=14")
+    fetch("/publications.json?v=15")
       .then(response => {
         if (!response.ok) {
           throw new Error("Could not load publications.json");
@@ -715,4 +722,3 @@
 
 </body>
 </html>
-```
