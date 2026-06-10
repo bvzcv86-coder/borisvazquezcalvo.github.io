@@ -85,7 +85,7 @@
       justify-content: space-between;
       gap: 24px;
       padding: 18px 0;
-      font-size: clamp(0.84rem, 0.95vw, 0.95rem);
+      font-size: clamp(0.78rem, 0.88vw, 0.91rem);
     }
 
     .logo {
@@ -99,42 +99,33 @@
 
     .nav-links {
       display: flex;
-      gap: clamp(10px, 1.2vw, 18px);
+      gap: clamp(8px, 0.95vw, 15px);
       flex-wrap: nowrap;
       align-items: center;
       margin-left: 20px;
     }
 
     .nav-links > a,
-    .dropdown-trigger {
+    .nav-item > a {
       color: var(--muted);
-      font-weight: 700;
+      font-weight: 650;
       white-space: nowrap;
-      font: inherit;
-      border: 0;
-      background: transparent;
+      display: inline-flex;
+      align-items: center;
       padding: 8px 0;
-      cursor: pointer;
     }
 
     .nav-links > a:hover,
-    .dropdown:hover .dropdown-trigger,
-    .dropdown-trigger:focus {
+    .nav-item > a:hover,
+    .nav-item:hover > a {
       color: var(--accent);
       text-decoration: none;
     }
 
-    .dropdown {
+    .nav-item {
       position: relative;
       display: inline-flex;
       align-items: center;
-    }
-
-    .dropdown-trigger::after {
-      content: "▾";
-      font-size: 0.72em;
-      margin-left: 5px;
-      opacity: 0.75;
     }
 
     .dropdown-menu {
@@ -142,11 +133,11 @@
       top: calc(100% + 8px);
       left: 50%;
       transform: translateX(-50%) translateY(6px);
-      min-width: 238px;
-      background: rgba(255, 255, 255, 0.98);
+      min-width: 236px;
+      background: rgba(255,255,255,0.98);
       border: 1px solid var(--line);
-      border-radius: 20px;
-      padding: 10px;
+      border-radius: 18px;
+      padding: 9px;
       box-shadow: 0 22px 55px rgba(0,0,0,0.12);
       opacity: 0;
       visibility: hidden;
@@ -154,8 +145,8 @@
       transition: 0.16s ease;
     }
 
-    .dropdown:hover .dropdown-menu,
-    .dropdown:focus-within .dropdown-menu {
+    .nav-item:hover .dropdown-menu,
+    .nav-item:focus-within .dropdown-menu {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
@@ -169,6 +160,7 @@
       color: var(--text);
       font-weight: 750;
       line-height: 1.25;
+      white-space: normal;
     }
 
     .dropdown-menu a span {
@@ -714,8 +706,8 @@
           <a href="/">Home</a>
           <a href="/#research">Research</a>
 
-          <div class="dropdown">
-            <button class="dropdown-trigger" type="button">Publications</button>
+          <div class="nav-item">
+            <a href="/publications/">Publications</a>
             <div class="dropdown-menu">
               <a href="/publications/">All publications<span>Full publication archive</span></a>
               <a href="/publications/ai-is-like-fire/">AI is like fire<span>AI and language teacher education</span></a>
@@ -723,8 +715,16 @@
             </div>
           </div>
 
-          <div class="dropdown">
-            <button class="dropdown-trigger" type="button">Projects</button>
+          <div class="nav-item">
+            <a href="/news/">News</a>
+            <div class="dropdown-menu">
+              <a href="/news/">News & updates<span>Publication and project updates</span></a>
+              <a href="/news/ai-is-like-fire-published/">AI is like fire published<span>Latest publication update</span></a>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a href="/projects/">Projects</a>
             <div class="dropdown-menu">
               <a href="/projects/">All projects<span>Funded projects and research agendas</span></a>
               <a href="/projects/#current">AIM<span>AI-mediated literacies and languaging</span></a>
@@ -732,16 +732,34 @@
             </div>
           </div>
 
-          <div class="dropdown">
-            <button class="dropdown-trigger" type="button">Resources</button>
+          <div class="nav-item">
+            <a href="/materials/">Open Materials</a>
             <div class="dropdown-menu">
-              <a href="/news/">News<span>Publication and project updates</span></a>
               <a href="/materials/">Open materials<span>OER, media and public scholarship</span></a>
-              <a href="/talks/">Talks & workshops<span>Keynotes, invited talks and workshops</span></a>
+              <a href="/materials/#oer">Fan-Based Learning<span>Open educational resource</span></a>
+              <a href="/materials/#teacher-education">AI: friend or foe?<span>Teacher education materials</span></a>
+              <a href="/materials/#public-scholarship">Public scholarship<span>The Conversation and media</span></a>
             </div>
           </div>
 
-          <a href="/teaching/">Teaching</a>
+          <div class="nav-item">
+            <a href="/talks/">Talks</a>
+            <div class="dropdown-menu">
+              <a href="/talks/">Talks & workshops<span>Keynotes, invited talks and workshops</span></a>
+              <a href="/talks/#featured">Featured talks<span>Selected invited activity</span></a>
+              <a href="/talks/#workshops">Workshops<span>Teacher education and training</span></a>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a href="/teaching/">Teaching</a>
+            <div class="dropdown-menu">
+              <a href="/teaching/">Teaching & supervision<span>Teaching profile and supervision areas</span></a>
+              <a href="/teaching/#teaching-areas">Teaching areas<span>Courses and pedagogical fields</span></a>
+              <a href="/teaching/#supervision">Supervision<span>Master’s and doctoral work</span></a>
+            </div>
+          </div>
+
           <a href="/#contact">Contact</a>
         </div>
       </nav>
