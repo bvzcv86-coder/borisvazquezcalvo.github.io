@@ -4,24 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Boris Vázquez-Calvo | Language Education, Digital Literacies & Informal Learning</title>
+  <title>Projects | Boris Vázquez-Calvo</title>
 
-  <meta name="description" content="Personal academic website of Boris Vázquez-Calvo, Ramón y Cajal Researcher in Language Education at the University of Seville. Research on language education, digitally mediated language learning, digital literacies, fandom, informal learning, AI, and language teacher education." />
-  <meta name="keywords" content="Boris Vázquez-Calvo, Boris Vazquez-Calvo, language education, applied linguistics, digitally mediated language learning, digital literacies, informal language learning, digital wilds, fandom, fan translation, memes, video games, social media language learning, artificial intelligence in education, AI and language education, language teacher education, Spanish as a foreign language, English language teaching" />
+  <meta name="description" content="Research projects by Boris Vázquez-Calvo on digital language learning, AI-mediated literacies, informal language learning, fandom, video games, social media and language teacher education." />
+  <meta name="keywords" content="Boris Vázquez-Calvo projects, DEFINERS, AIM, SEGUE, Gaming as Literacy, digital language learning, AI-mediated literacies, language teacher education, digital literacies, informal language learning" />
   <meta name="author" content="Boris Vázquez-Calvo" />
 
-  <meta property="og:title" content="Boris Vázquez-Calvo | Language Education, Digital Literacies & Informal Learning" />
-  <meta property="og:description" content="Research on digitally mediated language learning, digital literacies, fandom, informal learning, AI and language teacher education." />
+  <meta property="og:title" content="Projects | Boris Vázquez-Calvo" />
+  <meta property="og:description" content="Research projects on digital language learning, AI-mediated literacies, informal language learning, fandom and language teacher education." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://borisvazquezcalvo.com/" />
+  <meta property="og:url" content="https://borisvazquezcalvo.com/projects/" />
   <meta property="og:image" content="https://borisvazquezcalvo.com/assets/profile.jpg" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Boris Vázquez-Calvo | Language Education, Digital Literacies & Informal Learning" />
-  <meta name="twitter:description" content="Research on digitally mediated language learning, digital literacies, fandom, informal learning, AI and language teacher education." />
+  <meta name="twitter:title" content="Projects | Boris Vázquez-Calvo" />
+  <meta name="twitter:description" content="Research projects on digital language learning, AI-mediated literacies, informal language learning, fandom and language teacher education." />
   <meta name="twitter:image" content="https://borisvazquezcalvo.com/assets/profile.jpg" />
 
-  <link rel="canonical" href="https://borisvazquezcalvo.com/" />
+  <link rel="canonical" href="https://borisvazquezcalvo.com/projects/" />
   <link rel="icon" href="/favicon.svg?v=1" type="image/svg+xml" />
   <link rel="shortcut icon" href="/favicon.svg?v=1" type="image/svg+xml" />
   <meta name="theme-color" content="#111827" />
@@ -53,7 +53,7 @@
       font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
       background: var(--bg);
       color: var(--text);
-      line-height: 1.6;
+      line-height: 1.65;
     }
 
     a {
@@ -66,7 +66,7 @@
     }
 
     .container {
-      width: min(1120px, 92%);
+      width: min(1080px, 92%);
       margin: 0 auto;
     }
 
@@ -85,7 +85,7 @@
       justify-content: space-between;
       gap: 24px;
       padding: 18px 0;
-      font-size: clamp(0.82rem, 0.95vw, 0.93rem);
+      font-size: clamp(0.78rem, 0.88vw, 0.91rem);
     }
 
     .logo {
@@ -99,7 +99,7 @@
 
     .nav-links {
       display: flex;
-      gap: clamp(10px, 1.25vw, 18px);
+      gap: clamp(8px, 0.95vw, 15px);
       flex-wrap: nowrap;
       align-items: center;
       margin-left: 20px;
@@ -116,84 +116,8 @@
       text-decoration: none;
     }
 
-    .nav-item {
-      position: relative;
-    }
-
-    .nav-item > a {
-      color: var(--muted);
-      font-weight: 650;
-      cursor: pointer;
-      white-space: nowrap;
-    }
-
-    .dropdown-menu {
-      position: absolute;
-      top: 100%;
-      left: 0;
-      min-width: 380px;
-      background: rgba(255, 255, 255, 0.98);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      box-shadow: 0 18px 44px rgba(0,0,0,0.12);
-      padding: 10px;
-      opacity: 0;
-      transform: translateY(8px);
-      pointer-events: none;
-      transition: 0.16s ease;
-      z-index: 30;
-    }
-
-    .dropdown-menu a {
-      display: block;
-      padding: 11px 13px;
-      border-radius: 12px;
-      color: var(--text);
-      font-weight: 700;
-      line-height: 1.25;
-      white-space: normal;
-    }
-
-    .dropdown-menu a span {
-      display: block;
-      color: var(--muted);
-      font-size: 0.82rem;
-      font-weight: 500;
-      margin-top: 3px;
-    }
-
-    .dropdown-menu a:hover {
-      background: var(--accent-soft);
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    .dropdown-heading {
-      padding: 12px 13px 6px;
-      color: var(--accent);
-      font-size: 0.76rem;
-      font-weight: 900;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .dropdown-note {
-      padding: 10px 13px 12px;
-      color: var(--muted);
-      font-size: 0.82rem;
-      border-top: 1px solid var(--line);
-      margin-top: 6px;
-    }
-
-    .dropdown:hover .dropdown-menu,
-    .dropdown:focus-within .dropdown-menu {
-      opacity: 1;
-      transform: translateY(0);
-      pointer-events: auto;
-    }
-
     .hero {
-      padding: 82px 0 74px;
+      padding: 76px 0 58px;
       border-bottom: 1px solid var(--line);
       position: relative;
       overflow: hidden;
@@ -202,19 +126,12 @@
     .hero::after {
       content: "";
       position: absolute;
-      right: -140px;
-      top: 40px;
-      width: 500px;
-      height: 500px;
-      background: radial-gradient(circle, rgba(79, 70, 229, 0.15), transparent 66%);
+      right: -120px;
+      top: 20px;
+      width: 460px;
+      height: 460px;
+      background: radial-gradient(circle, rgba(79, 70, 229, 0.16), transparent 66%);
       z-index: -1;
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.18fr) minmax(290px, 0.82fr);
-      gap: 58px;
-      align-items: center;
     }
 
     .eyebrow {
@@ -226,93 +143,38 @@
       color: var(--muted);
       font-size: 0.9rem;
       margin-bottom: 24px;
-      font-weight: 650;
-    }
-
-    .hero-kicker {
-      color: var(--accent);
-      font-weight: 900;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      font-size: 0.82rem;
-      margin-bottom: 18px;
+      font-weight: 700;
     }
 
     h1 {
-      font-size: clamp(3rem, 4.8vw, 5.15rem);
+      font-size: clamp(3rem, 6vw, 5.6rem);
       line-height: 1;
-      letter-spacing: -0.06em;
-      margin: 0 0 28px;
+      letter-spacing: -0.07em;
+      margin: 0 0 24px;
       max-width: 940px;
       text-wrap: balance;
     }
 
-    .hero-subtitle {
-      font-size: clamp(1.16rem, 1.85vw, 1.48rem);
+    .subtitle {
+      font-size: clamp(1.13rem, 1.8vw, 1.42rem);
       color: var(--muted);
-      max-width: 800px;
-      margin-bottom: 22px;
-    }
-
-    .hero-description {
-      font-size: 1.06rem;
-      color: #2b2b2b;
-      max-width: 800px;
-      margin-bottom: 34px;
-    }
-
-    .hero-photo-wrap {
-      justify-self: end;
-      width: min(100%, 390px);
-    }
-
-    .hero-photo {
-      width: 100%;
-      aspect-ratio: 4 / 5;
-      object-fit: cover;
-      border-radius: 32px;
-      border: 1px solid var(--line);
-      box-shadow: 0 28px 70px rgba(0,0,0,0.14);
-      background: white;
-      display: block;
-    }
-
-    .hero-fact-card {
-      margin-top: 18px;
-      background: rgba(255,255,255,0.88);
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      padding: 20px;
-      box-shadow: 0 14px 34px rgba(0,0,0,0.055);
-    }
-
-    .hero-fact-card strong {
-      display: block;
-      color: var(--text);
-      line-height: 1.25;
-      margin-bottom: 8px;
-      font-size: 1.02rem;
-    }
-
-    .hero-fact-card span {
-      display: block;
-      color: var(--muted);
-      font-size: 0.95rem;
-      line-height: 1.45;
+      max-width: 860px;
+      margin-bottom: 30px;
     }
 
     .buttons {
       display: flex;
-      gap: 14px;
+      gap: 12px;
       flex-wrap: wrap;
       align-items: center;
+      margin-top: 22px;
     }
 
     .button {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      padding: 13px 20px;
+      padding: 12px 18px;
       border-radius: 999px;
       font-weight: 800;
       border: 1px solid var(--dark);
@@ -333,20 +195,20 @@
     }
 
     section {
-      padding: 74px 0;
+      padding: 58px 0;
       border-bottom: 1px solid var(--line);
     }
 
     .section-title {
       display: grid;
       grid-template-columns: 0.75fr 1.25fr;
-      gap: 50px;
-      margin-bottom: 40px;
+      gap: 42px;
+      margin-bottom: 34px;
     }
 
     .section-title h2 {
       margin: 0;
-      font-size: clamp(2rem, 4vw, 3.6rem);
+      font-size: clamp(2rem, 4vw, 3.4rem);
       letter-spacing: -0.06em;
       line-height: 1;
     }
@@ -358,75 +220,40 @@
       max-width: 780px;
     }
 
-    .about-panel {
-      display: grid;
-      grid-template-columns: 1.15fr 0.85fr;
-      gap: 22px;
-      align-items: stretch;
-    }
-
-    .about-text {
-      font-size: 1.13rem;
-      color: #2b2b2b;
-      max-width: 920px;
-    }
-
-    .about-text strong {
-      color: var(--text);
-    }
-
-    .mini-metrics {
-      display: grid;
-      gap: 12px;
-    }
-
-    .metric {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 22px;
-      padding: 18px;
-    }
-
-    .metric strong {
-      display: block;
-      font-size: 1.4rem;
-      letter-spacing: -0.04em;
-      line-height: 1;
-      margin-bottom: 6px;
-    }
-
-    .metric span {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
     .grid {
       display: grid;
       gap: 18px;
-    }
-
-    .grid.three {
-      grid-template-columns: repeat(3, 1fr);
     }
 
     .grid.two {
       grid-template-columns: repeat(2, 1fr);
     }
 
+    .grid.three {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
     .card {
       background: var(--card);
       border: 1px solid var(--line);
-      border-radius: 24px;
-      padding: 26px;
-      box-shadow: 0 16px 36px rgba(0,0,0,0.035);
+      border-radius: 28px;
+      padding: 30px;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.04);
+    }
+
+    .card h2,
+    .card h3 {
+      margin: 0 0 10px;
+      line-height: 1.08;
+      letter-spacing: -0.045em;
+    }
+
+    .card h2 {
+      font-size: clamp(1.6rem, 3vw, 2.45rem);
     }
 
     .card h3 {
-      margin-top: 0;
-      margin-bottom: 10px;
-      letter-spacing: -0.035em;
-      line-height: 1.15;
-      font-size: 1.35rem;
+      font-size: clamp(1.3rem, 2.4vw, 1.8rem);
     }
 
     .card p {
@@ -447,22 +274,21 @@
       font-weight: 900;
     }
 
-    .tag.green {
-      color: #166534;
-      background: var(--green-soft);
-    }
-
     .tag.orange {
       color: #9a4b00;
       background: var(--orange-soft);
     }
 
-    .featured-publication {
+    .tag.green {
+      color: #166534;
+      background: var(--green-soft);
+    }
+
+    .highlight {
       background: var(--dark);
       color: white;
       border-radius: 32px;
       padding: 34px;
-      margin-bottom: 36px;
       display: grid;
       grid-template-columns: 1.15fr 0.85fr;
       gap: 26px;
@@ -470,7 +296,7 @@
       box-shadow: 0 24px 54px rgba(0,0,0,0.12);
     }
 
-    .featured-publication h3 {
+    .highlight h2 {
       color: white;
       font-size: clamp(1.8rem, 3.2vw, 3rem);
       line-height: 1;
@@ -478,22 +304,22 @@
       letter-spacing: -0.055em;
     }
 
-    .featured-publication p {
+    .highlight p {
       color: #cbd5e1;
       margin: 0 0 18px;
     }
 
-    .featured-publication .button {
+    .highlight .button {
       border-color: white;
       color: white;
     }
 
-    .featured-publication .button.primary {
+    .highlight .button.primary {
       background: white;
       color: var(--dark);
     }
 
-    .featured-meta {
+    .highlight-box {
       background: rgba(255,255,255,0.08);
       border: 1px solid rgba(255,255,255,0.18);
       border-radius: 24px;
@@ -502,128 +328,26 @@
       font-size: 0.95rem;
     }
 
-    .featured-meta strong {
+    .highlight-box strong {
       display: block;
       color: white;
       margin-bottom: 8px;
     }
 
-    .publication-controls {
-      display: flex;
-      gap: 14px;
-      flex-wrap: wrap;
-      margin-bottom: 28px;
-      align-items: center;
-      justify-content: space-between;
+    .project-meta {
+      display: grid;
+      gap: 7px;
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 0.96rem;
     }
 
-    .publication-search {
-      flex: 1;
-      min-width: 240px;
-      padding: 13px 16px;
-      border-radius: 999px;
-      border: 1px solid var(--line);
-      background: white;
-      font-size: 0.98rem;
+    .project-meta strong {
       color: var(--text);
     }
 
-    .publication-meta {
-      color: var(--muted);
-      font-size: 0.95rem;
-      margin-bottom: 12px;
-    }
-
-    .publication {
-      display: grid;
-      grid-template-columns: 110px 1fr;
-      gap: 22px;
-      padding: 24px 0;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .publication:last-child {
-      border-bottom: none;
-    }
-
-    .year {
-      color: var(--accent);
-      font-weight: 900;
-    }
-
-    .publication h3 {
-      margin: 0 0 6px;
-      letter-spacing: -0.03em;
-      line-height: 1.2;
-    }
-
-    .publication p {
-      margin: 0;
-      color: var(--muted);
-    }
-
-    .citation-line {
-      margin-top: 8px !important;
-      font-size: 0.92rem;
-      color: var(--accent) !important;
-      font-weight: 700;
-    }
-
-    .note {
-      margin-top: 24px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .link-list {
-      display: grid;
-      gap: 10px;
-      margin-top: 16px;
-    }
-
-    .link-list a {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      font-weight: 750;
-    }
-
-    .assistant-box {
-      background: var(--dark);
-      color: white;
-      border-radius: 32px;
-      padding: 42px;
-      display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
-      gap: 34px;
-      align-items: center;
-    }
-
-    .assistant-box h2 {
-      margin: 0 0 16px;
-      font-size: clamp(2rem, 4vw, 3.4rem);
-      letter-spacing: -0.06em;
-      line-height: 1;
-    }
-
-    .assistant-box p {
-      color: #cbd5e1;
-      margin: 0;
-    }
-
-    .assistant-placeholder {
-      border: 1px solid rgba(255,255,255,0.22);
-      border-radius: 24px;
-      padding: 22px;
-      background: rgba(255,255,255,0.06);
-    }
-
-    .assistant-placeholder p {
-      margin-bottom: 14px;
-    }
-
     footer {
-      padding: 48px 0;
+      padding: 42px 0;
       color: var(--muted);
     }
 
@@ -634,47 +358,25 @@
       flex-wrap: wrap;
     }
 
-    @media (max-width: 1040px) {
+    @media (max-width: 1080px) {
       .nav-links {
         display: none;
       }
     }
 
-    @media (max-width: 930px) {
-      .hero-grid,
-      .about-panel,
-      .featured-publication {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-photo-wrap {
-        justify-self: start;
-        width: min(100%, 330px);
-      }
-
-      h1 {
-        max-width: 100%;
-        font-size: clamp(2.6rem, 10vw, 4.4rem);
-      }
-    }
-
-    @media (max-width: 850px) {
+    @media (max-width: 900px) {
       .section-title,
-      .assistant-box {
+      .highlight {
         grid-template-columns: 1fr;
       }
 
-      .grid.three,
-      .grid.two {
-        grid-template-columns: 1fr;
-      }
-
-      .publication {
+      .grid.two,
+      .grid.three {
         grid-template-columns: 1fr;
       }
 
       .hero {
-        padding-top: 70px;
+        padding-top: 62px;
       }
     }
   </style>
@@ -682,63 +384,10 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Boris Vázquez-Calvo",
-    "alternateName": [
-      "Boris Vazquez-Calvo",
-      "Boris Vázquez Calvo",
-      "Boris Vazquez Calvo"
-    ],
-    "url": "https://borisvazquezcalvo.com",
-    "image": "https://borisvazquezcalvo.com/assets/profile.jpg",
-    "jobTitle": "Ramón y Cajal Researcher in Language Education",
-    "affiliation": {
-      "@type": "CollegeOrUniversity",
-      "name": "University of Seville",
-      "url": "https://www.us.es/"
-    },
-    "email": "mailto:bvzcv86@gmail.com",
-    "sameAs": [
-      "https://orcid.org/0000-0001-8574-7848",
-      "https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao",
-      "https://www.researchgate.net/profile/Boris-Vazquez-Calvo"
-    ],
-    "knowsAbout": [
-      "Language education",
-      "Applied linguistics",
-      "Digitally mediated language learning",
-      "Digital literacies",
-      "Informal language learning",
-      "Digital wilds",
-      "Language teacher education",
-      "Fandom",
-      "Fan translation",
-      "Fanfiction",
-      "Fansubbing",
-      "Fandubbing",
-      "Memes",
-      "Video games",
-      "Social media language learning",
-      "Artificial intelligence in education",
-      "AI and language education",
-      "English language teaching",
-      "Spanish as a foreign language"
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Boris Vázquez-Calvo",
-    "alternateName": [
-      "Boris Vazquez-Calvo",
-      "Boris Vázquez Calvo",
-      "Boris Vazquez Calvo"
-    ],
-    "url": "https://borisvazquezcalvo.com/",
-    "inLanguage": "en",
+    "@type": "CollectionPage",
+    "name": "Projects",
+    "url": "https://borisvazquezcalvo.com/projects/",
+    "description": "Research projects by Boris Vázquez-Calvo on digital language learning, AI-mediated literacies, informal learning, fandom and language teacher education.",
     "publisher": {
       "@type": "Person",
       "name": "Boris Vázquez-Calvo",
@@ -753,456 +402,222 @@
   <header>
     <div class="container">
       <nav>
-        <a class="logo" href="#">Boris Vázquez-Calvo</a>
+        <a class="logo" href="/">Boris Vázquez-Calvo</a>
         <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#research">Research</a>
-
-          <div class="nav-item dropdown">
-            <a href="#publications">Publications ▾</a>
-            <div class="dropdown-menu">
-              <a href="#publications">
-                All publications
-                <span>Full publication list and selected publication pages.</span>
-              </a>
-
-              <div class="dropdown-heading">2026</div>
-
-              <a href="/publications/ai-is-like-fire/">
-                ‘AI is like fire’: language teachers’ attitudes towards artificial intelligence
-                <span>Journal of Education for Teaching · DOI · APA citation.</span>
-              </a>
-
-              <div class="dropdown-heading">2025</div>
-
-              <a href="/publications/memes-and-identity-language-teacher-education/">
-                Memes and identity in language teacher education
-                <span>Language Learning & Technology · PDF viewer · APA citation.</span>
-              </a>
-
-              <div class="dropdown-note">
-                More publication pages will be added by year as they are created.
-              </div>
-            </div>
-          </div>
-
+          <a href="/">Home</a>
+          <a href="/#research">Research</a>
+          <a href="/publications/">Publications</a>
           <a href="/news/">News</a>
-          <a href="#projects">Projects</a>
-          <a href="#materials">Open Materials</a>
-          <a href="#assistant">Research Assistant</a>
-          <a href="#contact">Contact</a>
+          <a href="/projects/">Projects</a>
+          <a href="/materials/">Open Materials</a>
+          <a href="/talks/">Talks</a>
+          <a href="/teaching/">Teaching</a>
+          <a href="/#contact">Contact</a>
         </div>
       </nav>
     </div>
   </header>
 
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow">Funded projects · Research agendas · Digital language education</span>
+
+      <h1>Projects</h1>
+
+      <p class="subtitle">
+        Research projects and emerging agendas on digital language learning, AI-mediated literacies,
+        informal learning, fandom, video games, social media and language teacher education.
+      </p>
+
+      <div class="buttons">
+        <a class="button primary" href="#current">Current agenda</a>
+        <a class="button" href="#funded">Funded projects</a>
+        <a class="button" href="#themes">Cross-project themes</a>
+      </div>
+    </div>
+  </section>
+
   <main>
 
-    <section class="hero">
+    <section id="current">
       <div class="container">
-        <div class="hero-grid">
+        <div class="section-title">
+          <h2>Current agenda</h2>
+          <p>
+            My current research agenda examines how artificial intelligence, digital platforms and contemporary
+            literacy practices reshape language learning, teaching, authorship, agency and teacher education.
+          </p>
+        </div>
+
+        <div class="highlight">
           <div>
-            <span class="eyebrow">Ramón y Cajal Researcher · University of Seville</span>
-
-            <p class="hero-kicker">Language education · Digital literacies · Informal learning</p>
-
-            <h1>Boris Vázquez&#8209;Calvo</h1>
-
-            <p class="hero-subtitle">
-              I study how languages are learned, taught, used and imagined across digitally mediated environments.
-            </p>
-
-            <p class="hero-description">
-              My research connects language education, applied linguistics, digital literacies,
-              informal language learning, fandom, participatory cultures and teacher education.
-              I am especially interested in how people develop language practices and identities
-              across social media, fan communities, video games, online platforms and, increasingly,
-              artificial intelligence.
+            <span class="tag orange">Emerging research agenda</span>
+            <h2>AIM: AI-mediated literacies and languaging</h2>
+            <p>
+              AIM develops an emerging line of inquiry into AI-mediated literacies, languaging,
+              learner agency, algorithmic cultures and language teacher education. It builds on previous
+              work on digital literacies, informal language learning and teacher education, while focusing
+              more directly on how people use, imagine and negotiate AI in language learning contexts.
             </p>
 
             <div class="buttons">
-              <a class="button primary" href="#research">Explore my research</a>
-              <a class="button" href="#publications">Publications</a>
-              <a class="button" href="/news/">News & updates</a>
-              <a class="button" href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+              <a class="button primary" href="/publications/">Related publications</a>
+              <a class="button" href="/materials/">Open materials</a>
             </div>
           </div>
 
-          <div class="hero-photo-wrap">
-            <img class="hero-photo" src="assets/profile.jpg?v=2" alt="Portrait of Boris Vázquez-Calvo" />
-            <div class="hero-fact-card">
-              <strong>Digitally mediated language learning</strong>
-              <span>
-                Research on digital literacies, platforms, fandom, informal learning,
-                teacher education and AI as part of broader digital ecologies.
-              </span>
-            </div>
+          <div class="highlight-box">
+            <strong>Core interests</strong>
+            Generative AI, language learning, digital literacies, teacher education, algorithmic awareness,
+            authorship, feedback, classroom activity and informal learning trajectories.
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about">
+    <section id="funded">
       <div class="container">
         <div class="section-title">
-          <h2>About</h2>
+          <h2>Funded projects</h2>
           <p>
-            I work at the intersection of language education, applied linguistics,
-            digital literacies, informal learning, fandom, AI and teacher education.
-          </p>
-        </div>
-
-        <div class="about-panel">
-          <div>
-            <p class="about-text">
-              I am a <strong>Ramón y Cajal Researcher in Language Education at the University of Seville</strong>.
-              My work examines how contemporary communicative practices — from fan translation,
-              memes, video games and social media to generative AI and algorithmic platforms —
-              transform language learning, teaching, literacy practices and teacher identities.
-            </p>
-
-            <p class="about-text">
-              Across my research, I treat digital environments not merely as tools, but as social,
-              cultural and semiotic ecologies where people participate, create, affiliate,
-              learn languages and make meaning. This has led me to study digital wilds,
-              fandom, participatory culture, informal learning, teacher education and the
-              pedagogical possibilities of contemporary literacies.
-            </p>
-
-            <p class="about-text">
-              I also publish under name variants such as <strong>Boris Vazquez-Calvo</strong>,
-              <strong>Boris Vázquez Calvo</strong> and <strong>Boris Vazquez Calvo</strong>.
-            </p>
-          </div>
-
-          <div class="mini-metrics">
-            <div class="metric">
-              <strong>Ramón y Cajal</strong>
-              <span>Senior research trajectory in language education and digital literacies.</span>
-            </div>
-            <div class="metric">
-              <strong>2 sexenios</strong>
-              <span>Recognized research activity in Spain.</span>
-            </div>
-            <div class="metric">
-              <strong>DEFINERS</strong>
-              <span>National project on digital language learning and junior language teachers.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="research">
-      <div class="container">
-        <div class="section-title">
-          <h2>Research areas</h2>
-          <p>
-            I approach language learning as a socially situated, digitally mediated and culturally embedded practice.
-          </p>
-        </div>
-
-        <div class="grid three">
-          <div class="card">
-            <span class="tag">Digital mediation</span>
-            <h3>Digitally mediated language learning and literacies</h3>
-            <p>
-              Platforms, online communities, social media, video games, fandoms and intelligent technologies
-              as environments for language learning, literacy development and participation.
-            </p>
-          </div>
-
-          <div class="card">
-            <span class="tag green">Informal learning</span>
-            <h3>Informal and self-directed language learning</h3>
-            <p>
-              Learners’ engagement with languages beyond the classroom, especially across digital wilds,
-              interest-driven communities and platform-based ecologies.
-            </p>
-          </div>
-
-          <div class="card">
-            <span class="tag orange">Fandom</span>
-            <h3>Fan translation and participatory cultures</h3>
-            <p>
-              Fansubbing, fandubbing, fanfiction, scanlation, memes, video games and other participatory
-              practices as spaces for language learning and identity work.
-            </p>
-          </div>
-
-          <div class="card">
-            <span class="tag">Teacher education</span>
-            <h3>Language teacher education and pedagogical innovation</h3>
-            <p>
-              Pedagogical approaches that connect contemporary digital practices with language teacher education,
-              including memes, fan-based learning, digital storytelling and AI-supported tasks.
-            </p>
-          </div>
-
-          <div class="card">
-            <span class="tag green">Identity</span>
-            <h3>Language, identity and digital participation</h3>
-            <p>
-              How learners and teachers construct identities, affiliations and trajectories through language,
-              technology, platforms and multimodal communication.
-            </p>
-          </div>
-
-          <div class="card">
-            <span class="tag orange">AI within digital ecologies</span>
-            <h3>AI, algorithms and language education</h3>
-            <p>
-              Artificial intelligence and algorithmic systems as part of broader digitally mediated environments
-              that reshape authorship, feedback, assessment, critical literacy and teacher education.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="publications">
-      <div class="container">
-        <div class="section-title">
-          <h2>Publications</h2>
-          <p>
-            Selected and full publications on digitally mediated language learning, digital literacies,
-            informal language learning, fandom, AI, language teacher education and applied linguistics.
-          </p>
-        </div>
-
-        <div class="featured-publication">
-          <div>
-            <span class="tag orange">Latest publication page · 2026</span>
-            <h3>‘AI is like fire’: language teachers’ attitudes towards artificial intelligence</h3>
-            <p>
-              Journal of Education for Teaching, 2026. Article page with DOI, APA citation,
-              publisher link and keywords for AI, language teacher education, discourse analysis
-              and teacher attitudes. The PDF is not hosted while journal access conditions apply.
-            </p>
-            <div class="buttons">
-              <a class="button primary" href="/publications/ai-is-like-fire/">Open article page</a>
-              <a class="button" href="https://doi.org/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Read via DOI</a>
-              <a class="button" href="https://www.tandfonline.com/doi/full/10.1080/02607476.2026.2671865" target="_blank" rel="noopener">Taylor &amp; Francis page</a>
-            </div>
-          </div>
-
-          <div class="featured-meta">
-            <strong>Why this is highlighted</strong>
-            This publication represents a key research line on artificial intelligence,
-            teacher attitudes, discourse analysis, digital literacies and the changing role
-            of language teachers in technology-rich educational environments.
-          </div>
-        </div>
-
-        <div class="buttons" style="margin-bottom: 28px;">
-          <a class="button primary" href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">
-            View full Google Scholar profile
-          </a>
-          <a class="button" href="https://orcid.org/0000-0001-8574-7848" target="_blank" rel="noopener">
-            ORCID
-          </a>
-          <a class="button" href="https://www.researchgate.net/profile/Boris-Vazquez-Calvo" target="_blank" rel="noopener">
-            ResearchGate
-          </a>
-        </div>
-
-        <div class="publication-controls">
-          <input id="publication-search" class="publication-search" type="search" placeholder="Search publications by title, author, venue, or year..." />
-        </div>
-
-        <p id="publication-meta" class="publication-meta">Loading publications...</p>
-        <div id="publication-list"></div>
-
-        <p class="note">
-          For the most up-to-date citation data and complete indexing information, please visit my Google Scholar profile.
-        </p>
-      </div>
-    </section>
-
-    <section id="news">
-      <div class="container">
-        <div class="section-title">
-          <h2>News & updates</h2>
-          <p>
-            Recent publication news, talks, open materials and project activity are collected in a separate newsfeed.
-          </p>
-        </div>
-
-        <div class="card">
-          <span class="tag orange">Latest update · 2026</span>
-          <h3>New article: ‘AI is like fire’</h3>
-          <p>
-            A new article on language teachers’ attitudes towards artificial intelligence has been published in
-            <em>Journal of Education for Teaching: International Research and Pedagogy</em>.
-          </p>
-
-          <div class="buttons" style="margin-top: 20px;">
-            <a class="button primary" href="/news/">View all updates</a>
-            <a class="button" href="/news/ai-is-like-fire-published/">Read latest update</a>
-            <a class="button" href="/publications/ai-is-like-fire/">Publication page</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <div class="container">
-        <div class="section-title">
-          <h2>Projects</h2>
-          <p>
-            My projects connect research, teacher education, open educational resources and knowledge transfer.
+            These projects connect empirical research, teacher education, digital literacies,
+            open educational resources and knowledge transfer.
           </p>
         </div>
 
         <div class="grid two">
-          <div class="card">
+          <article class="card">
             <span class="tag">PI · National project</span>
-            <h3>DEFINERS</h3>
+            <h2>DEFINERS</h2>
             <p>
-              Digital Language Learning of Junior Language Teachers. A competitive project on digital language learning,
-              teacher education, literacies, artificial intelligence and informal learning.
+              <em>Digital Language Learning of Junior Language Teachers</em>. A national research project on how junior
+              and preservice language teachers engage with digital technologies, AI-powered tools, platforms and online
+              spaces for professional learning and language development.
             </p>
-          </div>
 
-          <div class="card">
-            <span class="tag green">PI · Research project</span>
-            <h3>SEGUE</h3>
+            <div class="project-meta">
+              <div><strong>Role:</strong> Principal Investigator</div>
+              <div><strong>Focus:</strong> Digital language learning, junior language teachers, AI, digital autonomy and teacher education</div>
+              <div><strong>Funding:</strong> Spanish Government and EU research funding</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="tag green">PI · University research project</span>
+            <h2>SEGUE</h2>
             <p>
-              Social Media and Video Games for Language Learning and Teaching. A project on participatory digital cultures,
-              social media, video games and language teacher education.
+              <em>Social Media and Video Games for Language Learning and Teaching</em>. A project examining how social media,
+              video games and participatory digital environments support language learning, digital literacy practices
+              and language teacher education.
             </p>
-          </div>
 
-          <div class="card">
+            <div class="project-meta">
+              <div><strong>Role:</strong> Principal Investigator</div>
+              <div><strong>Focus:</strong> Social media, video games, digital literacies, language learning and teaching</div>
+            </div>
+          </article>
+
+          <article class="card">
             <span class="tag orange">Postdoctoral project</span>
-            <h3>Gaming as Literacy</h3>
+            <h2>Gaming as Literacy</h2>
             <p>
               A postdoctoral project on video games as academic and vernacular literacy practices among young people,
-              developed across international research contexts.
+              with attention to informal learning, online participation and digital literacy practices across gaming spaces.
             </p>
-          </div>
 
-          <div class="card">
-            <span class="tag">Emerging agenda</span>
-            <h3>AIM</h3>
+            <div class="project-meta">
+              <div><strong>Focus:</strong> Video games, literacies, youth, informal learning and online participation</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="tag">Public scholarship and transfer</span>
+            <h2>Digital language education and public engagement</h2>
             <p>
-              A developing research agenda on AI, digitally mediated literacies, languaging, learner agency,
-              teacher education and algorithmic cultures.
+              A sustained line of knowledge transfer through open educational resources, public-facing writing,
+              teacher education workshops and materials on fandom, AI, digital literacies and language learning.
             </p>
-          </div>
+
+            <div class="project-meta">
+              <div><strong>Outputs:</strong> Open materials, workshops, public scholarship and teacher education resources</div>
+              <div><strong>Related page:</strong> <a href="/materials/">Open materials</a></div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section id="teaching">
+    <section id="themes">
       <div class="container">
         <div class="section-title">
-          <h2>Teaching & supervision</h2>
+          <h2>Cross-project themes</h2>
           <p>
-            I teach and supervise in language education, applied linguistics, language teacher education,
-            digital literacies, English language teaching and Spanish as a foreign language.
-          </p>
-        </div>
-
-        <div class="grid two">
-          <div class="card">
-            <h3>Teaching areas</h3>
-            <p>
-              Language pedagogy, curriculum design, English language teaching, Spanish as a foreign language,
-              digital literacies, AI in education, fandom in language education, and teacher education.
-            </p>
-          </div>
-
-          <div class="card">
-            <h3>Supervision</h3>
-            <p>
-              I supervise work on digitally mediated language learning, informal learning, fandom, AI,
-              language teacher education, ELE, English language teaching and contemporary literacies.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="materials">
-      <div class="container">
-        <div class="section-title">
-          <h2>Open materials & media</h2>
-          <p>
-            I regularly transform research into open educational materials, teacher education resources,
-            public-facing writing and training activities.
+            Across projects, I examine digital environments as social, cultural and semiotic ecologies where people
+            learn languages, construct identities, participate in communities and develop new literacy practices.
           </p>
         </div>
 
         <div class="grid three">
-          <div class="card">
-            <span class="tag">Open educational resource</span>
-            <h3>Fan-Based Learning in Language Education</h3>
+          <article class="card">
+            <span class="tag">Digital wilds</span>
+            <h3>Informal language learning</h3>
             <p>
-              A microseries of open video pills on fanfiction, fansubbing, cosplay, podcasts/vlogs,
-              participatory culture and digital ethics for language education.
+              How learners engage with languages beyond the classroom through online communities,
+              platforms, games, fandoms and social media.
             </p>
-            <div class="link-list">
-              <a href="https://doi.org/10.5281/zenodo.15352215" target="_blank" rel="noopener">Zenodo DOI</a>
-              <a href="https://riuma.uma.es/xmlui/handle/10630/38586" target="_blank" rel="noopener">RIUMA repository</a>
-            </div>
-          </div>
+          </article>
 
-          <div class="card">
+          <article class="card">
             <span class="tag green">Teacher education</span>
-            <h3>AI: friend or foe?</h3>
+            <h3>Digital autonomy and professional learning</h3>
             <p>
-              Open materials from a university teacher education course on artificial intelligence,
-              assessment, feedback, authorship and educational practice.
+              How future and junior language teachers develop digital, pedagogical and critical capacities
+              through contemporary technologies and literacy practices.
             </p>
-            <div class="link-list">
-              <a href="https://zenodo.org/records/15652685" target="_blank" rel="noopener">Zenodo record</a>
-            </div>
-          </div>
+          </article>
 
-          <div class="card">
-            <span class="tag orange">Public scholarship</span>
-            <h3>The Conversation</h3>
+          <article class="card">
+            <span class="tag orange">AI and algorithms</span>
+            <h3>AI-mediated literacies</h3>
             <p>
-              Public-facing articles on language learning, acquisition, fandom and digital culture,
-              written for broader audiences.
+              How generative AI and algorithmic systems reshape language learning, feedback, authorship,
+              assessment, agency and educational futures.
             </p>
-            <div class="link-list">
-              <a href="https://theconversation.com/todos-somos-frikis-fans-contenido-y-comunicacion-en-el-siglo-xxi-161204" target="_blank" rel="noopener">Todos somos “frikis”</a>
-              <a href="https://theconversation.com/adquirimos-o-aprendemos-una-lengua-como-se-construye-la-competencia-linguistica-206213" target="_blank" rel="noopener">¿Adquirimos o aprendemos una lengua?</a>
-              <a href="https://theconversation.com/languages-are-both-acquired-and-learned-so-conscious-and-unconscious-effort-is-needed-when-picking-up-a-new-one-210816" target="_blank" rel="noopener">Languages are both acquired and learned</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          </article>
 
-    <section id="assistant">
-      <div class="container">
-        <div class="assistant-box">
-          <div>
-            <h2>Ask my Research Assistant</h2>
+          <article class="card">
+            <span class="tag">Fandom</span>
+            <h3>Participatory cultures</h3>
             <p>
-              A research assistant will be added here to answer questions about my publications,
-              projects, teaching, talks, open materials and possible collaborations.
+              How fanfiction, fansubbing, scanlation, memes and other fan practices become meaningful
+              spaces for language learning and identity work.
             </p>
-          </div>
+          </article>
 
-          <div class="assistant-placeholder">
-            <p><strong>Coming soon.</strong></p>
+          <article class="card">
+            <span class="tag green">Literacies</span>
+            <h3>Multimodality and digital genres</h3>
             <p>
-              The assistant will use curated academic materials and will avoid inventing publications,
-              metrics, roles, availability or personal information.
+              How people use images, texts, platforms, memes, videos and digital genres to communicate,
+              learn and participate.
             </p>
-            <a class="button primary" href="mailto:bvzcv86@gmail.com">Contact me for now</a>
-          </div>
+          </article>
+
+          <article class="card">
+            <span class="tag orange">Impact</span>
+            <h3>Open materials and knowledge transfer</h3>
+            <p>
+              How research can be transformed into open resources, teacher education activities,
+              public-facing writing and practical pedagogical proposals.
+            </p>
+          </article>
         </div>
       </div>
     </section>
 
   </main>
 
-  <footer id="contact">
+  <footer>
     <div class="container">
       <div class="footer-grid">
         <div>
@@ -1215,136 +630,11 @@
           Email: <a href="mailto:bvzcv86@gmail.com">bvzcv86@gmail.com</a><br />
           ORCID: <a href="https://orcid.org/0000-0001-8574-7848" target="_blank" rel="noopener">0000-0001-8574-7848</a><br />
           Google Scholar: <a href="https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Profile</a><br />
-          ResearchGate: <a href="https://www.researchgate.net/profile/Boris-Vazquez-Calvo" target="_blank" rel="noopener">Profile</a>
+          Website: <a href="https://borisvazquezcalvo.com">borisvazquezcalvo.com</a>
         </div>
       </div>
     </div>
   </footer>
-
-  <script>
-    let allPublications = [];
-
-    function escapeHTML(value) {
-      if (value === null || value === undefined) return "";
-      return String(value)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
-    }
-
-    function formatDate(isoString) {
-      if (!isoString) return "";
-      const date = new Date(isoString);
-      if (Number.isNaN(date.getTime())) return "";
-      return date.toLocaleDateString("en-GB", {
-        year: "numeric",
-        month: "short",
-        day: "numeric"
-      });
-    }
-
-    function renderPublications(publications, meta) {
-      const list = document.getElementById("publication-list");
-      const metaLine = document.getElementById("publication-meta");
-
-      if (!publications.length) {
-        list.innerHTML = "";
-        metaLine.textContent = "No publications found.";
-        return;
-      }
-
-      const updated = meta && meta.updated_at ? formatDate(meta.updated_at) : "";
-      const totalText = meta && meta.total_publications ? `${meta.total_publications}` : `${publications.length}`;
-
-      metaLine.textContent = `${publications.length} publication(s) shown · ${totalText} imported from Google Scholar${updated ? " · Last updated: " + updated : ""}`;
-
-      list.innerHTML = publications.map(pub => {
-        const year = escapeHTML(pub.year || "n.d.");
-        const title = escapeHTML(pub.title || "Untitled publication");
-        const authors = escapeHTML(pub.authors || "");
-        const venue = escapeHTML(pub.venue || "");
-        const citations = pub.citations !== undefined && pub.citations !== null ? escapeHTML(pub.citations) : "0";
-
-        let link = pub.doi || pub.open_url || pub.eprint_url || pub.scholar_url || "https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao";
-
-        if (title.toLowerCase().includes("ai is like fire")) {
-          link = "/publications/ai-is-like-fire/";
-        }
-
-        if (title.toLowerCase().includes("memes and identity in language teacher education")) {
-          link = "/publications/memes-and-identity-language-teacher-education/";
-        }
-
-        const safeLink = escapeHTML(link);
-
-        return `
-          <div class="publication">
-            <div class="year">${year}</div>
-            <div>
-              <h3>
-                <a href="${safeLink}" target="${safeLink.startsWith('http') ? '_blank' : '_self'}" rel="noopener">${title}</a>
-              </h3>
-              <p>${authors}${authors && venue ? " · " : ""}${venue ? "<em>" + venue + "</em>" : ""}</p>
-              <p class="citation-line">Google Scholar citations: ${citations}</p>
-            </div>
-          </div>
-        `;
-      }).join("");
-    }
-
-    function filterPublications(query, meta) {
-      const q = query.trim().toLowerCase();
-
-      if (!q) {
-        renderPublications(allPublications, meta);
-        return;
-      }
-
-      const filtered = allPublications.filter(pub => {
-        const haystack = [
-          pub.year,
-          pub.title,
-          pub.authors,
-          pub.venue,
-          pub.citations
-        ].join(" ").toLowerCase();
-
-        return haystack.includes(q);
-      });
-
-      renderPublications(filtered, meta);
-    }
-
-    fetch("publications.json?v=13")
-      .then(response => {
-        if (!response.ok) {
-          throw new Error("Could not load publications.json");
-        }
-        return response.json();
-      })
-      .then(data => {
-        const meta = {
-          updated_at: data.updated_at,
-          total_publications: data.total_publications,
-          profile_url: data.profile_url
-        };
-
-        allPublications = Array.isArray(data.publications) ? data.publications : [];
-        renderPublications(allPublications, meta);
-
-        const search = document.getElementById("publication-search");
-        search.addEventListener("input", event => {
-          filterPublications(event.target.value, meta);
-        });
-      })
-      .catch(error => {
-        console.error(error);
-        document.getElementById("publication-meta").textContent = "Publications could not be loaded. Please visit the Google Scholar profile.";
-        document.getElementById("publication-list").innerHTML = "";
-      });
-  </script>
 
 </body>
 </html>
