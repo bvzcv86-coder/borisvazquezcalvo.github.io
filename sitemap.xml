@@ -4,21 +4,35 @@
 
   <url>
     <loc>https://borisvazquezcalvo.com/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
+    <loc>https://borisvazquezcalvo.com/news/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://borisvazquezcalvo.com/news/ai-is-like-fire-published/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://borisvazquezcalvo.com/publications/ai-is-like-fire/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://borisvazquezcalvo.com/publications/memes-and-identity-language-teacher-education/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
