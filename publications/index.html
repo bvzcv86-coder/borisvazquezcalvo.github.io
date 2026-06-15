@@ -385,6 +385,42 @@
       font-weight: 700;
     }
 
+    .doi-line {
+      margin-top: 6px !important;
+      font-size: 0.92rem;
+      color: var(--muted) !important;
+    }
+
+    .doi-line a {
+      font-weight: 750;
+    }
+
+    .publication-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .publication-actions a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 7px 11px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: white;
+      color: var(--text);
+      font-size: 0.84rem;
+      font-weight: 800;
+    }
+
+    .publication-actions a:hover {
+      background: var(--accent-soft);
+      color: var(--accent);
+      text-decoration: none;
+    }
+
     .note {
       margin-top: 24px;
       color: var(--muted);
@@ -529,6 +565,7 @@
 
             <div class="buttons">
               <a class="button primary" href="/publications/memes-and-identity-language-teacher-education/">Open publication page</a>
+              <a class="button" href="https://doi.org/10.64152/10125/73620" target="_blank" rel="noopener">Read via DOI</a>
               <a class="button" href="/files/memes-and-identity-language-teacher-education.pdf" target="_blank" rel="noopener">Open PDF</a>
             </div>
           </div>
@@ -556,12 +593,12 @@
           <h2>All publications</h2>
           <p>
             This list is generated from my Google Scholar profile and stored locally for display on this website.
-            Use the search box to filter by title, author, venue, year or topic.
+            Use the search box to filter by title, author, venue, DOI, year or topic.
           </p>
         </div>
 
         <div class="publication-tools">
-          <input id="publication-search" class="publication-search" type="search" placeholder="Search publications by title, author, venue, year or topic..." />
+          <input id="publication-search" class="publication-search" type="search" placeholder="Search publications by title, author, venue, DOI, year or topic..." />
         </div>
 
         <p id="publication-meta" class="publication-meta">Loading publications...</p>
@@ -597,6 +634,9 @@
 
   <script>
     let allPublications = [];
+    let publicationMeta = {};
+
+    const scholarProfile = "https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao";
 
     function escapeHTML(value) {
       if (value === null || value === undefined) return "";
@@ -617,6 +657,82 @@
         month: "short",
         day: "numeric"
       });
+    }
+
+    function normalizeDOI(doi) {
+      if (!doi) return "";
+      return String(doi)
+        .trim()
+        .replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")
+        .replace(/^doi:\s*/i, "");
+    }
+
+    function doiToURL(doi) {
+      const cleanDOI = normalizeDOI(doi);
+      if (!cleanDOI) return "";
+      return "https://doi.org/" + cleanDOI;
+    }
+
+    function getDedicatedPage(pub) {
+      const title = String(pub.title || "").toLowerCase();
+
+      if (title.includes("ai is like fire")) {
+        return "/publications/ai-is-like-fire/";
+      }
+
+      if (title.includes("memes and identity in language teacher education")) {
+        return "/publications/memes-and-identity-language-teacher-education/";
+      }
+
+      return "";
+    }
+
+    function getPrimaryLink(pub) {
+      const dedicatedPage = getDedicatedPage(pub);
+      if (dedicatedPage) return dedicatedPage;
+
+      const doiURL = doiToURL(pub.doi);
+      if (doiURL) return doiURL;
+
+      if (pub.open_url) return pub.open_url;
+      if (pub.eprint_url) return pub.eprint_url;
+      if (pub.scholar_url) return pub.scholar_url;
+
+      return scholarProfile;
+    }
+
+    function isExternalLink(url) {
+      return /^https?:\/\//i.test(url);
+    }
+
+    function renderActions(pub) {
+      const actions = [];
+      const dedicatedPage = getDedicatedPage(pub);
+      const doiURL = doiToURL(pub.doi);
+
+      if (dedicatedPage) {
+        actions.push(`<a href="${escapeHTML(dedicatedPage)}">Publication page</a>`);
+      }
+
+      if (doiURL) {
+        actions.push(`<a href="${escapeHTML(doiURL)}" target="_blank" rel="noopener">Read via DOI</a>`);
+      }
+
+      if (pub.open_url) {
+        actions.push(`<a href="${escapeHTML(pub.open_url)}" target="_blank" rel="noopener">Open access</a>`);
+      }
+
+      if (pub.eprint_url) {
+        actions.push(`<a href="${escapeHTML(pub.eprint_url)}" target="_blank" rel="noopener">PDF / eprint</a>`);
+      }
+
+      if (pub.scholar_url) {
+        actions.push(`<a href="${escapeHTML(pub.scholar_url)}" target="_blank" rel="noopener">Google Scholar</a>`);
+      }
+
+      if (!actions.length) return "";
+
+      return `<div class="publication-actions">${actions.join("")}</div>`;
     }
 
     function renderPublications(publications, meta) {
@@ -640,28 +756,31 @@
         const authors = escapeHTML(pub.authors || "");
         const venue = escapeHTML(pub.venue || "");
         const citations = pub.citations !== undefined && pub.citations !== null ? escapeHTML(pub.citations) : "0";
+        const cleanDOI = normalizeDOI(pub.doi);
+        const doiURL = doiToURL(pub.doi);
+        const primaryLink = getPrimaryLink(pub);
+        const safePrimaryLink = escapeHTML(primaryLink);
+        const external = isExternalLink(primaryLink);
 
-        let link = pub.doi || pub.open_url || pub.eprint_url || pub.scholar_url || "https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en&oi=ao";
+        const authorsVenueLine = authors || venue
+          ? `<p>${authors}${authors && venue ? " · " : ""}${venue ? "<em>" + venue + "</em>" : ""}</p>`
+          : "";
 
-        if (title.toLowerCase().includes("ai is like fire")) {
-          link = "/publications/ai-is-like-fire/";
-        }
-
-        if (title.toLowerCase().includes("memes and identity in language teacher education")) {
-          link = "/publications/memes-and-identity-language-teacher-education/";
-        }
-
-        const safeLink = escapeHTML(link);
+        const doiLine = cleanDOI
+          ? `<p class="doi-line">DOI: <a href="${escapeHTML(doiURL)}" target="_blank" rel="noopener">${escapeHTML(cleanDOI)}</a></p>`
+          : "";
 
         return `
           <div class="publication">
             <div class="year">${year}</div>
             <div>
               <h3>
-                <a href="${safeLink}" target="${safeLink.startsWith('http') ? '_blank' : '_self'}" rel="noopener">${title}</a>
+                <a href="${safePrimaryLink}" target="${external ? "_blank" : "_self"}" rel="${external ? "noopener" : ""}">${title}</a>
               </h3>
-              <p>${authors}${authors && venue ? " · " : ""}${venue ? "<em>" + venue + "</em>" : ""}</p>
+              ${authorsVenueLine}
+              ${doiLine}
               <p class="citation-line">Google Scholar citations: ${citations}</p>
+              ${renderActions(pub)}
             </div>
           </div>
         `;
@@ -682,6 +801,7 @@
           pub.title,
           pub.authors,
           pub.venue,
+          pub.doi,
           pub.citations
         ].join(" ").toLowerCase();
 
@@ -691,7 +811,7 @@
       renderPublications(filtered, meta);
     }
 
-    fetch("/publications.json?v=15")
+    fetch("/publications.json?v=20260615")
       .then(response => {
         if (!response.ok) {
           throw new Error("Could not load publications.json");
@@ -699,18 +819,18 @@
         return response.json();
       })
       .then(data => {
-        const meta = {
+        publicationMeta = {
           updated_at: data.updated_at,
           total_publications: data.total_publications,
           profile_url: data.profile_url
         };
 
         allPublications = Array.isArray(data.publications) ? data.publications : [];
-        renderPublications(allPublications, meta);
+        renderPublications(allPublications, publicationMeta);
 
         const search = document.getElementById("publication-search");
         search.addEventListener("input", event => {
-          filterPublications(event.target.value, meta);
+          filterPublications(event.target.value, publicationMeta);
         });
       })
       .catch(error => {
