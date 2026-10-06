@@ -1,117 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/topics/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/publications/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/topics/ai-language-education/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/topics/digital-literacies-language-education/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/topics/informal-digital-language-learning/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/topics/fandom-language-learning/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/topics/fan-translation-language-education/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/publications/ai-is-like-fire/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/publications/memes-and-identity-language-teacher-education/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/news/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/news/ai-is-like-fire-published/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/projects/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/materials/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/talks/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://borisvazquezcalvo.com/teaching/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://borisvazquezcalvo.com/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/materials/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/news/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/news/ai-is-like-fire-published/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/projects/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/publications/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/publications/ai-is-like-fire/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/publications/memes-and-identity-language-teacher-education/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/talks/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/teaching/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/topics/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/topics/ai-language-education/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/topics/digital-literacies-language-education/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/topics/fan-translation-language-education/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/topics/fandom-language-learning/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/topics/informal-digital-language-learning/</loc><lastmod>2026-10-06</lastmod></url>
+<url><loc>https://borisvazquezcalvo.com/topics/language-teacher-education/</loc><lastmod>2026-10-06</lastmod></url>
 </urlset>

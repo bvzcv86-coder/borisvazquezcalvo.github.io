@@ -1,39 +1,39 @@
-# borisvazquezcalvo.github.io
-Personal academic website of Boris Vázquez-Calvo, focused on digitally mediated language learning, digital literacies, fandom, and language teacher education.
-# Boris Vázquez-Calvo
+# Boris Vázquez-Calvo’s academic website
 
-Personal academic website of **Boris Vázquez-Calvo**, Ramón y Cajal Researcher in Language Education at the University of Seville.
+**Language learning, teaching, and digital practices.**
 
-## Research profile
+Static HTML website served by GitHub Pages at https://borisvazquezcalvo.com.
 
-Boris Vázquez-Calvo studies how languages are learned, taught, and lived across digitally mediated environments, including social media, fandoms, video games, online communities, and artificial intelligence.
+The navigation includes Home, Research, Topics, Publications, News, Projects,
+Open Materials, Talks, Teaching and Contact. Native disclosure menus work with
+keyboard and touch, including without JavaScript.
 
-His work focuses on:
+## Publication maintenance
 
-- Digitally mediated language learning and literacies
-- Informal and self-directed language learning
-- Fandom, fan translation, and participatory cultures
-- AI, algorithms, and language education
-- Language teacher education and pedagogical innovation
+`publications.json` is the curated source. Publisher metadata, DOI links, topic
+tags and permitted open-access links are maintained there. Scholar identities
+allow citation updates to preserve corrected titles and publication years.
 
-## Website headline
+Run with Python 3.11 or later (standard library only):
 
-**Language learning across digital platforms, participatory cultures, and intelligent technologies.**
+```
+python scripts/update_scholar.py
+python scripts/update_crossref.py
+python scripts/render_publications.py
+```
 
-## Main sections
+The weekly GitHub workflow tries Scholar and independently refreshes Crossref
+counts for DOI records. Scholar may block GitHub runner IPs with HTTP 403; that
+failure preserves the last successful Scholar snapshot. Each source and its
+verification date are displayed separately. Crossref has different coverage
+from Scholar and its counts must never be labelled as Scholar counts.
 
-The website will include:
+The renderer writes only the marked publication region and its sitemap date,
+leaving the rest of the page editable. The full archive is readable without
+JavaScript; optional JavaScript adds search and year/topic filters.
 
-- About
-- Research
-- Publications
-- Projects
-- Teaching and Supervision
-- Talks and Media
-- Open Materials
-- Research Assistant
-- Contact
+The AI article is linked through its DOI and publisher; its PDF is not served
+by this website. The permitted Language Learning & Technology PDF remains.
 
-## Status
-
-This website is currently under development.
+GitHub Pages serves the `main` branch root. The workflow commits updated JSON,
+rendered HTML and sitemap, then explicitly requests and verifies a Pages build.
