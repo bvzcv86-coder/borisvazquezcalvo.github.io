@@ -1,0 +1,112 @@
+name: Apply reviewed website update
+
+"on":
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  apply:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Apply the reviewed files with concurrent edit checks
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib, json, os, zipfile
+          from pathlib import Path, PurePosixPath
+          
+          assert os.environ['GITHUB_REPOSITORY'] == 'bvzcv86-coder/borisvazquezcalvo.github.io'
+          bundle = Path('website-update.zip')
+          assert hashlib.sha256(bundle.read_bytes()).hexdigest() == 'e914659c564e62f3328272806a264ee94e4ed8561770789666b6c07c42f7196a', 'Unexpected update bundle'
+          with zipfile.ZipFile(bundle) as archive:
+              manifest = json.loads(archive.read('manifest.json'))
+              assert len({item['path'] for item in manifest}) == len(manifest)
+              for item in manifest:
+                  name = item['path']
+                  parts = PurePosixPath(name).parts
+                  assert parts and not name.startswith('/') and '..' not in parts and '.git' not in parts and '.github' not in parts
+                  path = Path(name)
+                  assert not any(parent.is_symlink() for parent in [path, *path.parents])
+                  if item['before'] is None:
+                      assert not path.exists(), f'New file already exists: {name}'
+                  else:
+                      assert path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest() == item['before'], f'Concurrent edit detected: {name}'
+                  if item['after'] is None:
+                      assert name == 'files/ai-is-like-fire.pdf', 'Unexpected deletion'
+                  else:
+                      assert path.suffix in ['.html','.css','.js','.py','.json','.md','.xml'], 'Unexpected file type'
+                      assert hashlib.sha256(archive.read('payload/'+name)).hexdigest() == item['after']
+              # Validate the complete bundle before modifying any file.
+              for item in manifest:
+                  path = Path(item['path'])
+                  if item['after'] is None:
+                      path.unlink()
+                  else:
+                      path.parent.mkdir(parents=True, exist_ok=True)
+                      path.write_bytes(archive.read('payload/'+item['path']))
+          bundle.unlink()
+          print(f"Applied {len(manifest)} reviewed file changes; temporary bundle removed.")
+          PY
+      - name: Commit the website improvements
+        id: commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Improve academic website accessibility, publications and research content"
+          git push origin HEAD:main
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Rebuild GitHub Pages with the updated citations
+        env:
+          GH_TOKEN: ${{ github.token }}
+          UPDATED_COMMIT: ${{ steps.commit.outputs.commit }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent
+
+          for attempt in {1..30}; do
+            build_state=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest" \
+              --jq '.status + " " + (.commit // "")')
+            read -r status built_commit <<< "$build_state"
+
+            if [[ "$status" == "built" && -n "$built_commit" ]]; then
+              if [[ "$built_commit" == "$UPDATED_COMMIT" ]]; then
+                echo "GitHub Pages published the updated citations."
+                exit 0
+              fi
+
+              relation=$(gh api \
+                "repos/$GITHUB_REPOSITORY/compare/$UPDATED_COMMIT...$built_commit" \
+                --jq '.status')
+
+              if [[ "$relation" == "ahead" || "$relation" == "identical" ]]; then
+                echo "GitHub Pages published a newer commit containing the updated citations."
+                exit 0
+              fi
+            fi
+
+            if [[ "$status" == "errored" && "$built_commit" == "$UPDATED_COMMIT" ]]; then
+              echo "::error::GitHub Pages could not publish the updated data."
+              exit 1
+            fi
+
+            sleep 10
+          done
+
+          echo "::error::The updated GitHub Pages build was not confirmed within five minutes."
+          exit 1
