@@ -1,4 +1,4 @@
-name: Update Google Scholar publications
+name: Update publication citations
 
 "on":
   workflow_dispatch:
@@ -30,8 +30,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Refresh citations while preserving curated metadata
+      - name: Refresh Google Scholar when accessible
+        id: scholar
+        continue-on-error: true
         run: python scripts/update_scholar.py
+
+      - name: Preserve Scholar snapshot when automated access is blocked
+        if: steps.scholar.outcome == 'failure'
+        run: echo "::warning::Google Scholar could not be refreshed. Last verified Scholar data preserved; Crossref updates independently."
+
+      - name: Refresh Crossref citation counts by DOI
+        run: python scripts/update_crossref.py
+
+      - name: Render the static publication archive
+        run: python scripts/render_publications.py
 
       - name: Commit the updated publication data
         id: commit
@@ -39,15 +51,15 @@ jobs:
         run: |
           set -euo pipefail
 
-          if git diff --quiet -- publications.json; then
+          if git diff --quiet -- publications.json publications/index.html sitemap.xml; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- publications.json
-          git commit -m "Update Google Scholar citation counts"
+          git add -- publications.json publications/index.html sitemap.xml
+          git commit -m "Update publication citation counts and static archive"
           git push origin HEAD:main
 
           echo "changed=true" >> "$GITHUB_OUTPUT"
