@@ -1,0 +1,670 @@
+{
+  "version": 1,
+  "publications": [
+    {
+      "id": "qcOWEqgAAAAJ:QIV2ME_5wuYC",
+      "slug": "untangling-the-web",
+      "short_title": "Critical reading in digital environments",
+      "group": "Critical digital literacies",
+      "summary": "A qualitative study of how translation students interpret the cultural positions and viewpoints in an online British news text.",
+      "method": "Thirteen students completed a reading and translation task. Five also took part in interviews and screen recordings of their online activity.",
+      "findings": [
+        "Many participants had difficulty identifying the viewpoint expressed in the text.",
+        "The analysis linked these difficulties to limited attention to sociocultural context and ineffective use of online reading resources."
+      ],
+      "use": "Use this study to inform research on critical digital reading and to design activities that ask learners to examine a text’s author, audience, cultural references and viewpoint.",
+      "scope": "A small qualitative study of one reading task; its contribution concerns reading practices and interpretation.",
+      "creators": [
+        {
+          "given": "María José",
+          "family": "Valero"
+        },
+        {
+          "given": "Boris",
+          "family": "Vázquez"
+        },
+        {
+          "given": "Daniel",
+          "family": "Cassany"
+        }
+      ],
+      "journal": "Ocnos",
+      "volume": "",
+      "issue": "13",
+      "pages": "7-23",
+      "kind": "article",
+      "language": "es",
+      "source": "https://www.revistaocnos.com/index.php/ocnos/article/view/ocnos_2015.13.01",
+      "selected": true,
+      "title": "Desenredando la web: la lectura crítica de los aprendices de lenguas extranjeras en entornos digitales",
+      "alternate_title": "Untangling the web: critical reading of foreign languages students in digital environments",
+      "pdf": "/files/untangling-the-web.pdf",
+      "pdf_language": "Spanish",
+      "pdf_source": "https://www.redalyc.org/pdf/2591/259138240001.pdf",
+      "license": "CC BY-NC-ND 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:YOwf2qJgpHMC",
+      "slug": "machine-translation-secondary-schools",
+      "short_title": "Machine translation in secondary schools",
+      "group": "Language education and teaching",
+      "summary": "An investigation of how secondary-school learners use machine translation for reading and writing, and how teachers respond to these practices.",
+      "method": "A qualitative, multilingual case study in two Catalan schools, using interviews, classroom observation and recordings of screen activity.",
+      "findings": [
+        "The study describes different levels of teacher permission and student uses for comprehension, composition and revision.",
+        "Learners’ checking strategies vary in sophistication, pointing to a need for critical guidance in using language technologies."
+      ],
+      "use": "Use the paper when examining machine translation literacy or planning classroom discussion of verification, revision and preparation of input texts.",
+      "scope": "The study concerns the machine translation tools and school practices observed at the time of the research.",
+      "creators": [
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        },
+        {
+          "given": "Daniel",
+          "family": "Cassany"
+        }
+      ],
+      "journal": "Calidoscópio",
+      "volume": "15",
+      "issue": "1",
+      "pages": "180-189",
+      "kind": "article",
+      "language": "es",
+      "source": "https://www.revistas.unisinos.br/index.php/calidoscopio/article/view/11868",
+      "selected": true,
+      "title": "Aprender lengua con el traductor automático en la escuela secundaria: un diálogo necesario",
+      "alternate_title": "Machine translation as a tool for foreign language learning in secondary schools: A necessary dialogue",
+      "pdf": "/files/machine-translation-secondary-schools.pdf",
+      "pdf_language": "Spanish",
+      "pdf_source": "https://revistas.unisinos.br/index.php/calidoscopio/article/viewFile/cld.2017.151.14/6003",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:eQOLeE2rZwMC",
+      "slug": "online-ecology-gamer",
+      "short_title": "The literacy ecology of a gamer",
+      "group": "Fan translation and gaming",
+      "summary": "A case study of the literacy practices and language learning involved in translating video games and participating in online gaming communities.",
+      "method": "Digital ethnography combining interviews, online observation and screen recordings of a gamer’s translation workflow.",
+      "findings": [
+        "Game translation involves linguistic, technical and sociocultural literacies across a network of online spaces.",
+        "Community feedback creates situated opportunities to discuss language and revise translations."
+      ],
+      "use": "Use this study in work on gaming literacies, affinity spaces and informal language learning, or as an example of studying the activity surrounding a digital text.",
+      "scope": "An exploratory single-participant case study, interpreted through New Literacy Studies.",
+      "creators": [
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        }
+      ],
+      "journal": "Educational Technology & Society",
+      "volume": "21",
+      "issue": "3",
+      "pages": "199-212",
+      "kind": "article",
+      "language": "en",
+      "source": "https://eric.ed.gov/?id=EJ1184360",
+      "selected": true,
+      "pdf": "/files/online-ecology-gamer.pdf",
+      "pdf_source": "https://findresearcher.sdu.dk/ws/files/141913865/The_Online_Ecology_of_Literacy_and_Language_Practices_of_a_Gamer.pdf",
+      "license": "CC BY-NC-ND 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:4DMP91E08xMC",
+      "slug": "fan-translation-games-anime-fanfiction",
+      "short_title": "Fan translation across games, anime and fanfiction",
+      "group": "Fan translation and gaming",
+      "summary": "A comparison of three fan translators working with games, anime subtitles and fanfiction, connecting their translation activity with language learning.",
+      "method": "Qualitative digital ethnography using interviews, screenshots and screen recordings, framed by New Literacy Studies.",
+      "findings": [
+        "Translation provides opportunities for agency, creativity and identity work in fan communities.",
+        "The cases show language learning through peer feedback, independent inquiry and resourceful use of translation tools."
+      ],
+      "use": "Use the study to examine fan translation as a social literacy practice and to inform activities connecting learner interests, translation and collaborative feedback.",
+      "scope": "Three qualitative cases across different fandoms and language combinations.",
+      "creators": [
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        },
+        {
+          "given": "Leticia T.",
+          "family": "Zhang"
+        },
+        {
+          "given": "Mariona",
+          "family": "Pascual"
+        },
+        {
+          "given": "Daniel",
+          "family": "Cassany"
+        }
+      ],
+      "journal": "Language Learning & Technology",
+      "volume": "23",
+      "issue": "1",
+      "pages": "49-71",
+      "kind": "article",
+      "language": "en",
+      "source": "https://hdl.handle.net/10125/44672",
+      "selected": true,
+      "pdf": "/files/fan-translation-games-anime-fanfiction.pdf",
+      "pdf_source": "https://findresearcher.sdu.dk/ws/files/149835812/23_01_10125_44672.pdf",
+      "license": "CC BY-NC-ND 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "license_source": "https://www.lltjournal.org/item/10125-44672/",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:qxL8FJ1GzNcC",
+      "slug": "guerrilla-fan-translation",
+      "short_title": "Guerrilla fan translation and language reflection",
+      "group": "Fan translation and gaming",
+      "summary": "A study of a Catalan-speaking gaming community translating games from English into Catalan, with attention to collaboration and discussion about language.",
+      "method": "Digital ethnography with online interviews and observation; content analysis and focused analysis of metalinguistic discussions.",
+      "findings": [
+        "The translators develop shared roles and a community identity connected with producing cultural content in Catalan.",
+        "Language learning opportunities arise through translating, discussing doubts with peers and reviewing prospective members’ translation tests."
+      ],
+      "use": "Use this study for research on collaborative translation, language learning in digital wilds and the role of metalinguistic discussion in translation-based teaching.",
+      "scope": "Qualitative evidence from one fan-translation community.",
+      "creators": [
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        }
+      ],
+      "journal": "ReCALL",
+      "volume": "33",
+      "issue": "3",
+      "pages": "296-313",
+      "kind": "article",
+      "language": "en",
+      "source": "https://www.cambridge.org/core/product/identifier/S095834402000021X/type/journal_article",
+      "selected": true,
+      "online_date": "2020-11-10",
+      "year": "2021",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:2osOgNQ5qMEC",
+      "slug": "informal-digital-learning-english-review",
+      "short_title": "Informal digital learning of English: a scoping review",
+      "group": "Informal learning and social media",
+      "summary": "A review mapping research on informal digital learning of English and identifying questions for language education and future investigation.",
+      "method": "A Web of Science search of research published between 1980 and 2019. Thirty studies met the review’s inclusion criteria.",
+      "findings": [
+        "The literature covers linguistic, affective and cultural dimensions, alongside agency and digital literacies.",
+        "Mixed methods and qualitative approaches predominate; only two included studies used longitudinal data collection."
+      ],
+      "use": "Use this review to frame an IDLE study, identify methodological gaps and situate work on language learning beyond the classroom.",
+      "scope": "The review reflects its database, search terms, inclusion criteria and historical search window.",
+      "creators": [
+        {
+          "given": "Ali",
+          "family": "Soyoof"
+        },
+        {
+          "given": "Barry Lee",
+          "family": "Reynolds"
+        },
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        },
+        {
+          "given": "Katherine",
+          "family": "McLay"
+        }
+      ],
+      "journal": "Computer Assisted Language Learning",
+      "volume": "36",
+      "issue": "4",
+      "pages": "608-640",
+      "kind": "article",
+      "language": "en",
+      "source": "https://repository.eduhk.hk/en/publications/informal-digital-learning-of-english-idle-a-scoping-review-of-wha/",
+      "selected": true,
+      "online_date": "2021-06-28",
+      "year": "2023",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:_FxGoFyzp5QC",
+      "slug": "l2-vlogging-bilibili",
+      "short_title": "Learning Spanish through vlogging on Bilibili",
+      "group": "Informal learning and social media",
+      "summary": "A study of Chinese learners’ Spanish-language vlogs on Bilibili, examining video production, multilingual writing and interaction around learning.",
+      "method": "Qualitative virtual ethnography and analysis of 134 Chinese-produced Spanish-language vlogs.",
+      "findings": [
+        "Vloggers combine resources from formal education and informal media practices.",
+        "Subtitles, translation, feedback requests and danmu comments support multimodal expression and reflection on language."
+      ],
+      "use": "Use this study to inform research on learner-created video and to consider multilingual subtitles, reflection and peer feedback in language-learning projects.",
+      "scope": "The findings describe practices on one platform and in a particular learner context.",
+      "creators": [
+        {
+          "given": "Leticia-Tian",
+          "family": "Zhang"
+        },
+        {
+          "given": "Boris",
+          "family": "Vázquez-Calvo"
+        },
+        {
+          "given": "Daniel",
+          "family": "Cassany"
+        }
+      ],
+      "journal": "Profesional de la información",
+      "volume": "32",
+      "issue": "3",
+      "pages": "",
+      "kind": "article",
+      "language": "en",
+      "source": "https://revista.profesionaldelainformacion.com/index.php/EPI/article/view/87299",
+      "selected": true,
+      "article_number": "e320301",
+      "pdf": "/files/l2-vlogging-bilibili.pdf",
+      "pdf_source": "https://revista.profesionaldelainformacion.com/index.php/EPI/article/download/87299/63395/295919",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_source": "https://revista.profesionaldelainformacion.com/index.php/EPI/article/view/87299",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:qjMakFHDy7sC",
+      "slug": "serious-games-vocabulary-healthcare",
+      "short_title": "Serious games, vocabulary and healthcare knowledge",
+      "group": "Fan translation and gaming",
+      "summary": "A mixed-methods study of whether a serious game can support healthcare content learning and incidental English vocabulary acquisition.",
+      "method": "Iranian nursing students learned through Saving Lives or traditional instruction, with 80 participants in each group. Evidence included pre/post tests and questionnaire responses.",
+      "findings": [
+        "The game group showed significantly greater improvements in healthcare knowledge and incidental vocabulary acquisition.",
+        "The study discusses engagement, multimodal contextual information and repeated encounters with vocabulary in gameplay."
+      ],
+      "use": "Use this study when investigating content and language learning through games, designing English for specific purposes activities, or comparing game-based and conventional instruction.",
+      "scope": "Evidence from a specific game, nursing-education context and study design; transfer to other settings requires evaluation.",
+      "creators": [
+        {
+          "given": "Ali",
+          "family": "Soyoof"
+        },
+        {
+          "given": "Barry Lee",
+          "family": "Reynolds"
+        },
+        {
+          "given": "Rustam",
+          "family": "Shadiev"
+        },
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        }
+      ],
+      "journal": "Computer Assisted Language Learning",
+      "volume": "37",
+      "issue": "1-2",
+      "pages": "27-60",
+      "kind": "article",
+      "language": "en",
+      "source": "https://repository.eduhk.hk/en/publications/a-mixed-methods-study-of-the-incidental-acquisition-of-foreign-la/",
+      "selected": true,
+      "online_date": "2022-01-17",
+      "year": "2024",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:d1gkVwhDpl0C",
+      "slug": "learning-korean-tiktok-youtube",
+      "short_title": "Learning Korean through TikTok and YouTube comments",
+      "group": "Informal learning and social media",
+      "summary": "An analysis of comments on Korean-learning videos, examining what participation around social media content contributes to language learning.",
+      "method": "Exploratory observation of TikTok and YouTube and analysis of 570 English- and Spanish-language comments.",
+      "findings": [
+        "Comments address creators, the community and questions about Korean, supporting resource sharing and language reflection.",
+        "The analysed comments contain no interaction in Korean: engagement around a language does not necessarily provide practice in that language."
+      ],
+      "use": "Use the study to examine comment-based learning or to design activities that connect language reflection with opportunities for target-language interaction.",
+      "scope": "Findings concern the sampled comments and videos, rather than measured changes in proficiency.",
+      "creators": [
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        },
+        {
+          "given": "Sergio",
+          "family": "Duarte-Marti"
+        },
+        {
+          "given": "Leticia-Tian",
+          "family": "Zhang"
+        }
+      ],
+      "journal": "Interactive Learning Environments",
+      "volume": "32",
+      "issue": "10",
+      "pages": "6063-6080",
+      "kind": "article",
+      "language": "en",
+      "source": "https://eric.ed.gov/?id=EJ1455660",
+      "selected": true,
+      "online_date": "2023-09-06",
+      "year": "2024",
+      "repository": "https://zenodo.org/records/14780184",
+      "remote_pdf": "https://zenodo.org/records/14780184/files/Commenting%20on%20learning%20Korean%20on%20TikTok%20and%20YouTube.pdf",
+      "access_note": "A public repository copy is available on Zenodo.",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:k_IJM867U9cC",
+      "slug": "memes-and-identity-language-teacher-education",
+      "short_title": "Memes and language teacher identity",
+      "group": "Language education and teaching",
+      "summary": "A study of how preservice language teachers use memes to narrate experiences and express identities as learners and future teachers.",
+      "method": "Discourse and thematic analysis of 777 memes in stories created by 84 preservice teachers from pedagogy and linguistics cohorts.",
+      "findings": [
+        "The cohorts express different emphases in learning experiences, teaching aspirations and anxieties.",
+        "Humour and translingual choices reveal aspects of identity that can inform reflective work in teacher education."
+      ],
+      "use": "Use this paper to inform research on teacher identity or to consider Story by Memes as a reflective narrative activity alongside existing teacher-education practices.",
+      "scope": "The findings are grounded in two cohorts; adapting the activity requires attention to participants and context.",
+      "creators": [
+        {
+          "given": "Boris",
+          "family": "Vázquez-Calvo"
+        },
+        {
+          "given": "Alba",
+          "family": "Paz-López"
+        },
+        {
+          "given": "Sergio",
+          "family": "Rey-Godoy"
+        }
+      ],
+      "journal": "Language Learning & Technology",
+      "volume": "29",
+      "issue": "1",
+      "pages": "1-27",
+      "kind": "article",
+      "language": "en",
+      "source": "https://hdl.handle.net/10125/73620",
+      "selected": true,
+      "pdf": "/files/memes-and-identity-language-teacher-education.pdf",
+      "pdf_source": "https://doi.org/10.64152/10125/73620",
+      "license": "CC BY-NC-ND 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:_kc_bZDykSQC",
+      "slug": "catalan-identity-fan-translation",
+      "short_title": "Catalan identity and fan translation",
+      "group": "Fan translation and gaming",
+      "summary": "A study of how game translation and written community interaction bring language attitudes and Catalan identity into view.",
+      "method": "Analysis of online multiparty written interaction among 15 Catalan-speaking gamers translating games from English into Catalan.",
+      "findings": [
+        "Translation routines and membership tests give rise to discussion of language norms, Spanish–Catalan interference and creative language choices.",
+        "These discussions connect translation decisions with grassroots linguistic activism and identity development."
+      ],
+      "use": "Use the study in research on minoritized languages, language ideology and fan communities, or when examining how translation decisions express cultural and linguistic positions.",
+      "scope": "A situated qualitative analysis of one community and language pair.",
+      "creators": [
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        },
+        {
+          "given": "Steven L.",
+          "family": "Thorne"
+        }
+      ],
+      "journal": "Journal of Language, Identity & Education",
+      "volume": "24",
+      "issue": "2",
+      "pages": "378-395",
+      "kind": "article",
+      "language": "en",
+      "source": "https://research.rug.nl/en/publications/catalan-identity-and-language-attitudes-through-fan-translation-o/",
+      "selected": true,
+      "year": "2025",
+      "online_date": "2022-11-17",
+      "repository": "https://research.rug.nl/en/publications/catalan-identity-and-language-attitudes-through-fan-translation-o/",
+      "access_note": "The University of Groningen provides a repository version under its Taverne access terms.",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:M3NEmzRMIkIC",
+      "slug": "fan-translation-language-education",
+      "short_title": "From Foe to Friend: fan translation in education",
+      "group": "Language education and teaching",
+      "summary": "A pedagogical chapter exploring how fan translation can become a communicative and creative language-learning activity.",
+      "method": "A conceptual and practice-oriented chapter presenting five proposals for incorporating fan translation into language education.",
+      "findings": [
+        "The proposals connect translation with learner interests, audiences and collaborative problem-solving.",
+        "Bridging activities provide a way to relate informal fan practices to classroom language work."
+      ],
+      "use": "Use the chapter when planning translation projects, discussing the educational role of fan cultures or designing tasks around cultural and linguistic mediation.",
+      "scope": "Pedagogical proposals to adapt and evaluate in context.",
+      "creators": [
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        }
+      ],
+      "journal": "Translation, Translanguaging and Machine Translation in Foreign Language Education",
+      "volume": "",
+      "issue": "",
+      "pages": "115-136",
+      "kind": "chapter",
+      "language": "en",
+      "source": "https://link.springer.com/chapter/10.1007/978-3-031-82174-5_7",
+      "selected": true,
+      "book": "Translation, Translanguaging and Machine Translation in Foreign Language Education",
+      "editors": [
+        {
+          "given": "David",
+          "family": "Coulson"
+        },
+        {
+          "given": "Christopher",
+          "family": "Denman"
+        }
+      ],
+      "publisher": "Palgrave Macmillan",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:iH-uZ7U-co4C",
+      "slug": "digital-literacies-spanish-language-teaching",
+      "short_title": "Digital literacies in Spanish language education",
+      "group": "Critical digital literacies",
+      "summary": "A conceptual chapter on digital literacies for Spanish as a second language, bringing sociocultural, multilingual and multimodal perspectives into language education.",
+      "method": "A review of concepts, epistemological and methodological approaches, with illustrative studies and didactic suggestions.",
+      "findings": [
+        "Digital literacy is approached as a dynamic, situated set of discourse practices.",
+        "Connections between practices inside and outside classrooms inform ways of approaching digitally mediated communication in L2 education."
+      ],
+      "use": "Use this chapter to frame research on digital literacies or to develop teaching that attends to audience, context, multilingual resources and multimodal meaning.",
+      "scope": "A conceptual and pedagogical chapter, with examples to consider in relation to local teaching contexts.",
+      "creators": [
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        },
+        {
+          "given": "Germán",
+          "family": "Canale"
+        }
+      ],
+      "journal": "The Routledge Handbook of Multiliteracies for Spanish Language Teaching",
+      "volume": "",
+      "issue": "",
+      "pages": "299-313",
+      "kind": "chapter",
+      "language": "es",
+      "source": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003190615-24/literacidades-digitales-boris-vazquez-calvo-germ%C3%A1n-canale",
+      "selected": true,
+      "book": "The Routledge Handbook of Multiliteracies for Spanish Language Teaching: multimodalidad e interdisciplinariedad",
+      "editors": [
+        {
+          "given": "Elena",
+          "family": "Gironzetti"
+        },
+        {
+          "given": "Miquel",
+          "family": "Lacorte"
+        }
+      ],
+      "publisher": "Routledge",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:4JMBOYKVnBMC",
+      "slug": "fan-ludic-efl-writing-reflection",
+      "short_title": "Fan and ludic practices for EFL writing and reflection",
+      "group": "Language education and teaching",
+      "summary": "A practical chapter introducing Story by Memes as a multimodal writing and reflection activity for advanced language learners and student teachers.",
+      "method": "A practice-oriented activity sequence informed by fan cultures, play and bridging activities.",
+      "findings": [
+        "Meme composition makes learners’ interests, language experiences and prospective teacher identities available for discussion.",
+        "The sequence creates opportunities for discourse choices and reflection on writing and digital literacies."
+      ],
+      "use": "Use the chapter to plan or adapt a meme-based narrative task, connecting composition, presentation and reflective discussion with a course’s language and teacher-education goals.",
+      "scope": "An adaptable pedagogical sequence; outcomes should be evaluated in the setting where it is used.",
+      "creators": [
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        },
+        {
+          "given": "James",
+          "family": "York"
+        }
+      ],
+      "journal": "New Language Learning and Teaching Environments",
+      "volume": "",
+      "issue": "",
+      "pages": "157-171",
+      "kind": "chapter",
+      "language": "en",
+      "source": "https://link.springer.com/chapter/10.1007/978-3-031-51540-8_12",
+      "selected": true,
+      "book": "Technology and English Language Teaching in a Changing World: A Practical Guide for Teachers and Teacher Educators",
+      "editors": [
+        {
+          "given": "Ju Seong",
+          "family": "Lee"
+        },
+        {
+          "given": "Di",
+          "family": "Zou"
+        },
+        {
+          "given": "Michelle Mingyue",
+          "family": "Gu"
+        }
+      ],
+      "publisher": "Palgrave Macmillan",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:KlAtU1dfN6UC",
+      "slug": "catalan-teenagers-youtube",
+      "short_title": "Teenagers’ identities and language practices on YouTube",
+      "group": "Informal learning and social media",
+      "summary": "A study of how Catalan teenage gamers present themselves on YouTube through language, images and video-related literacy practices.",
+      "method": "Digital ethnography with three teenage gamers, drawing on interviews, screenshots and video analysis through New Literacy Studies.",
+      "findings": [
+        "The cases show different degrees of participation and specialisation on YouTube.",
+        "Choices of usernames, images and language reveal varying linguistic and multimodal awareness across Catalan, Spanish and English."
+      ],
+      "use": "Use the chapter in research on youth digital identities and multilingual media practices, or to inform reflection on self-presentation and audience in student video projects.",
+      "scope": "Three situated qualitative cases of teenage gamers.",
+      "creators": [
+        {
+          "given": "Boris",
+          "family": "Vazquez-Calvo"
+        },
+        {
+          "given": "Nikolaj",
+          "family": "Elf"
+        },
+        {
+          "given": "Adriana",
+          "family": "Gewerc"
+        }
+      ],
+      "journal": "New Language Learning and Teaching Environments",
+      "volume": "",
+      "issue": "",
+      "pages": "251-278",
+      "kind": "chapter",
+      "language": "en",
+      "source": "https://link.springer.com/chapter/10.1007/978-3-030-34212-8_10",
+      "selected": true,
+      "book": "Technology and the Psychology of Second Language Learners and Users",
+      "editors": [
+        {
+          "given": "Mark R.",
+          "family": "Freiermuth"
+        },
+        {
+          "given": "Nourollah",
+          "family": "Zarrinabadi"
+        }
+      ],
+      "publisher": "Palgrave Macmillan",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "qcOWEqgAAAAJ:70eg2SAEIzsC",
+      "slug": "ai-is-like-fire",
+      "short_title": "Language teachers’ attitudes towards AI",
+      "group": "Language education and teaching",
+      "summary": "A discourse-analytic study of how language teachers make sense of artificial intelligence through metaphors, evaluative positions and pedagogical expectations.",
+      "method": "Discourse analysis of language teachers’ attitudes towards artificial intelligence.",
+      "findings": [
+        "The article foregrounds teachers’ interpretations of AI and their implications for language education."
+      ],
+      "use": "Use the paper when examining teacher discourse, pedagogical judgement and the role of AI in language teacher education.",
+      "scope": "Read the publisher’s article for the full analysis, evidence and methodological details.",
+      "creators": [
+        {
+          "given": "Alba",
+          "family": "Paz-López"
+        },
+        {
+          "given": "Liudmila",
+          "family": "Shafirova"
+        },
+        {
+          "given": "Boris",
+          "family": "Vázquez-Calvo"
+        }
+      ],
+      "journal": "Journal of Education for Teaching",
+      "volume": "52",
+      "issue": "4",
+      "pages": "749-767",
+      "kind": "article",
+      "language": "en",
+      "source": "https://doi.org/10.1080/02607476.2026.2671865",
+      "selected": false,
+      "online_date": "2026-05-19",
+      "access_note": "Full text is available through the publisher. The site links to the journal version while access and embargo conditions apply.",
+      "verified_at": "2026-10-07"
+    }
+  ]
+}

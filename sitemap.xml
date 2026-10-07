@@ -1,21 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://borisvazquezcalvo.com/</loc><lastmod>2026-10-07</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/materials/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/news/</loc><lastmod>2026-10-07</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/news/ai-is-like-fire-published/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/projects/</loc><lastmod>2026-10-07</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/publications/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/publications/ai-is-like-fire/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/publications/memes-and-identity-language-teacher-education/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/talks/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/teaching/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/topics/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/topics/ai-language-education/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/topics/digital-literacies-language-education/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/topics/fan-translation-language-education/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/topics/fandom-language-learning/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/topics/informal-digital-language-learning/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/topics/language-teacher-education/</loc><lastmod>2026-10-06</lastmod></url>
-<url><loc>https://borisvazquezcalvo.com/news/jose-castillejo-mobility-grant/</loc><lastmod>2026-10-07</lastmod></url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/materials/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/news/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/news/ai-is-like-fire-published/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/projects/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/ai-is-like-fire/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/memes-and-identity-language-teacher-education/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/talks/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/teaching/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/topics/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/topics/ai-language-education/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/topics/digital-literacies-language-education/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/topics/fan-translation-language-education/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/topics/fandom-language-learning/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/topics/informal-digital-language-learning/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/topics/language-teacher-education/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/news/jose-castillejo-mobility-grant/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/catalan-identity-fan-translation/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/catalan-teenagers-youtube/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/digital-literacies-spanish-language-teaching/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/fan-ludic-efl-writing-reflection/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/fan-translation-games-anime-fanfiction/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/fan-translation-language-education/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/guerrilla-fan-translation/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/informal-digital-learning-english-review/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/l2-vlogging-bilibili/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/learning-korean-tiktok-youtube/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/machine-translation-secondary-schools/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/online-ecology-gamer/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/serious-games-vocabulary-healthcare/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://borisvazquezcalvo.com/publications/untangling-the-web/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
 </urlset>

@@ -21,6 +21,17 @@ header .nav-links { gap: clamp(8px, .8vw, 13px); margin-left: 0; }
 .nav-item:not([open]) > .dropdown-menu { display: none; }
 .dropdown-menu a { display: flex; align-items: center; min-height: 44px; color: var(--text); padding: 9px 12px; border-radius: 8px; line-height: 1.35; white-space: normal; font-size: .9rem; }
 .dropdown-menu a:hover, .dropdown-menu a:focus-visible { background: var(--accent-soft); }
+.nav-item .publications-menu { grid-template-columns: repeat(2,minmax(0,1fr)); width: min(620px,calc(100vw - 48px)); max-width: none; max-height: min(620px,calc(100dvh - 120px)); overflow-y: auto; left: 50%; transform: translateX(-50%); }
+.publications-menu .pub-nav-all { grid-column: 1 / -1; font-weight: 800; border-bottom: 1px solid var(--line); border-radius: 0; margin-bottom: 4px; }
+.pub-nav-year { color: var(--muted); font-weight: 500; white-space: nowrap; }
+.collection-downloads { margin: 0 0 24px; }
+.mobile-publications { grid-column: 1 / -1; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.mobile-publications > summary { display: flex; align-items: center; min-height: 48px; padding: 10px 12px; font-weight: 650; list-style: none; }
+.mobile-publications > summary::-webkit-details-marker { display: none; }
+.mobile-publications > summary::after { content: "⌄"; margin-left: 8px; }
+.mobile-publication-links { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); padding: 0 0 10px 12px; }
+.mobile-publication-links .pub-nav-all { grid-column: 1 / -1; }
+.mobile-publications:not([open]) > .mobile-publication-links { display: none; }
 .mobile-menu { display: none; }
 .breadcrumbs { padding: 22px 0 0; display: block; font-size: .88rem; }
 .breadcrumbs ol { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0; color: var(--muted); }
@@ -58,6 +69,7 @@ header .nav-links { gap: clamp(8px, .8vw, 13px); margin-left: 0; }
 }
 @media (min-width: 1151px) { header .nav-links { display: flex; } }
 @media (max-width: 600px) {
+  .mobile-publication-links { grid-template-columns: minmax(0,1fr); }
   header .logo { font-size: 1.04rem; letter-spacing: -.025em; }
   h1 { font-size: clamp(2.15rem, 9vw, 3.2rem); line-height: 1.1; letter-spacing: -.045em; overflow-wrap: anywhere; }
   .hero { padding: 42px 0; }

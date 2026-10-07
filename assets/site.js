@@ -4,7 +4,9 @@
 (() => {
   const menus = [...document.querySelectorAll('header details')];
   menus.forEach(menu => menu.addEventListener('toggle', () => {
-    if (menu.open) menus.forEach(other => { if (other !== menu) other.open = false; });
+    if (menu.open) menus.forEach(other => {
+      if (other !== menu && !other.contains(menu) && !menu.contains(other)) other.open = false;
+    });
   }));
   document.addEventListener('keydown', event => {
     if (event.key !== 'Escape') return;
