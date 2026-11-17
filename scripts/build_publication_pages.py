@@ -265,10 +265,6 @@ def main():
     source = path.read_text()
     source = re.sub(r'<section id="featured">.*?</section>','',source,flags=re.S)
     source = re.sub(r'<a class="button primary" href="#featured">.*?</a>\s*','',source)
-    # Keep portable collection downloads as a small archive tool, without a showcase.
-    exports = '<div class="buttons collection-downloads">'+link('/files/references/selected-publications.ris','Save research collection (RIS)','button',True)+link('/files/references/selected-publications.bib','Research collection (BibTeX)','button',True)+'</div>'
-    source = re.sub(r'<div class="buttons collection-downloads">.*?</div>','',source,flags=re.S)
-    source = source.replace('<!-- PUBLICATIONS:START -->',exports+'\n<!-- PUBLICATIONS:START -->')
     path.write_text(source)
     for path in ROOT.rglob('*.html'):
         source = path.read_text()

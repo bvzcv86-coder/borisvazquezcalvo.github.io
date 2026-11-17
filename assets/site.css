@@ -88,3 +88,37 @@ header .nav-links { gap: clamp(8px, .8vw, 13px); margin-left: 0; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Shared palette and typography for research, teaching, and publication pages. */
+:root { --accent: #23466b; --accent-soft: #e9eff4; --dark: #182d42; }
+h1, .section-title h2, .publication h3, .academic-home h2, .academic-home h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  letter-spacing: -.025em;
+}
+.hero::after { background: radial-gradient(circle, rgba(35,70,107,.08), transparent 66%); }
+.academic-home .hero { padding-block: clamp(40px, 5.6vw, 80px); }
+.academic-home .home-affiliation, .work-meta { color: var(--accent); font-weight: 650; }
+.academic-home .home-affiliation { margin: 0 0 16px; }
+.academic-home .home-lead { max-width: 34em; font-size: clamp(1.22rem, 2vw, 1.55rem); line-height: 1.43; }
+.academic-home .hero-description { max-width: 58ch; }
+.academic-home .hero-photo { border-radius: 8px; box-shadow: none; }
+.academic-home .language-link { margin: 12px 0 0; font-size: .92rem; }
+.academic-home .home-section { padding: clamp(35px, 5vw, 68px) 0; border-top: 1px solid var(--line); }
+.home-band { background: #fff; }
+.academic-home h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); margin: 0 0 24px; }
+.academic-home h3, .publication h3 { font-size: clamp(1.25rem, 1.7vw, 1.55rem); line-height: 1.24; margin: 0 0 .55em; }
+.evidence-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(18px, 3vw, 48px); }
+.evidence-grid article { border-top: 2px solid var(--accent); padding-top: 20px; }
+.academic-home article p { margin: 0 0 12px; }
+.reading-list article { display: grid; grid-template-columns: minmax(160px, 1fr) 3fr; gap: 24px; padding: 20px 0; border-top: 1px solid var(--line); }
+.work-meta { font-size: .92rem; }
+.academic-home .home-more { margin-bottom: 0; }
+.academic-home .home-section a, .academic-home .language-link a, .reference-downloads a { text-decoration: underline; text-underline-offset: .18em; }
+.reference-downloads { color: var(--muted); font-size: .92rem; }
+.publication-actions a:first-child { font-weight: 700; }
+@media (max-width: 760px) {
+  .evidence-grid, .reading-list article { grid-template-columns: 1fr; }
+  .reading-list article { gap: 8px; }
+  .academic-home .hero-grid { gap: 20px; }
+}

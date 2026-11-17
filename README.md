@@ -17,7 +17,9 @@ python scripts/render_publications.py
 Keep creator names and editor roles as printed in the source publication. Use
 the final issue year in references and retain an earlier online date as a note.
 Add hosted PDFs only after checking distribution terms, preserve the original
-file and supply its source and licence. The weekly citation workflow preserves
+file and supply its source and licence. The full archive offers one RIS and one BibTeX download per publication and a collection in each format. For a work without a dedicated page, add its structured bibliography under `reference` in `publications.json`. Regenerate with `python scripts/render_publications.py` and commit the generated files in `files/references/` alongside the archive.
+
+The weekly citation workflow preserves
 these curated fields and renders only the archive region.
 
 **Language learning, teaching, and digital practices.**

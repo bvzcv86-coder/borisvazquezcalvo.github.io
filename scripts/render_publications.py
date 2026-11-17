@@ -6,6 +6,9 @@ import json
 import re
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import quote
+
+from archive_references import write_references
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -31,7 +34,13 @@ def link(url, label):
     return f'<a href="{escape(url)}"{external}>{escape(label)}</a>'
 
 
-def render(data):
+def download(slug, extension, label, title, button=False):
+    css = ' class="button"' if button else ''
+    return (f'<a href="/files/references/{escape(slug)}.{extension}" download{css} '
+            f'aria-label="{escape(label + " for " + title)}">{escape(label)}</a>')
+
+
+def render(data, slugs):
     publications = data["publications"]
     topics = sorted({topic for publication in publications for topic in publication.get("topics", [])})
     years = sorted({str(p.get("year", "n.d.")) for p in publications}, reverse=True)
@@ -56,14 +65,30 @@ def render(data):
         page = safe_url(publication.get("page_url"))
         scholar = safe_url(publication.get("scholar_url"))
         primary = page or doi_url or scholar or data["profile_url"]
-        actions = [link(page, "Publication page"), link(doi_url, "Read via DOI")]
-        # Only curated permitted access links are rendered; never infer a PDF URL.
-        actions += [link(publication.get("open_url"), "Open access"), link(publication.get("eprint_url"), "PDF / eprint"), link(scholar, "Google Scholar")]
+        open_url = safe_url(publication.get("open_url"))
+        pdf_url = safe_url(publication.get("eprint_url"))
+        if open_url.startswith("/files/") and open_url.endswith(".pdf"):
+            pdf_url, open_url = open_url, ""
+        actions = []
+        if pdf_url:
+            if pdf_url.startswith("/files/"):
+                actions.append(f'<a href="{escape(pdf_url)}" download>Download PDF</a>')
+            else:
+                actions.append(link(pdf_url, "Open PDF"))
+        elif open_url:
+            actions.append(link(open_url, "Read open copy"))
+        elif publication.get("status") != "Forthcoming":
+            subject = quote("Copy request: " + publication["title"], safe="")
+            actions.append(f'<a href="mailto:bvazquez1@us.es?subject={subject}">Request a copy</a>')
+        actions += [link(page, "Publication page"), link(scholar, "Google Scholar")]
+        slug = slugs[publication["scholar_publication_id"]]
+        refs = [download(slug, ext, label, publication["title"])
+                for ext, label in [("ris", "RIS"), ("bib", "BibTeX")]]
         citations = []
         if "citations" in publication:
-            citations.append(f"Google Scholar: {escape(publication['citations'])} citations ({date_label(publication.get('citations_updated_at', data.get('updated_at')))})")
+            citations.append(f"Google Scholar: {escape(publication['citations'])} {('citation' if publication['citations'] == 1 else 'citations')} ({date_label(publication.get('citations_updated_at', data.get('updated_at')))})")
         if "crossref_citations" in publication:
-            citations.append(f"Crossref: {escape(publication['crossref_citations'])} citations ({date_label(publication.get('crossref_updated_at'))})")
+            citations.append(f"Crossref: {escape(publication['crossref_citations'])} {('citation' if publication['crossref_citations'] == 1 else 'citations')} ({date_label(publication.get('crossref_updated_at'))})")
         status = f'<span class="tag orange">{escape(publication["status"])}</span>' if publication.get("status") else ""
         rendered.append(f'''<article class="publication" data-year="{escape(publication.get('year', 'n.d.'))}" data-topics="{topics_json}">
           <div class="year">{escape(publication.get('year', 'n.d.'))}</div><div>{status}
@@ -71,8 +96,13 @@ def render(data):
           <p>{escape(publication.get('authors', ''))}<br /><em>{escape(publication.get('venue', ''))}</em></p>
           {f'<p class="doi-line">DOI: {link(doi_url, publication["doi"])}</p>' if doi_url else ''}
           <p class="citation-line">{'<br />'.join(citations)}</p>
-          <div class="publication-actions">{''.join(actions)}</div></div></article>''')
-    return f'''{summary}
+          <div class="publication-actions">{''.join(actions)}</div>
+          <p class="reference-downloads">Save reference: {' · '.join(refs)}</p></div></article>''')
+    total = len(publications)
+    bulk = [download("all-publications", ext, f"All {total} references ({label})", "the complete archive", True)
+            for ext, label in [("ris", "RIS"), ("bib", "BibTeX")]]
+    return f'''<div class="buttons collection-downloads">{''.join(bulk)}</div>
+    {summary}
     {controls}
     <p id="publication-meta" class="publication-meta" role="status" aria-live="polite">{len(publications)} publications</p>
     <div id="publication-list">{''.join(rendered)}</div>
@@ -84,7 +114,7 @@ def main():
     path = ROOT / "publications/index.html"
     original = path.read_text()
     pattern = r"<!-- PUBLICATIONS:START -->.*?<!-- PUBLICATIONS:END -->"
-    replacement = "<!-- PUBLICATIONS:START -->\n" + render(data) + "\n<!-- PUBLICATIONS:END -->"
+    replacement = "<!-- PUBLICATIONS:START -->\n" + render(data, write_references(data["publications"])) + "\n<!-- PUBLICATIONS:END -->"
     updated, count = re.subn(pattern, lambda _: replacement, original, flags=re.S)
     if count != 1:
         raise ValueError("The publication HTML needs exactly one pair of rendering markers.")

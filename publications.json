@@ -16,7 +16,20 @@
       "doi": "",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:M05iB0D1s5AC",
-      "status": "Forthcoming"
+      "status": "Forthcoming",
+      "reference": {
+        "slug": "education-in-the-digital-age-innovations-in-language-learning",
+        "type": "book",
+        "editor": [
+          "Jarazo-Álvarez, R.",
+          "Ramos-Trasar, I.",
+          "García-Murias, R.",
+          "Vázquez-Calvo, B."
+        ],
+        "publisher": "Peter Lang",
+        "series": "Language in the Digital Age",
+        "note": "Forthcoming"
+      }
     },
     {
       "year": "2026",
@@ -31,7 +44,23 @@
       "scholar_publication_id": "qcOWEqgAAAAJ:2P1L_qKh6hAC",
       "topics": [
         "Language teacher education"
-      ]
+      ],
+      "reference": {
+        "slug": "making-digitised-emotions-and-identities-legible-humour-stance-and",
+        "type": "incollection",
+        "author": [
+          "Vázquez-Calvo, Boris",
+          "Zhang, Leticia-Tian"
+        ],
+        "booktitle": "The Discourse of Digitised Emotions",
+        "pages": "234-257",
+        "publisher": "Routledge",
+        "editor": [
+          "Parini, Alejandro",
+          "Yus, Francisco"
+        ],
+        "note": "Published online in 2026. Volume copyright 2027."
+      }
     },
     {
       "year": "2026",
@@ -48,7 +77,21 @@
         "Social media and video games"
       ],
       "crossref_citations": 0,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "open_url": "https://rptel.apsce.net/index.php/RPTEL/article/view/2027-22020/517",
+      "reference": {
+        "slug": "language-learners-social-media-engagement-autonomy-and-algorithmic-awareness",
+        "type": "article",
+        "author": [
+          "Shafirova, L.",
+          "Vazquez-Calvo, B.",
+          "Araújo e Sá, M. H."
+        ],
+        "journal": "Research and Practice in Technology Enhanced Learning",
+        "volume": "22",
+        "pages": "020",
+        "note": "Article 020 in the 2027 volume, first published online in 2026."
+      }
     },
     {
       "year": "2026",
@@ -86,7 +129,17 @@
         "Social media and video games"
       ],
       "crossref_citations": 0,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "we-are-cookin-love-or-we-re-a-crooked",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "Aguilera-Pérez, E."
+        ],
+        "booktitle": "Research on Language Learning and Teaching in Digital Spaces",
+        "pages": "124-145"
+      }
     },
     {
       "year": "2026",
@@ -104,7 +157,21 @@
         "TELL/CALL"
       ],
       "crossref_citations": 0,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "mapping-iranian-bilingual-mother-child-dyads-funds-of-identity",
+        "type": "article",
+        "author": [
+          "Soyoof, A.",
+          "Rezai, A.",
+          "Reynolds, B. L.",
+          "Vazquez-Calvo, B."
+        ],
+        "journal": "Early Childhood Education Journal",
+        "volume": "54",
+        "number": "4",
+        "pages": "2595-2608"
+      }
     },
     {
       "year": "2026",
@@ -113,7 +180,7 @@
       "venue": "International Journal of Applied Linguistics, 36(3), 2660–2674",
       "citations": 9,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3ARYcK_YlVTxYC",
-      "eprint_url": "",
+      "eprint_url": "https://zenodo.org/records/18238006/files/Int%20J%20App%20Linguistics%20-%202026%20-%20Soyoof%20-%20The%20Effects%20of%20Mobile%20%20Gamified%20%20and%20Paper%20Flashcards%20on%20Vocabulary%20and%20Collocation.pdf?download=1",
       "doi": "10.1111/ijal.70095",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:RYcK_YlVTxYC",
@@ -121,7 +188,22 @@
         "TELL/CALL"
       ],
       "crossref_citations": 3,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "open_url": "https://zenodo.org/records/18238006",
+      "reference": {
+        "slug": "the-effects-of-mobile-gamified-and-paper-flashcards-on",
+        "type": "article",
+        "author": [
+          "Soyoof, A.",
+          "Reynolds, B. L.",
+          "Rassaei, E.",
+          "Vazquez-Calvo, B."
+        ],
+        "journal": "International Journal of Applied Linguistics",
+        "volume": "36",
+        "number": "3",
+        "pages": "2660-2674"
+      }
     },
     {
       "year": "2025",
@@ -139,7 +221,16 @@
         "TELL/CALL"
       ],
       "crossref_citations": 1,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "game-related-social-practices-and-llt",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B."
+        ],
+        "booktitle": "The Palgrave Encyclopedia of Computer-Assisted Language Learning",
+        "pages": "1-7"
+      }
     },
     {
       "year": "2025",
@@ -196,7 +287,18 @@
         "TELL/CALL"
       ],
       "crossref_citations": 1,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "the-phenomenon-of-fan-translation-mapping-the-territory",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "Shafirova, L.",
+          "Zhang, L. T."
+        ],
+        "booktitle": "The Routledge Handbook of Translation and Young Audiences",
+        "pages": "403-415"
+      }
     },
     {
       "year": "2025",
@@ -214,7 +316,21 @@
         "TELL/CALL"
       ],
       "crossref_citations": 14,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "maternal-scaffolding-of-iranian-children-s-extramural-informal-digital",
+        "type": "article",
+        "author": [
+          "Soyoof, A.",
+          "Reynolds, B. L.",
+          "Neumann, M. M.",
+          "Vazquez-Calvo, B."
+        ],
+        "journal": "Early Childhood Education Journal",
+        "volume": "53",
+        "number": "5",
+        "pages": "1865-1881"
+      }
     },
     {
       "year": "2025",
@@ -245,7 +361,7 @@
       "venue": "Interactive Learning Environments, 32(10), 6063–6080",
       "citations": 20,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3Ad1gkVwhDpl0C",
-      "eprint_url": "",
+      "eprint_url": "https://zenodo.org/records/14780184/files/Commenting%20on%20learning%20Korean%20on%20TikTok%20and%20YouTube.pdf",
       "doi": "10.1080/10494820.2023.2249045",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:d1gkVwhDpl0C",
@@ -319,10 +435,10 @@
       "year": "2024",
       "title": "A scoping review of digital literacies in language teacher education",
       "authors": "B. Vazquez-Calvo, A. Paz-López",
-      "venue": "Internet al servicio de la modernidad / Internet at the Service of Modernity",
+      "venue": "Internet al servicio de la modernidad en red / Internet at the Service of Networked Modernity, 419–430",
       "citations": 0,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AYFjsv_pBGBYC",
-      "eprint_url": "",
+      "eprint_url": "https://zenodo.org/records/15192317/files/A_scoping_review_of_digital_literacies_in_language_teacher_education-1.pdf?download=1",
       "doi": "10.5281/zenodo.15192317",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:YFjsv_pBGBYC",
@@ -330,7 +446,19 @@
         "Language teacher education",
         "Digital literacies",
         "TELL/CALL"
-      ]
+      ],
+      "open_url": "https://zenodo.org/records/15192317",
+      "reference": {
+        "slug": "a-scoping-review-of-digital-literacies-in-language-teacher",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "Paz-López, A."
+        ],
+        "booktitle": "Internet al servicio de la modernidad en red / Internet at the Service of Networked Modernity",
+        "pages": "419-430",
+        "publisher": "Peter Lang"
+      }
     },
     {
       "year": "2024",
@@ -348,7 +476,17 @@
         "TELL/CALL"
       ],
       "crossref_citations": 0,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "fan-translation-and-multilingualism",
+        "type": "incollection",
+        "author": [
+          "Zhang, L. T.",
+          "Vazquez-Calvo, B."
+        ],
+        "booktitle": "The Palgrave Handbook of Multilingualism and Language Varieties on Screen",
+        "pages": "197-216"
+      }
     },
     {
       "year": "2023",
@@ -357,7 +495,7 @@
       "venue": "Frontiers in Psychology, 14, 1293483",
       "citations": 25,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AZph67rFs4hoC",
-      "eprint_url": "",
+      "eprint_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1293483/pdf",
       "doi": "10.3389/fpsyg.2023.1293483",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:Zph67rFs4hoC",
@@ -365,7 +503,20 @@
         "TELL/CALL"
       ],
       "crossref_citations": 4,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "mobile-assisted-language-learning-developments-affordances-and-solutions",
+        "type": "article",
+        "author": [
+          "Li, R.",
+          "Zou, D.",
+          "Reynolds, B. L.",
+          "Vazquez-Calvo, B."
+        ],
+        "journal": "Frontiers in Psychology",
+        "volume": "14",
+        "pages": "1293483"
+      }
     },
     {
       "year": "2023",
@@ -395,7 +546,7 @@
       "venue": "Computer Assisted Language Learning, 36(4), 608–640",
       "citations": 334,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A2osOgNQ5qMEC",
-      "eprint_url": "",
+      "eprint_url": "https://zenodo.org/records/13825161/files/Aportacio%CC%81n%209_publicacio%CC%81n.pdf?download=1",
       "doi": "10.1080/09588221.2021.1936562",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:2osOgNQ5qMEC",
@@ -405,7 +556,8 @@
       ],
       "crossref_citations": 197,
       "crossref_updated_at": "2026-11-16T13:41:03+00:00",
-      "page_url": "/publications/informal-digital-learning-english-review/"
+      "page_url": "/publications/informal-digital-learning-english-review/",
+      "open_url": "https://zenodo.org/records/13825161"
     },
     {
       "year": "2022",
@@ -423,7 +575,17 @@
         "TELL/CALL"
       ],
       "crossref_citations": 1,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "practicas-letradas-en-linea-online-literacy-practices",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "Cassany, D."
+        ],
+        "booktitle": "Estudios del discurso / The Routledge Handbook of Spanish Language Discourse Studies",
+        "pages": "525-543"
+      }
     },
     {
       "year": "2022",
@@ -440,7 +602,19 @@
         "Fandom and fan translation"
       ],
       "crossref_citations": 11,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "triste-estas-i-don-t-know-nan-molla-multilingual",
+        "type": "article",
+        "author": [
+          "Zhang, L. T.",
+          "Vazquez-Calvo, B."
+        ],
+        "journal": "ITL - International Journal of Applied Linguistics",
+        "volume": "173",
+        "number": "2",
+        "pages": "197-227"
+      }
     },
     {
       "year": "2022",
@@ -456,7 +630,16 @@
       "topics": [
         "Fandom and fan translation",
         "TELL/CALL"
-      ]
+      ],
+      "reference": {
+        "slug": "a-sociocultural-account-of-fan-translation-practices-that-center",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B."
+        ],
+        "booktitle": "Theory and Practice of Translation as a Vehicle for Knowledge Transfer",
+        "pages": "225-249"
+      }
     },
     {
       "year": "2022",
@@ -474,7 +657,18 @@
         "Social media and video games"
       ],
       "crossref_citations": 9,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "language-learning-hashtags-on-tiktok-in-chinese-italian-and",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "Shafirova, L.",
+          "Zhang, L. T."
+        ],
+        "booktitle": "Identity, Multilingualism & CALL: Responding to New Global Realities",
+        "pages": "104-134"
+      }
     },
     {
       "year": "2021",
@@ -513,7 +707,19 @@
         "TELL/CALL"
       ],
       "crossref_citations": 3,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "el-hablar-desde-la-didactica-las-destrezas-comunicativas",
+        "type": "incollection",
+        "author": [
+          "Cassany, D.",
+          "Vazquez-Calvo, B.",
+          "Shafirova, L.",
+          "Zhang, L. T."
+        ],
+        "booktitle": "Manual de lingüística del hablar",
+        "pages": "783-804"
+      }
     },
     {
       "year": "2021",
@@ -522,7 +728,7 @@
       "venue": "Ocnos: Revista de Estudios sobre Lectura, 20(1), 65-81",
       "citations": 19,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AM3ejUd6NZC8C",
-      "eprint_url": "",
+      "eprint_url": "https://ruidera.uclm.es/bitstreams/5763bef5-e3e6-442f-927e-232d7e82a4f0/download",
       "doi": "10.18239/ocnos_2021.20.1.2459",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:M3ejUd6NZC8C",
@@ -530,7 +736,20 @@
         "Fandom and fan translation"
       ],
       "crossref_citations": 7,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "el-fandom-de-blue-jeans-lectura-y-socializacion-literaria",
+        "type": "article",
+        "author": [
+          "Torrego González, A.",
+          "Vazquez-Calvo, B.",
+          "García-Marín, D."
+        ],
+        "journal": "Ocnos: Revista de Estudios sobre Lectura",
+        "volume": "20",
+        "number": "1",
+        "pages": "65-81"
+      }
     },
     {
       "year": "2020",
@@ -539,7 +758,7 @@
       "venue": "EDMETIC, 9(1), I-III",
       "citations": 2,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AhC7cP41nSMkC",
-      "eprint_url": "",
+      "eprint_url": "https://dialnet.unirioja.es/descarga/articulo/7428128.pdf",
       "doi": "10.21071/edmetic.v9i1.12473",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:hC7cP41nSMkC",
@@ -548,7 +767,18 @@
         "TELL/CALL"
       ],
       "crossref_citations": 0,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "del-fandom-al-aula-tendiendo-puentes-entre-practicas-vernaculas",
+        "type": "article",
+        "author": [
+          "Vazquez-Calvo, B."
+        ],
+        "journal": "EDMETIC",
+        "volume": "9",
+        "number": "1",
+        "pages": "I-III"
+      }
     },
     {
       "year": "2020",
@@ -563,7 +793,17 @@
       "scholar_publication_id": "qcOWEqgAAAAJ:ZeXyd9-uunAC",
       "topics": [
         "TELL/CALL"
-      ]
+      ],
+      "reference": {
+        "slug": "etnografia-en-la-era-pos-digital",
+        "type": "incollection",
+        "author": [
+          "Gewerc, A.",
+          "Vazquez-Calvo, B."
+        ],
+        "booktitle": "Caminos y derivas para otra investigación educativa y social",
+        "pages": "181-194"
+      }
     },
     {
       "year": "2020",
@@ -579,7 +819,20 @@
       "topics": [
         "AI and language education",
         "TELL/CALL"
-      ]
+      ],
+      "reference": {
+        "slug": "it-s-easy-you-click-and-it-comes-out",
+        "type": "article",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "Soyoof, A.",
+          "Cassany, D."
+        ],
+        "journal": "International Journal of Pedagogies and Learning",
+        "volume": "15",
+        "number": "1",
+        "pages": "101-120"
+      }
     },
     {
       "year": "2020",
@@ -609,7 +862,7 @@
       "venue": "EDMETIC, 9(1), 21-51",
       "citations": 22,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A8k81kl-MbHgC",
-      "eprint_url": "",
+      "eprint_url": "https://helvia.uco.es/bitstream/handle/10396/19281/edmetic_09_01_03.pdf?isAllowed=y&sequence=1",
       "doi": "10.21071/edmetic.v9i1.12239",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:8k81kl-MbHgC",
@@ -618,7 +871,20 @@
         "TELL/CALL"
       ],
       "crossref_citations": 5,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "domesticar-la-selva-digital-el-fanfiction-a-examen-a",
+        "type": "article",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "García-Roca, A.",
+          "Báez, C. L."
+        ],
+        "journal": "EDMETIC",
+        "volume": "9",
+        "number": "1",
+        "pages": "21-51"
+      }
     },
     {
       "year": "2020",
@@ -636,22 +902,48 @@
         "TELL/CALL"
       ],
       "crossref_citations": 4,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "inclusive-language-education-and-digital-games-a-literature-review",
+        "type": "incollection",
+        "author": [
+          "Soyoof, A.",
+          "Vazquez-Calvo, B.",
+          "McLay, K. F."
+        ],
+        "booktitle": "Inclusive Theory and Practice in Special Education",
+        "pages": "156-173"
+      }
     },
     {
       "year": "2019",
       "title": "El fandom en la juventud española",
-      "authors": "D. Cassany, C. Aliagas, M. Pascual, L. Shafirova, M. J. Valero-Porras, B. Vazquez-Calvo",
+      "authors": "D. Cassany, C. Aliagas, M. Pascual, L. Shafirova, M. J. Valero-Porras, B. Vazquez-Calvo, L. Zhang",
       "venue": "Centro Reina Sofía sobre Adolescencia y Juventud",
       "citations": 21,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AW7OEmFMy1HYC",
-      "eprint_url": "",
+      "eprint_url": "https://www.adolescenciayjuventud.org/download/3071/",
       "doi": "10.5281/zenodo.3631707",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:W7OEmFMy1HYC",
       "topics": [
         "Fandom and fan translation"
-      ]
+      ],
+      "reference": {
+        "slug": "el-fandom-en-la-juventud-espanola",
+        "type": "techreport",
+        "author": [
+          "Cassany, D.",
+          "Aliagas, C.",
+          "Pascual, M.",
+          "Shafirova, L.",
+          "Valero-Porras, M. J.",
+          "Vazquez-Calvo, B.",
+          "Zhang, L."
+        ],
+        "institution": "Centro Reina Sofía sobre Adolescencia y Juventud",
+        "note": "Coordinated by Daniel Cassany."
+      }
     },
     {
       "year": "2019",
@@ -688,7 +980,16 @@
       "topics": [
         "Digital literacies",
         "TELL/CALL"
-      ]
+      ],
+      "reference": {
+        "slug": "competencia-digital-y-new-literacies-de-jovenes-preadolescentes-diversidad",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "Regueira, U."
+        ],
+        "booktitle": "Competencia digital y preadolescentes: los desafíos de la e-inclusión"
+      }
     },
     {
       "year": "2019",
@@ -705,7 +1006,19 @@
         "Fandom and fan translation",
         "Social media and video games",
         "TELL/CALL"
-      ]
+      ],
+      "reference": {
+        "slug": "an-overview-of-multimodal-fan-translation-fansubbing-fandubbing-fan",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "Shafirova, L.",
+          "Zhang, L. T.",
+          "Cassany, D."
+        ],
+        "booktitle": "Insights into Audiovisual and Comic Translation: Changing Perspectives on Films, Comics and Videogames",
+        "pages": "201-213"
+      }
     },
     {
       "year": "2018",
@@ -731,17 +1044,27 @@
       "year": "2018",
       "title": "El aprovechamiento de prácticas letradas digitales en Educación Secundaria Obligatoria: acercamiento etnográfico en un instituto de Barcelona",
       "authors": "F. Martínez-Ortega, B. Vázquez-Calvo",
-      "venue": "Hernández y Hernández, D., Cassany, D. & López González, R. (Coords.)",
+      "venue": "Háblame de TIC: Prácticas de lectura y escritura en la era digital, vol. 5",
       "citations": 2,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A_Qo2XoVZTnwC",
-      "eprint_url": "",
+      "eprint_url": "https://www.uv.mx/blogs/brechadigital/files/2018/04/hdt5_fmo.pdf",
       "doi": "",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:_Qo2XoVZTnwC",
       "topics": [
         "Digital literacies",
         "TELL/CALL"
-      ]
+      ],
+      "reference": {
+        "slug": "el-aprovechamiento-de-practicas-letradas-digitales-en-educacion-secundaria",
+        "type": "incollection",
+        "author": [
+          "Martínez-Ortega, F.",
+          "Vázquez-Calvo, B."
+        ],
+        "booktitle": "Háblame de TIC: Prácticas de lectura y escritura en la era digital",
+        "volume": "5"
+      }
     },
     {
       "year": "2018",
@@ -756,7 +1079,16 @@
       "scholar_publication_id": "qcOWEqgAAAAJ:R3hNpaxXUhUC",
       "topics": [
         "TELL/CALL"
-      ]
+      ],
+      "reference": {
+        "slug": "el-papel-de-la-traduccion-y-las-tecnologias-linguisticas",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B."
+        ],
+        "booktitle": "Nuevas perspectivas en Traducción e Interpretación",
+        "pages": "301-308"
+      }
     },
     {
       "year": "2018",
@@ -765,7 +1097,7 @@
       "venue": "EDMETIC, 7(2), 100-119",
       "citations": 20,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A9yKSN-GCB0IC",
-      "eprint_url": "",
+      "eprint_url": "https://journals.uco.es/edmetic/article/download/6879/10209/13666",
       "doi": "10.21071/edmetic.v7i2.6879",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:9yKSN-GCB0IC",
@@ -773,7 +1105,20 @@
         "TELL/CALL"
       ],
       "crossref_citations": 3,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "retos-y-oportunidades-en-la-educacion-linguistica-y-tecnologica",
+        "type": "article",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "Martínez-Ortega, F. J.",
+          "Cassany, D."
+        ],
+        "journal": "EDMETIC",
+        "volume": "7",
+        "number": "2",
+        "pages": "100-119"
+      }
     },
     {
       "year": "2017",
@@ -788,7 +1133,18 @@
       "scholar_publication_id": "qcOWEqgAAAAJ:-f6ydRqryjwC",
       "topics": [
         "TELL/CALL"
-      ]
+      ],
+      "reference": {
+        "slug": "enmendando-la-red-cuatro-buenas-practicas-tic-en-la",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "Gálvez, A.",
+          "Prieto, E. G."
+        ],
+        "booktitle": "Didáctica de la lengua y la literatura: buenas prácticas docentes",
+        "pages": "149-183"
+      }
     },
     {
       "year": "2017",
@@ -825,7 +1181,18 @@
         "Digital literacies"
       ],
       "crossref_citations": 2,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "language-learners-reading-and-writing-in-the-digitized-classroom",
+        "type": "article",
+        "author": [
+          "Vazquez-Calvo, B."
+        ],
+        "journal": "The International Journal of Literacies",
+        "volume": "9",
+        "number": "4",
+        "pages": "27-39"
+      }
     },
     {
       "year": "2016",
@@ -834,13 +1201,21 @@
       "venue": "Universitat Pompeu Fabra",
       "citations": 12,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AzYLM7Y9cAGgC",
-      "eprint_url": "",
+      "eprint_url": "https://www.tesisenred.net/bitstream/handle/10803/401387/tbvc.pdf?isAllowed=y&sequence=1",
       "doi": "",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:zYLM7Y9cAGgC",
       "topics": [
         "TELL/CALL"
-      ]
+      ],
+      "reference": {
+        "slug": "digital-language-learning-from-a-multilingual-perspective-the-use",
+        "type": "phdthesis",
+        "author": [
+          "Vazquez-Calvo, B."
+        ],
+        "school": "Universitat Pompeu Fabra"
+      }
     },
     {
       "year": "2016",
@@ -849,13 +1224,23 @@
       "venue": "New Perspectives on Teaching and Working with Languages in the Digital Era, 73-82",
       "citations": 19,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AdhFuZR0502QC",
-      "eprint_url": "",
+      "eprint_url": "https://files.eric.ed.gov/fulltext/ED565799.pdf",
       "doi": "10.14705/rpnet.2016.tislid2014.423",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:dhFuZR0502QC",
       "topics": [],
       "crossref_citations": 1,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "language-learning-actions-in-two-1x1-secondary-schools-in",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B.",
+          "Cassany, D."
+        ],
+        "booktitle": "New Perspectives on Teaching and Working with Languages in the Digital Era",
+        "pages": "73-82"
+      }
     },
     {
       "year": "2015",
@@ -884,7 +1269,7 @@
       "venue": "Revista Peruana de Investigación Educativa, 6(6), 63-87",
       "citations": 43,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3Ae5wmG9Sq2KIC",
-      "eprint_url": "",
+      "eprint_url": "https://revistas.siep.org.pe/index.php/RPIE/en/article/download/41/81/1093",
       "doi": "10.34236/rpie.v6i6.41",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:e5wmG9Sq2KIC",
@@ -892,7 +1277,19 @@
         "Digital literacies"
       ],
       "crossref_citations": 2,
-      "crossref_updated_at": "2026-11-16T13:41:03+00:00"
+      "crossref_updated_at": "2026-11-16T13:41:03+00:00",
+      "reference": {
+        "slug": "leer-en-linea-en-el-aula",
+        "type": "article",
+        "author": [
+          "Cassany, D.",
+          "Vazquez-Calvo, B."
+        ],
+        "journal": "Revista Peruana de Investigación Educativa",
+        "volume": "6",
+        "number": "6",
+        "pages": "63-87"
+      }
     },
     {
       "year": "2013",
@@ -905,7 +1302,16 @@
       "doi": "",
       "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:IWHjjKOFINEC",
-      "topics": []
+      "topics": [],
+      "reference": {
+        "slug": "tecnologias-de-la-informacion-y-la-comunicacion-e-interculturalidad",
+        "type": "incollection",
+        "author": [
+          "Vazquez-Calvo, B."
+        ],
+        "booktitle": "Aportaciones para una educación lingüística y literaria en el siglo XXI",
+        "pages": "75"
+      }
     }
   ],
   "scholar_total_publications": 51,
