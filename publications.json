@@ -2,21 +2,33 @@
   "source": "Google Scholar",
   "scholar_id": "qcOWEqgAAAAJ",
   "profile_url": "https://scholar.google.com/citations?user=qcOWEqgAAAAJ&hl=en",
-  "updated_at": "2026-11-02T13:32:11+00:00",
-  "total_publications": 50,
+  "updated_at": "2026-11-17T18:27:35+00:00",
+  "total_publications": 51,
   "publications": [
     {
       "year": "2027",
+      "title": "Education in the Digital Age: Innovations in Language Learning",
+      "authors": "R. Jarazo-Álvarez, I. Ramos-Trasar, R. García-Murias, B. Vázquez-Calvo (Eds.)",
+      "venue": "Language in the Digital Age series, Peter Lang",
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AM05iB0D1s5AC",
+      "eprint_url": "",
+      "doi": "",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
+      "scholar_publication_id": "qcOWEqgAAAAJ:M05iB0D1s5AC",
+      "status": "Forthcoming"
+    },
+    {
+      "year": "2026",
       "title": "Making digitised emotions and identities legible: Humour, stance, and teacher futurity in meme narratives",
       "authors": "Boris Vázquez-Calvo, Leticia-Tian Zhang",
-      "venue": "The Discourse of Digitised Emotions (forthcoming; final chapter details pending)",
+      "venue": "In A. Parini & F. Yus (Eds.), The Discourse of Digitised Emotions (pp. 234–257). Routledge (2027 volume, published online in 2026).",
       "citations": 0,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A2P1L_qKh6hAC",
       "eprint_url": "",
-      "doi": "",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "doi": "10.4324/9781003733515-15",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:2P1L_qKh6hAC",
-      "status": "Forthcoming",
       "topics": [
         "Language teacher education"
       ]
@@ -30,7 +42,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AldfaerwXgEUC",
       "eprint_url": "",
       "doi": "10.58459/rptel.2027.22020",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:ldfaerwXgEUC",
       "topics": [
         "Social media and video games"
@@ -47,7 +59,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A70eg2SAEIzsC",
       "eprint_url": "",
       "doi": "10.1080/02607476.2026.2671865",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:70eg2SAEIzsC",
       "page_url": "/publications/ai-is-like-fire/",
       "topics": [
@@ -66,7 +78,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A35N4QoGY0k4C",
       "eprint_url": "",
       "doi": "10.4324/9781003648765-9",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:35N4QoGY0k4C",
       "topics": [
         "Informal digital language learning",
@@ -85,7 +97,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3ANaGl4SEjCO4C",
       "eprint_url": "",
       "doi": "10.1007/s10643-025-02006-6",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:NaGl4SEjCO4C",
       "topics": [
         "Informal digital language learning",
@@ -103,7 +115,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3ARYcK_YlVTxYC",
       "eprint_url": "",
       "doi": "10.1111/ijal.70095",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:RYcK_YlVTxYC",
       "topics": [
         "TELL/CALL"
@@ -120,7 +132,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AJV2RwH3_ST0C",
       "eprint_url": "",
       "doi": "10.1007/978-3-031-51447-0_124-1",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:JV2RwH3_ST0C",
       "topics": [
         "Social media and video games",
@@ -138,7 +150,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AM3NEmzRMIkIC",
       "eprint_url": "",
       "doi": "10.1007/978-3-031-82174-5_7",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:M3NEmzRMIkIC",
       "topics": [
         "Fandom and fan translation",
@@ -157,7 +169,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3Ak_IJM867U9cC",
       "eprint_url": "",
       "doi": "10.64152/10125/73620",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:k_IJM867U9cC",
       "page_url": "/publications/memes-and-identity-language-teacher-education/",
       "open_url": "/files/memes-and-identity-language-teacher-education.pdf",
@@ -173,11 +185,11 @@
       "title": "The Phenomenon of Fan Translation: Mapping the Territory",
       "authors": "B. Vazquez-Calvo, L. Shafirova, L. T. Zhang",
       "venue": "The Routledge Handbook of Translation and Young Audiences, 403-415",
-      "citations": 1,
+      "citations": 2,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3ATFP_iSt0sucC",
       "eprint_url": "",
       "doi": "10.4324/9781003291169-34",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:TFP_iSt0sucC",
       "topics": [
         "Fandom and fan translation",
@@ -191,11 +203,11 @@
       "title": "Maternal Scaffolding of Iranian Children’s Extramural Informal Digital Learning of English (IDLE): A Qualitative Study",
       "authors": "A. Soyoof, B. L. Reynolds, M. M. Neumann, B. Vazquez-Calvo",
       "venue": "Early Childhood Education Journal, 53(5), 1865–1881",
-      "citations": 20,
+      "citations": 21,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3Aj3f4tGmQtD8C",
       "eprint_url": "",
       "doi": "10.1007/s10643-024-01675-z",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:j3f4tGmQtD8C",
       "topics": [
         "Informal digital language learning",
@@ -213,7 +225,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A_kc_bZDykSQC",
       "eprint_url": "",
       "doi": "10.1080/15348458.2022.2137168",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:_kc_bZDykSQC",
       "topics": [
         "Informal digital language learning",
@@ -235,7 +247,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3Ad1gkVwhDpl0C",
       "eprint_url": "",
       "doi": "10.1080/10494820.2023.2249045",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:d1gkVwhDpl0C",
       "topics": [
         "Informal digital language learning",
@@ -255,7 +267,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AiH-uZ7U-co4C",
       "eprint_url": "",
       "doi": "10.4324/9781003190615-24",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:iH-uZ7U-co4C",
       "topics": [
         "Digital literacies",
@@ -274,7 +286,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A4JMBOYKVnBMC",
       "eprint_url": "",
       "doi": "10.1007/978-3-031-51540-8_12",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:4JMBOYKVnBMC",
       "topics": [
         "Fandom and fan translation",
@@ -289,11 +301,11 @@
       "title": "A mixed-methods study of the incidental acquisition of foreign language vocabulary and healthcare knowledge through serious game play",
       "authors": "Ali Soyoof, Barry Lee Reynolds, Rustam Shadiev, Boris Vazquez-Calvo",
       "venue": "Computer Assisted Language Learning, 37(1-2), 27–60",
-      "citations": 97,
+      "citations": 99,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AqjMakFHDy7sC",
       "eprint_url": "",
       "doi": "10.1080/09588221.2021.2021242",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:qjMakFHDy7sC",
       "topics": [
         "Social media and video games",
@@ -312,7 +324,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AYFjsv_pBGBYC",
       "eprint_url": "",
       "doi": "10.5281/zenodo.15192317",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:YFjsv_pBGBYC",
       "topics": [
         "Language teacher education",
@@ -329,7 +341,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AbEWYMUwI8FkC",
       "eprint_url": "",
       "doi": "10.1007/978-3-031-61621-1_10",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:bEWYMUwI8FkC",
       "topics": [
         "Fandom and fan translation",
@@ -347,7 +359,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AZph67rFs4hoC",
       "eprint_url": "",
       "doi": "10.3389/fpsyg.2023.1293483",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:Zph67rFs4hoC",
       "topics": [
         "TELL/CALL"
@@ -364,7 +376,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A_FxGoFyzp5QC",
       "eprint_url": "",
       "doi": "10.3145/epi.2023.may.01",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:_FxGoFyzp5QC",
       "topics": [
         "Informal digital language learning",
@@ -381,11 +393,11 @@
       "title": "Informal digital learning of English (IDLE): A scoping review of what has been done and a look towards what is to come",
       "authors": "Ali Soyoof, Barry Lee Reynolds, Boris Vazquez-Calvo, Katherine McLay",
       "venue": "Computer Assisted Language Learning, 36(4), 608–640",
-      "citations": 323,
+      "citations": 334,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A2osOgNQ5qMEC",
       "eprint_url": "",
       "doi": "10.1080/09588221.2021.1936562",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:2osOgNQ5qMEC",
       "topics": [
         "Informal digital language learning",
@@ -404,7 +416,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3ARHpTSmoSYBkC",
       "eprint_url": "",
       "doi": "10.4324/9780367810214-42",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:RHpTSmoSYBkC",
       "topics": [
         "Digital literacies",
@@ -422,7 +434,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A3fE2CSJIrl8C",
       "eprint_url": "",
       "doi": "10.1075/itl.21007.zha",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:3fE2CSJIrl8C",
       "topics": [
         "Fandom and fan translation"
@@ -439,7 +451,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AmVmsd5A6BfQC",
       "eprint_url": "",
       "doi": "",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:mVmsd5A6BfQC",
       "topics": [
         "Fandom and fan translation",
@@ -451,11 +463,11 @@
       "title": "Language learning hashtags on TikTok in Chinese, Italian, and Russian",
       "authors": "B. Vazquez-Calvo, L. Shafirova, L. T. Zhang",
       "venue": "Identity, Multilingualism & CALL: Responding to New Global Realities, 104-134",
-      "citations": 31,
+      "citations": 32,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AufrVoPGSRksC",
       "eprint_url": "",
       "doi": "10.1558/equinox.43411",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:ufrVoPGSRksC",
       "topics": [
         "Informal digital language learning",
@@ -469,11 +481,11 @@
       "title": "Guerrilla fan translation, language learning, and metalinguistic discussion in a Catalan-speaking community of gamers",
       "authors": "Boris Vazquez-Calvo",
       "venue": "ReCALL, 33(3), 296–313",
-      "citations": 61,
+      "citations": 62,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AqxL8FJ1GzNcC",
       "eprint_url": "",
       "doi": "10.1017/S095834402000021X",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:qxL8FJ1GzNcC",
       "topics": [
         "Informal digital language learning",
@@ -494,7 +506,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AaqlVkmm33-oC",
       "eprint_url": "",
       "doi": "10.1515/9783110335224-040",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:aqlVkmm33-oC",
       "topics": [
         "Language teacher education",
@@ -508,11 +520,11 @@
       "title": "El fandom de Blue Jeans: lectura y socialización literaria en línea",
       "authors": "A. Torrego González, B. Vazquez-Calvo, D. García-Marín",
       "venue": "Ocnos: Revista de Estudios sobre Lectura, 20(1), 65-81",
-      "citations": 18,
+      "citations": 19,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AM3ejUd6NZC8C",
       "eprint_url": "",
       "doi": "10.18239/ocnos_2021.20.1.2459",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:M3ejUd6NZC8C",
       "topics": [
         "Fandom and fan translation"
@@ -529,7 +541,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AhC7cP41nSMkC",
       "eprint_url": "",
       "doi": "10.21071/edmetic.v9i1.12473",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:hC7cP41nSMkC",
       "topics": [
         "Fandom and fan translation",
@@ -547,7 +559,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AZeXyd9-uunAC",
       "eprint_url": "",
       "doi": "",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:ZeXyd9-uunAC",
       "topics": [
         "TELL/CALL"
@@ -562,7 +574,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A9ZlFYXVOiuMC",
       "eprint_url": "",
       "doi": "",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:9ZlFYXVOiuMC",
       "topics": [
         "AI and language education",
@@ -578,7 +590,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AKlAtU1dfN6UC",
       "eprint_url": "",
       "doi": "10.1007/978-3-030-34212-8_10",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:KlAtU1dfN6UC",
       "topics": [
         "Digital literacies",
@@ -599,7 +611,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A8k81kl-MbHgC",
       "eprint_url": "",
       "doi": "10.21071/edmetic.v9i1.12239",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:8k81kl-MbHgC",
       "topics": [
         "Fandom and fan translation",
@@ -613,11 +625,11 @@
       "title": "Inclusive language education and digital games: A literature review and EFL students' perceptions",
       "authors": "A. Soyoof, B. Vazquez-Calvo, K. F. McLay",
       "venue": "Inclusive Theory and Practice in Special Education, 156-173",
-      "citations": 11,
+      "citations": 12,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AUeHWp8X0CEIC",
       "eprint_url": "",
       "doi": "10.4018/978-1-7998-2901-0.ch008",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:UeHWp8X0CEIC",
       "topics": [
         "Social media and video games",
@@ -631,11 +643,11 @@
       "title": "El fandom en la juventud española",
       "authors": "D. Cassany, C. Aliagas, M. Pascual, L. Shafirova, M. J. Valero-Porras, B. Vazquez-Calvo",
       "venue": "Centro Reina Sofía sobre Adolescencia y Juventud",
-      "citations": 22,
+      "citations": 21,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AW7OEmFMy1HYC",
       "eprint_url": "",
       "doi": "10.5281/zenodo.3631707",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:W7OEmFMy1HYC",
       "topics": [
         "Fandom and fan translation"
@@ -646,11 +658,11 @@
       "title": "Fan translation of games, anime, and fanfiction",
       "authors": "Boris Vazquez-Calvo, Leticia T. Zhang, Mariona Pascual, Daniel Cassany",
       "venue": "Language Learning & Technology, 23(1), 49–71",
-      "citations": 148,
+      "citations": 149,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A4DMP91E08xMC",
       "eprint_url": "",
       "doi": "10.64152/10125/44672",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:4DMP91E08xMC",
       "topics": [
         "Fandom and fan translation",
@@ -671,7 +683,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A5nxA0vEk-isC",
       "eprint_url": "",
       "doi": "",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:5nxA0vEk-isC",
       "topics": [
         "Digital literacies",
@@ -683,11 +695,11 @@
       "title": "An overview of multimodal fan translation: Fansubbing, fandubbing, fan translation of games and scanlation",
       "authors": "B. Vazquez-Calvo, L. Shafirova, L. T. Zhang, D. Cassany",
       "venue": "Insights into Audiovisual and Comic Translation: Changing Perspectives on Films, Comics and Videogames, 201-213",
-      "citations": 43,
+      "citations": 44,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AWF5omc3nYNoC",
       "eprint_url": "",
       "doi": "",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:WF5omc3nYNoC",
       "topics": [
         "Fandom and fan translation",
@@ -704,7 +716,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AeQOLeE2rZwMC",
       "eprint_url": "",
       "doi": "10.30191/ETS.201807_21(3).0018",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:eQOLeE2rZwMC",
       "topics": [
         "Digital literacies",
@@ -724,7 +736,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A_Qo2XoVZTnwC",
       "eprint_url": "",
       "doi": "",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:_Qo2XoVZTnwC",
       "topics": [
         "Digital literacies",
@@ -740,7 +752,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AR3hNpaxXUhUC",
       "eprint_url": "",
       "doi": "",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:R3hNpaxXUhUC",
       "topics": [
         "TELL/CALL"
@@ -755,7 +767,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A9yKSN-GCB0IC",
       "eprint_url": "",
       "doi": "10.21071/edmetic.v7i2.6879",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:9yKSN-GCB0IC",
       "topics": [
         "TELL/CALL"
@@ -772,7 +784,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3A-f6ydRqryjwC",
       "eprint_url": "",
       "doi": "",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:-f6ydRqryjwC",
       "topics": [
         "TELL/CALL"
@@ -787,7 +799,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AYOwf2qJgpHMC",
       "eprint_url": "",
       "doi": "10.4013/cld.2017.151.14",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:YOwf2qJgpHMC",
       "topics": [
         "AI and language education",
@@ -807,7 +819,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3Au5HHmVD_uO8C",
       "eprint_url": "",
       "doi": "10.18848/1835-9795/CGP/v09i04/27-39",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:u5HHmVD_uO8C",
       "topics": [
         "Digital literacies"
@@ -824,7 +836,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AzYLM7Y9cAGgC",
       "eprint_url": "",
       "doi": "",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:zYLM7Y9cAGgC",
       "topics": [
         "TELL/CALL"
@@ -839,7 +851,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AdhFuZR0502QC",
       "eprint_url": "",
       "doi": "10.14705/rpnet.2016.tislid2014.423",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:dhFuZR0502QC",
       "topics": [],
       "crossref_citations": 1,
@@ -850,11 +862,11 @@
       "title": "Desenredando la web: la lectura crítica de los aprendices de lenguas extranjeras en entornos digitales",
       "authors": "María José Valero, Boris Vázquez, Daniel Cassany",
       "venue": "Ocnos, (13), 7–23",
-      "citations": 73,
+      "citations": 74,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AQIV2ME_5wuYC",
       "eprint_url": "",
       "doi": "10.18239/ocnos_2015.13.01",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:QIV2ME_5wuYC",
       "topics": [
         "Digital literacies",
@@ -870,11 +882,11 @@
       "title": "Leer en línea en el aula",
       "authors": "D. Cassany, B. Vazquez-Calvo",
       "venue": "Revista Peruana de Investigación Educativa, 6(6), 63-87",
-      "citations": 42,
+      "citations": 43,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3Ae5wmG9Sq2KIC",
       "eprint_url": "",
       "doi": "10.34236/rpie.v6i6.41",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:e5wmG9Sq2KIC",
       "topics": [
         "Digital literacies"
@@ -891,7 +903,7 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qcOWEqgAAAAJ&citation_for_view=qcOWEqgAAAAJ%3AIWHjjKOFINEC",
       "eprint_url": "",
       "doi": "",
-      "citations_updated_at": "2026-11-02T13:32:11+00:00",
+      "citations_updated_at": "2026-11-17T18:27:35+00:00",
       "scholar_publication_id": "qcOWEqgAAAAJ:IWHjjKOFINEC",
       "topics": []
     }
@@ -899,8 +911,8 @@
   "scholar_total_publications": 51,
   "metrics": {
     "since_year": 2021,
-    "citations": 1309,
-    "citations_since": 1132,
+    "citations": 1331,
+    "citations_since": 1154,
     "h_index": 20,
     "h_index_since": 19,
     "i10_index": 26,
